@@ -120,8 +120,6 @@ export default function Home() {
         <h2 className="text-3xl text-center font-bold text-gray-900 mb-4">Our Services</h2>
         <p className="text-gray-700 mb-6 text-center">
         We specialize in the design, installation, and maintenance of fire alarm systems, ensuring maximum protection, regulatory compliance, and peace of mind for occupants and property owners.
-
-
         </p>
         <div className="grid md:grid-cols-2 gap-10">
           <div>
