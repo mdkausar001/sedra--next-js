@@ -103,7 +103,7 @@ const Header = () => {
           title: "Digital Transformation",
           icon: "/images/Maiprosoft-menu/Expertise/CSD.svg",
           subtitle: [
-          
+
             {
               text: "Cloud",
               url: "https://example.com/connectors-workflows",
@@ -119,7 +119,7 @@ const Header = () => {
               url: "https://example.com/connectors-workflows",
               contentKey: "connectorsWorkflows",
             },
-            
+
             {
               text: "AI & ML",
               url: "https://example.com/connectors-workflows",
@@ -220,7 +220,8 @@ const Header = () => {
       ]
     },
 
-    {menuName: "Our Projects",
+    {
+      menuName: "Our Projects",
       items: [
         {
           title: "Our Projects ",
@@ -228,7 +229,7 @@ const Header = () => {
           subtitle: [
             {
               text: "INHOUSE",
-              url: "/zoho",
+              url: "/our-project",
               contentKey: "api",
             },
             {
@@ -237,7 +238,7 @@ const Header = () => {
               contentKey: "crm",
             },
           ]
-          
+
         }
       ]
 
@@ -664,17 +665,17 @@ const Header = () => {
         <div className="flex justify-between items-center px-5 py-4 max-w-7xl mx-auto w-full">
           <Link href="/">
             <img
-            
+
               src="/images/logo/sedra2.png"
 
               alt="Logo"
               className="h-15 w-[160px] z-40 mt-[-8px]" // Adjust height as needed
-            
+
 
 
             />
           </Link>
-        
+
           <button
             // onClick={navbarToggleHandler}
             onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
@@ -699,7 +700,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden sm:flex space-x-10 ml-auto">
-          <ul className={`flex space-x-6 font-medium transition-colors duration-300  ${sticky ? "text-black " : "text-white "}`}>
+            <ul className={`flex space-x-6 font-medium transition-colors duration-300  ${sticky ? "text-black " : "text-white "}`}>
               {menuData.map((menu, menuIndex) => (
                 // <li
                 //   key={menuIndex}
@@ -846,8 +847,8 @@ const Header = () => {
                                       className={`hover:text-mai hover:underline hover:decoration-mai font-mono-system-ui ${["iPaaS", "jQuery", "React.js", "Next.js", "Vue.js", "Node.js", "Express.js", "iPaaS Integration Services"].includes(
                                         sub.text.trim()
                                       )
-                                          ? "normal-case"
-                                          : "capitalize"
+                                        ? "normal-case"
+                                        : "capitalize"
                                         }`}
 
 
