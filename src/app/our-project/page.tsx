@@ -3,125 +3,159 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { LocateIcon, MapPin } from "lucide-react";
 
 const projects = [
   {
-    title: "Copthorne Hotel by Millennium",
-    heading: "Golden Land",
+    projectName: "Copthorne Hotel by Millennium",
+    Location: "Jeddah",
+    Client: "Golden Land",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/08/IMG-20240325-WA0012-895x1024.jpg",
-    services: [
+    Scope: [
       { service: "BMS" },
       { service: "GRMS" },
       { service: "VingCard" },
     ],
   },
   {
-    title: "Massar PDU & Data center BMS",
-    heading: "Baud Telecom Company (BTC)",
+    projectName: "Masar Makkah Underpass & Data Center",
+    Location: "Makkah",
+    Client: "Baud Telecom Company (BTC)",
     imageURL: "https://sedra.net.sa/wp-content/uploads/2024/03/Masar.jpg",
-    services: [{ service: "BMS" }],
+    Scope: [{ service: "BMS" }],
   },
   {
-    title: "MISK - LWSP Pavilion",
-    heading: "Marco",
+    projectName: "MISK Sport City",
+    Location: "Riyadh",
+    Client: "Marco",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/03/MISK1-1024x576.jpg",
-    services: [{ service: "BMS" }],
+    Scope: [{ service: "BMS" }],
   },
   {
-    title: "RED SEA FILM FESTIVAL FOUNDATION",
-    heading: "MAC",
+    projectName: "IHG Intercontinental Hotel",
+    Location: "Abha",
+    Client: "BTC",
+    imageURL:
+      "https://images.trvl-media.com/lodging/1000000/10000/2500/2414/fd497a17.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+    Scope: [{ service: "GRMS" }],
+  },
+  {
+    projectName: "RED SEA FILM FESTIVAL FOUNDATION",
+    Location: "Jeddah",
+    Client: "MAC",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/08/Red-Sea-International-Film-Festival-8-1024x768.png",
-    services: [{ service: "Data System" }],
+    Scope: [{ service: "Data System" }],
   },
   {
-    title: "Marriott (Courtyard) Hotel",
-    heading: "Al-Rihily",
+    projectName: "Courtyard Hotel by Marriot",
+    Location: "Al Madina",
+    Client: "Pro Art",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/03/88114c39d3a3ec98a8fa86c3c90a2572.webp",
-    services: [{ service: "BMS - GRMS" }],
+    Scope: [{ service: "BMS" }, { service: "GRMS" }],
   },
   {
-    title: "Al Riyadh Hospital",
-    heading: "Inma-Tech",
+    projectName: "Double Tree Hotel by Hilton",
+    Location: "Jeddah",
+    Client: "HHC",
+    imageURL:
+      "https://jtpartners.com/wp-content/uploads/2021/09/c4-6.jpg",
+    Scope: [{ service: "BMS" }, { service: "Lighting Control" }],
+  },
+  {
+    projectName: "Al Riyadh Hospital",
+    Location: "Jeddah",
+    Client: "Inma-Tech",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/08/RH-Hospital-B-1024x682.png",
-    services: [
+    Scope: [
       { service: "Supply" },
       { service: "test" },
       { service: "programming for Building Management System (BMS)" },
     ],
   },
   {
-    title: "Nahda Academy school",
-    heading: "Dar Al Afnan",
+    projectName: "Nahda Academy school",
+    Location: "Jeddah",
+    Client: "Dar Al Afnan",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/05/Nahda-Academy-school-.png",
-    services: [{ service: "Fire Alarm & Sound System" }],
+    Scope: [{ service: "Fire Alarm & Sound System" }],
   },
   {
-    title: "Court Of Appeal",
-    heading: "Saudi protech",
+    projectName: "Court Of Appeal",
+    Location: "Jeddah",
+    Client: "Saudi protech",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/05/Fse5GdcXsA0unek.jpg",
-    services: [{ service: "Fire Alaram" }],
+    Scope: [{ service: "Fire Alaram" }],
   },
   {
-    title: "Afrina HQ",
-    heading: "Afrina",
+    projectName: "Afrina HQ",
+    Location: "Jeddah",
+    Client: "Afrina",
     imageURL: "https://sedra.net.sa/wp-content/uploads/2024/05/Afrina.png",
-    services: [{ service: "Smart Light Control" }],
+    Scope: [{ service: "Smart Light Control" }],
   },
   {
-    title: "CHKN restaurant",
-    heading: "Salma international security",
+    projectName: "CHKN restaurant",
+    Location: "Jeddah",
+    Client: "Salma international security",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/05/%D8%B4%D9%83%D9%86-771x405-1.webp",
-    services: [{ service: "Smart Light Control" }],
+    Scope: [{ service: "Smart Light Control" }],
   },
   {
-    title: "Abdullah Saleh Kamel Palace",
-    heading: "KUN",
+    projectName: "Abdullah Saleh Kamel Palace",
+    Location: "Jeddah",
+    Client: "KUN",
     imageURL: "",
-    services: [{ service: "KNX - BMS - Data System" }],
+    Scope: [{ service: "KNX - BMS - Data System" }],
   },
   {
-    title: "TBC - School",
-    heading: "Kholoud trading company",
+    projectName: "TBC - School",
+    Location: "Jeddah",
+    Client: "Kholoud trading company",
     imageURL: "https://sedra.net.sa/wp-content/uploads/2024/05/TBC.png",
-    services: [{ service: "Data System" }],
+    Scope: [{ service: "Data System" }],
   },
   {
-    title: "Schnider Electric Office",
-    heading: "Modern EEMAR",
+    projectName: "Schnider Electric Office",
+    Location: "Jeddah",
+    Client: "Modern EEMAR",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/03/TA_20211230142540076_391373.jpg",
-    services: [{ service: "Access Control System" }],
+    Scope: [{ service: "Access Control System" }],
   },
   {
-    title: "Riyadh Metro",
-    heading: "Kgtech",
+    projectName: "Riyadh Metro",
+    Location: "Unknown",
+    Client: "Kgtech",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/05/Riyadh-Metro.jpg",
-    services: [{ service: "Data System" }],
+    Scope: [{ service: "Data System" }],
   },
   {
-    title: "KAIA",
-    heading: "Kholoud trading company",
+    projectName: "KAIA",
+    Location: "Unknown",
+    Client: "Kholoud trading company",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/03/WhatsApp-Image-2022-06-25-at-3.45.05-PM.jpeg",
-    services: [{ service: "Gate barrier - Data System - UPS" }],
+    Scope: [{ service: "Gate barrier - Data System - UPS" }],
   },
   {
-    title: "Ibdaat 3 Tower",
-    heading: "Roya Company",
+    projectName: "Ibdaat 3 Tower",
+    Location: "Riyadh",
+    Client: "Roya Company",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/08/Ibdaat-3-Tower-933x1024.jpg",
-    services: [{ service: "(BMS)" }],
+    Scope: [{ service: "(BMS)" }],
   },
 ];
+
 
 const OurProjects = () => {
   useEffect(() => {
@@ -134,51 +168,55 @@ const OurProjects = () => {
   return (
     <>
       <div
-        className=" flex flex-col items-center justify-center bg-gray-100 px-20 py-24 sm:px-6 sm:py-24 lg:px-8 "
+        className="flex flex-col items-center justify-center bg-gray-100 px-4 py-24 sm:px-6 lg:px-8"
         style={{
           backgroundImage:
             "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
         }}
       >
-        <div className="container ">
-          <div className="mx-auto my-8 w-full max-w-4xl text-center ">
-            <h1 className="text-2xl font-bold leading-snug text-gray-700 sm:text-2xl md:text-4xl">
+        <div className="w-full max-w-7xl mx-auto">
+          <div className="mb-12 mt-10 text-center flex flex-col items-center justify-center">
+            <h1 className="text-2xl font-bold leading-snug text-gray-700 sm:text-3xl md:text-4xl">
               OUR PROJECTS
             </h1>
-            <p className="mt-4 text-center text-base text-gray-600 sm:text-lg md:text-xl">
-              SEDRA stands out for its pioneering and exceptional projects in
-              the field of low-current systems. Explore our inspiring portfolio
-              of projects and learn how we have contributed to achieving our
-              client&apos;s goals in the best possible ways.
+            <p className="mt-4 text-base text-pretty text-gray-600 sm:text-lg md:text-xl max-w-5xl text-center">
+              At Sedra Information Technology, we take pride in our successful delivery of
+              strategic digital solutions to esteemed organizations across various sectors.
+              Below is a selection of our key projects that highlight our capabilities and
+              trusted partnerships.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center gap-6">
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-0">
             {projects.map((item, index) => (
               <div
                 key={index}
                 data-aos="zoom-in"
-                className="shine-effect group mx-6 w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow-sm transition-transform  duration-300 hover:shadow-xl group-hover:scale-110 sm:w-full dark:border-gray-700 dark:bg-gray-800"
+                className="shine-effect group rounded-lg border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:shadow-xl hover:scale-105 dark:border-gray-700 dark:bg-gray-800 m-4"
               >
                 <a href="#">
-                  <div className=" h-60 overflow-hidden rounded-t">
+                  <div className="h-60 overflow-hidden rounded-t">
                     <img
-                      src={item.imageURL}
-                      alt={item.title}
-                      className="h-full w-full rounded-b-md object-cover transition-transform duration-500 group-hover:scale-110"
+                      src={item.imageURL ? item.imageURL : './images/dummyImage.jpg'}
+                      alt={item.projectName}
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
                 </a>
-                <div className="px-4 py-8">
+                <div className="px-4 py-6">
                   <a href="#">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-white">
-                      {item.title}
+                    <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-800 dark:text-white">
+                      {item.projectName}
                     </h5>
                   </a>
-                  <p className="mb-3 text-xl font-semibold text-gray-600 dark:text-gray-400">
-                    {item.heading}
-                  </p>
+                  <div className="flex justify-between">
+                    <p className="mb-3 text-base font-medium text-gray-600 dark:text-gray-400">
+                      Client : {item.Client}
+                    </p>
+                    <p className="mb-3 text-base font-medium text-gray-600 dark:text-gray-400 flex"><MapPin />{item.Location}</p>
+                  </div>
                   <ul className="mt-2 list-inside list-disc space-y-1 ps-5 text-gray-600 dark:text-gray-300">
-                    {item.services.map((service, idx) => (
+                    {item.Scope.map((service, idx) => (
                       <li key={idx}>{service.service}</li>
                     ))}
                   </ul>
