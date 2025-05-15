@@ -134,7 +134,7 @@ const OurProjects = () => {
   return (
     <>
       <div
-        className=" flex flex-col items-center justify-center bg-white px-4 py-24 sm:px-6 sm:py-24 lg:px-8 "
+        className=" flex flex-col items-center justify-center bg-gray-100 px-20 py-24 sm:px-6 sm:py-24 lg:px-8 "
         style={{
           backgroundImage:
             "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
@@ -164,20 +164,20 @@ const OurProjects = () => {
                     <img
                       src={item.imageURL}
                       alt={item.title}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="h-full w-full rounded-b-md object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
                 </a>
-                <div className="p-5">
+                <div className="px-4 py-8">
                   <a href="#">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-white">
                       {item.title}
                     </h5>
                   </a>
-                  <p className="mb-3 font-semibold text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 text-xl font-semibold text-gray-600 dark:text-gray-400">
                     {item.heading}
                   </p>
-                  <ul className="mt-2 list-inside list-decimal space-y-1 ps-5 text-gray-700 dark:text-gray-300">
+                  <ul className="mt-2 list-inside list-disc space-y-1 ps-5 text-gray-600 dark:text-gray-300">
                     {item.services.map((service, idx) => (
                       <li key={idx}>{service.service}</li>
                     ))}
