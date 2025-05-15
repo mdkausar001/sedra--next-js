@@ -23,7 +23,7 @@ const projects = [
     services: [{ service: "BMS" }],
   },
   {
-    title: "MISK – LWSP Pavilion",
+    title: "MISK - LWSP Pavilion",
     heading: "Marco",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/03/MISK1-1024x576.jpg",
@@ -149,7 +149,7 @@ const OurProjects = () => {
               SEDRA stands out for its pioneering and exceptional projects in
               the field of low-current systems. Explore our inspiring portfolio
               of projects and learn how we have contributed to achieving our
-              client's goals in the best possible ways.
+              client&apos;s goals in the best possible ways.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-6">
