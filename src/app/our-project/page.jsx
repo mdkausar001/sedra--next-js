@@ -157,15 +157,14 @@ const OurProjects = () => {
               <div
                 key={index}
                 data-aos="zoom-in"
-                className="shine-effect group mx-6 w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow-sm  transition-transform duration-300 hover:shadow-xl group-hover:scale-110 dark:border-gray-700 dark:bg-gray-800"
+                className="shine-effect group mx-6 w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow-sm transition-transform  duration-300 hover:shadow-xl group-hover:scale-110 sm:w-full dark:border-gray-700 dark:bg-gray-800"
               >
                 <a href="#">
                   <div className=" h-60 overflow-hidden rounded-t">
                     <img
                       src={item.imageURL}
                       alt={item.title}
-                      //   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-                      className="h-full w-full object-cover"
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
                 </a>
