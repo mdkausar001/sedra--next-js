@@ -15,35 +15,35 @@ type Slide = {
 
 const slides: Slide[] = [
   {
-    image: '/images/slideImage/slider1.AVIF',
+    image: '/images/slideimage/slider1.png',
     title: 'GETTING YOU ON THE ROAD',
     heading: 'Expert Project Management for IoT & Low Current Systems',
     description: 'Our project management services include detailed planning, emergency preparedness, excellent coordination, and on-site problem-solving. Our field engineers and agents bring diverse backgrounds and specialized experience across various areas of IoT and low current systems.',
     buttonText: 'Book a Consultation',
   },
   {
-    image: '/images/slideImage/slider2.AVIF',
+    image: '/images/slideimage/slider2.png',
     title: 'OUR CORE VALUES',
     heading: 'Totally Dependable Partner in a Fast-Changing World',
     description: 'At SEDRA Corporation, we understand the challenges brought by rapid technological advancements and evolving consumer demands. We continually seek innovative ways to elevate our services and empower our workforce amidst these changes. One of our fundamental values is being a Totally Dependable Partner you can always count on.',
     buttonText: 'Book a Consultation',
   },
   {
-    image: '/images/slideImage/slide3.JPG',
+    image: '/images/slideimage/slider3.png',
     title: 'EXPLORE THE POSSIBILITIES WITH US!',
     heading: 'Unlock New Opportunities & Enhance Your Advertising Power',
     description: 'Unlock new opportunities to advertise your products and services with us. Benefit from our robust partnerships with global brands and vendors. Leverage our in-depth knowledge of Telecom Operators internal workings. We provide a comprehensive portfolio of services across all sectors, including government, infrastructure, and telecommunications, empowering you with enhanced negotiating power.',
     buttonText: 'Book a Consultation',
   },
   {
-    image: '/images/slideImage/slider4.png',
+    image: '/images/slideimage/slider4.png',
     title: 'Digitize, Automate & Scale with Zoho',
     heading: 'Smart solutions to simplify your business and accelerate growth.',
     description: 'Transform your business with Zoho all-in-one platform. From managing customers to automating daily tasks, we help you streamline operations, improve efficiency, and focus on what matters most—growing your business. Get expert onboarding, tailored solutions, and ongoing support to make Zoho work for you.',
     buttonText: 'Book a Consultation',
   },
   {
-    image: '/images/slideImage/slider5.jpg',
+    image: '/images/slideimage/slider5.jpg',
     title: 'Powering Reliable Networks & Hardware',
     heading: 'Seamless IT solutions for smooth, uninterrupted business operations.',
     description: 'From robust networking to high-quality hardware solutions, we ensure your business stays connected and productive. Our expert team provides reliable infrastructure, fast support, and proactive maintenance to minimize downtime and maximize performance. Trust us to keep your systems running at their best.',
@@ -79,7 +79,7 @@ export default function CarouselBanner() {
             alt={`Slide ${index + 1}`}
             fill
             className="object-cover opacity-40"
-            sizes="(max-width: 768px) 100vw, 1600px"
+            sizes="(max-width: 768px) 100vw, 1500px"
             priority={index === current}
           />
 
