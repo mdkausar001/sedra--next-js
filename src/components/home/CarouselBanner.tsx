@@ -29,7 +29,7 @@ const slides: Slide[] = [
     buttonText: 'Book a Consultation',
   },
   {
-    image: 'https://img.freepik.com/free-photo/it-s-almost-fall-celebrating-successful-deal-young-office-workers-sitting-near-table-with-alcohol_146671-13648.jpg?ga=GA1.1.80462606.1718979487&semt=ais_hybrid&w=740',
+    image: '/images/slideImage/slide3.JPG',
     title: 'EXPLORE THE POSSIBILITIES WITH US!',
     heading: 'Unlock New Opportunities & Enhance Your Advertising Power',
     description: 'Unlock new opportunities to advertise your products and services with us. Benefit from our robust partnerships with global brands and vendors. Leverage our in-depth knowledge of Telecom Operators internal workings. We provide a comprehensive portfolio of services across all sectors, including government, infrastructure, and telecommunications, empowering you with enhanced negotiating power.',
@@ -57,9 +57,8 @@ export default function CarouselBanner() {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
-            index === current ? 'opacity-100 z-0' : 'opacity-0 z-0'
-          }`}
+          className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${index === current ? 'opacity-100 z-0' : 'opacity-0 z-0'
+            }`}
         >
           <Image
             src={slide.image}
@@ -76,7 +75,7 @@ export default function CarouselBanner() {
               <h1 className="text-2xl sm:text-2xl md:text-3xl xl:text-5xl font-semibold mb-4 md:pt-8">{slide.title}</h1>
               <h2 className="text-[1rem] sm:text-xl md:text-2xl font-semibold mb-2">{slide.heading}</h2>
               <p className="text-sm sm:text-base md:text-lg text-start md:text-start leading-relaxed font-sans font-light">{slide.description}</p>
-              <button  onClick={() => setShowModal(true)}   className="md:px-4 md:py-3 px-2 py-2 text-sm md:text-md lg:text-lg font-sans font-light bg-blue mt-6 sm:mt-10 text-white ">
+              <button onClick={() => setShowModal(true)} className="md:px-4 md:py-3 px-2 py-2 text-sm md:text-md lg:text-lg font-sans font-light bg-blue mt-6 sm:mt-10 text-white ">
                 {slide.buttonText}
               </button>
 
@@ -108,9 +107,8 @@ export default function CarouselBanner() {
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-colors ${
-              index === current ? 'bg-white' : 'bg-white/50'
-            }`}
+            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-colors ${index === current ? 'bg-white' : 'bg-white/50'
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
