@@ -863,9 +863,11 @@ const Header = () => {
 
                 </li>
               ))}
-              <a href="/contact"><button className="px-6 py-2 rounded-xl transition-colors duration-300 bg-sky-700 text-white dark:bg-sky-700 dark:text-white  hover:bg-sky-900 dark:hover:bg-sky-900">
-                Contact Us
-              </button></a>
+              <a href="/contact">
+                <button className="px-6 py-2 rounded-xl transition-colors duration-300 bg-sky-700 text-white dark:bg-sky-700 dark:text-white  hover:bg-sky-900 dark:hover:bg-sky-900">
+                  Contact Us
+                </button>
+              </a>
 
             </ul>
           </nav>
