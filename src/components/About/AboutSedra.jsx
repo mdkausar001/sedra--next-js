@@ -234,21 +234,21 @@ const AboutSedra = () => {
           </h2>
           <ul className="list-inside list-disc space-y-4 text-lg">
             <li>
-              <span className="font-semibold">Expertise Across Sectors –</span>{" "}
+              <span className="font-semibold">Expertise Across Sectors -</span>{" "}
               We understand the needs of government entities, enterprises, and
               SMEs.
             </li>
             <li>
-              <span className="font-semibold">Agile and Efficient –</span> Fast
+              <span className="font-semibold">Agile and Efficient -</span> Fast
               response, flexible solutions, and on-time delivery.
             </li>
             <li>
-              <span className="font-semibold">Innovative Technologies –</span>{" "}
+              <span className="font-semibold">Innovative Technologies -</span>{" "}
               We utilize the latest tools and frameworks to future-proof your
               systems.
             </li>
             <li>
-              <span className="font-semibold">Trusted Partner –</span> Long-term
+              <span className="font-semibold">Trusted Partner -</span> Long-term
               relationships built on transparency and results.
             </li>
           </ul>
