@@ -29,7 +29,7 @@ const slides: Slide[] = [
     buttonText: 'Book a Consultation',
   },
   {
-    image: '/images/slideImage/slide3.JPG',
+    image: 'https://st2.depositphotos.com/3591429/8403/i/450/depositphotos_84036744-stock-photo-team-business-meeting-concept.jpg',
     title: 'EXPLORE THE POSSIBILITIES WITH US!',
     heading: 'Unlock New Opportunities & Enhance Your Advertising Power',
     description: 'Unlock new opportunities to advertise your products and services with us. Benefit from our robust partnerships with global brands and vendors. Leverage our in-depth knowledge of Telecom Operators internal workings. We provide a comprehensive portfolio of services across all sectors, including government, infrastructure, and telecommunications, empowering you with enhanced negotiating power.',
