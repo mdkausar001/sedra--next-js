@@ -141,7 +141,7 @@ const ClientsSection: React.FC = () => {
       <h2 className="text-3xl md:text-4xl mt-2 text-gray-700 font-light font-sans">
         Trusted by over{' '}
         <span ref={ref} className="text-indigo-600 font-normal">
-          {inView && <CountUp end={786} duration={2.5} />}+
+          {inView && <CountUp end={10} duration={2.5} />}+
         </span>{' '}
         clients.
       </h2>

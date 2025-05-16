@@ -13,37 +13,37 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Emily Thompson",
-    title: "Product Manager at TechFlow",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
-    text: "The platform is intuitive and has significantly improved our workflow. Support was responsive and knowledgeable. Highly recommend it to any growing team.",
+    name: "Wael",
+    title: "Oppolia",
+    image: "/images/dummyUser.jpg",
+    text: "It was a great experience setting up our Oppolia branch in Riyadh and Jeddah with Sedra complete IT solutions and smart home systems. The team professionalism and support were highly appreciated. Looking forward to more collaborations!",
   },
   {
-    name: "Michael Chen",
-    title: "Software Engineer at Devify",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
-    text: "I've used several tools before, but this one stands out for its clean UI and blazing-fast performance. It's made a real difference in how I work every day.",
+    name: "Amjad",
+    title: "Confidential",
+    image: "/images/dummyUser.jpg",
+    text: "We had an excellent experience with the setup of our guest house management system. The teams attention to detail and smooth execution made the process hassle-free. Truly commendable work!",
   },
   {
-    name: "Sara Patel",
-    title: "UX Designer at Creative Minds",
-    image: "https://randomuser.me/api/portraits/women/65.jpg",
-    text: "The user experience is top-notch. Everything feels smooth, thoughtful, and purposeful. It’s clear the team cares about design deeply.",
+    name: "Abdul bin Khattab",
+    title: "Aron Holding",
+    image: "/images/dummyUser.jpg",
+    text: "I truly appreciate the team efforts in setting up our Zoho CRM. Migrating from Excel to a complete CRM system was handled seamlessly, along with implementing ERP solutions. Their expertise made the transition smooth and efficient.",
   },
   {
-    name: "Liam Rodriguez",
-    title: "CTO at NextLevel Startups",
-    image: "https://randomuser.me/api/portraits/men/85.jpg",
-    text: "We adopted this for our entire engineering team, and productivity shot up. Integration was seamless, and the documentation is solid.",
+    name: "Salman Al Harbi",
+    title: "QudraTech Solutions",
+    image: "/images/dummyUser.jpg",
+    text: "Our mobile app development project was successfully executed with excellent communication and technical skills. From initial concept to deployment, the team delivered a high-quality app that perfectly matched our business needs. Highly recommended!",
   },
   {
-    name: "Isabella Nguyen",
-    title: "Marketing Strategist at BrightBuzz",
-    image: "https://randomuser.me/api/portraits/women/29.jpg",
-    text: "I was impressed by how easy it was to get started. The onboarding flow made things crystal clear and had us running in no time.",
+    name: "Noor Al Shammari",
+    title: "AlNoor Industries",
+    image: "/images/dummyUser.jpg",
+    text: "A big thank you for leading our complete business digitization. From automating workflows to integrating cloud solutions, the entire process was handled with precision and care. The digital transformation has truly optimized our operations. Excellent job!",
   },
-  // Add more testimonials as needed
 ];
+
 
 export default function Testimonial() {
   const [current, setCurrent] = useState(0);

@@ -50,7 +50,7 @@
 //     <li><Link href="#" className="font-light">Support</Link></li>
 //     <li><Link href="#" className="font-light">Secure Usage Policy</Link></li>
 //     <li><Link href="#" className="font-light">Privacy Policy</Link></li>
-    
+
 //   </ul>
 // </div>
 
@@ -179,13 +179,13 @@ const Footer = () => {
                 <a href="#">Corporate Vision</a>
               </li>
               <li>
-                <a href="/contact-us">About Sedra</a>
+                <a href="/about-sedra">About Sedra</a>
               </li>
-             
+
             </ul>
           </div>
 
-          
+
           {/* Column 3 */}
           <div>
             <h4 className="mb-4 font-semibold text-white">Discover</h4>
@@ -205,14 +205,14 @@ const Footer = () => {
               <li>
                 <a href="#">Case Studies</a>
               </li>
-             
+
             </ul>
           </div>
 
           {/* Column 4 */}
           <div>
             <h4 className="mb-4 font-semibold text-white">
-            Important Links
+              Important Links
             </h4>
             <ul className="space-y-2 text-gray-400">
               <li>
@@ -232,11 +232,11 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-       
 
 
-        {/* Column 2 */}
-        <div>
+
+          {/* Column 2 */}
+          <div>
             <h4 className="mb-4 font-semibold text-white">Stay connected</h4>
             <ul className="space-y-2 text-gray-400">
               <li>

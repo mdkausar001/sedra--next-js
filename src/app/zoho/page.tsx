@@ -1,6 +1,7 @@
 "use client";
 
 
+
 // interface Testimonial {
 //   quote: string;
 //   name: string;
@@ -17,10 +18,8 @@
 //     image: "/images/zh-video-poster-prakash.png",
 //     region: "IN",
 //   },
-  
+
 // ];
-
-
 
 const services = [
   {
@@ -74,12 +73,20 @@ const services = [
   },
 ];
 
-
 import Image from "next/image";
 import Head from "next/head";
 import { useRef } from "react";
+import { useState } from 'react';
+import Modal from '@/components/Modal';
+import WebToLeadForm from '@/components/WebToLeadForm';
+
+
 
 export default function Home() {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+
   const consultationRef = useRef<HTMLDivElement>(null);
 
   const scrollToConsultation = () => {
@@ -88,6 +95,8 @@ export default function Home() {
     }
   };
   return (
+
+
     <>
       <Head>
         <title>Zoho with Maiprosoft</title>
@@ -160,10 +169,14 @@ export default function Home() {
             </p>
             <button
               className="hover:bg-blue-600 rounded bg-[#0078d4ff] px-6 py-3 text-white shadow"
-              onClick={scrollToConsultation}
+              onClick={() => setIsModalOpen(true)}
             >
               Book a free Consultation
             </button>
+
+            <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+              <WebToLeadForm />
+            </Modal>
           </div>
 
           <div className="grid grid-cols-2 gap-4 p-4 lg:w-1/2">
@@ -173,10 +186,10 @@ export default function Home() {
               // 'cNHpNoEbuM5eXqfU1jyRSW4z0NCVYQZjobmWmEnyheLU81ePB',
               // '88YSqw9wGEaxNtjGzH8rKsHKWRfVuHlvtHUIAYC8NKWDfafnA'
 
-              "/images/zoho/Zoho/Images/image1.png",
-              "/images/zoho/Zoho/Images/image2.png",
-              "/images/zoho/Zoho/Images/image3.png",
-              "/images/zoho/Zoho/Images/image4.png",
+              "/images/zoho/crmimg1.png",
+              "/images/zoho/crmimg3.png",
+              "/images/zoho/crmimg4.png",
+              "/images/zoho/crmimg5.jpeg",
             ].map((img, idx) => (
               <Image
                 key={idx}
@@ -295,26 +308,19 @@ export default function Home() {
           </div>
         </section> */}
 
-
-
-
-
-
-
-
         {/* new section */}
 
-        <section className="bg-[#fffff8] pt-28">
+        <section className="bg-[#fffff8] pt-14">
           <div className="container mx-auto flex flex-col items-center gap-3 px-6 lg:flex-row ">
             {/* Left Content */}
-            <div className="flex-1 flex flex-col items-center lg:items-start">
-              <h1 className="mb-6 text-3xl font-normal leading-tight md:text-6xl text-gray-900 text-center lg:text-start">
+            <div className="flex flex-1 flex-col items-center lg:items-start">
+              <h1 className="mb-6 text-center text-3xl font-normal leading-tight text-gray-900 md:text-6xl lg:text-start">
                 Your life&apos;s work,{" "}
                 <span className="text-blue-600 block">
                   powered by our life&apos;s work
                 </span>
               </h1>
-              <p className="mb-8 max-w-xl text-gray-600 text-center lg:text-start text-lg lg:text-xl">
+              <p className="mb-8 max-w-xl text-center text-lg text-gray-600 lg:text-start lg:text-xl">
                 A unique and powerful software suite to transform the way you
                 work. Designed for businesses of all sizes, built by a company
                 that{" "}
@@ -328,8 +334,8 @@ export default function Home() {
               </p>
               <div className="mb-8 flex flex-wrap gap-4">
                 <a
-                  href="/signup.html?all_prod_page=true"
-                  className="bg-[#ee0014] hover:bg-blue-700 rounded-sm px-6 py-3 font-semibold text-white transition"
+                  href="https://go.zoho.com/QGR"
+                  className="hover:bg-blue-700 rounded-sm bg-[#ee0014] px-6 py-3 font-semibold text-white transition"
                 >
                   Get Started For Free
                 </a>
@@ -359,56 +365,75 @@ export default function Home() {
             </div>
 
             {/* Right Content */}
-            <div className="flex-1 items-center justify-center rounded-lg bg-white p-8 shadow-lg max-w-96 xl:mb-10">
-              <div className=" text-xl mb-4 font-light text-black">Featured apps</div>
+            <div className="max-w-96 flex-1 items-center justify-center rounded-lg bg-white p-8 shadow-lg xl:mb-10">
+              <div className=" mb-4 text-xl font-light text-black">
+                Featured apps
+              </div>
               <ul className="space-y-6">
                 {[
                   {
                     title: "CRM",
                     desc: "Comprehensive CRM platform for customer-facing teams.",
-                    href: "/crm/?ireft=nhome&src=fa",
+                    hrefimg: "https://www.zohowebstatic.com/sites/zweb/images/productlogos/crm.svg",
+                    href: "https://go.zoho.com/IId",
+
                   },
                   {
                     title: "Mail",
                     desc: "Secure email service for teams of all sizes.",
-                    href: "/mail/?ireft=nhome&src=fa",
+                    hrefimg: "https://www.zohowebstatic.com/sites/zweb/images/productlogos/mail.svg",
+                    href: "https://go.zoho.com/DSh",
                   },
                   {
                     title: "Projects",
                     desc: "Manage, track, and collaborate on projects with teams.",
-                    href: "/projects/?ireft=nhome&src=fa",
+                    hrefimg: "https://www.zohowebstatic.com/sites/zweb/images/productlogos/projects.svg",
+                    href: "https://go.zoho.com/jfj",
+
                   },
                   {
                     title: "Books",
                     desc: "Powerful accounting platform for growing businesses.",
-                    href: "/books/?ireft=nhome&src=fa",
+                    hrefimg: "https://www.zohowebstatic.com/sites/zweb/images/productlogos/creator.svg",
+                    href: "https://go.zoho.com/Zht",
                   },
                   {
                     title: "Creator",
                     desc: "Build custom apps to simplify business processes.",
-                    href: "/creator/?ireft=nhome&src=fa",
+                    hrefimg: "https://www.zoho.com/books/images/new/books-product-logo-black.svg",
+                    href: "https://go.zoho.com/gMC",
                   },
                 ].map((app) => (
                   <li key={app.title}>
-                    <a href={app.href} className="group flex items-start gap-4 text-black">
-                      <div className="bg-blue-100 text-blue-600 flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold">
-                        {app.title.charAt(0)}
+                    <a
+                      href={app.href}
+                      className="group flex items-start gap-4 text-black"
+                    >
+                      <div className="flex  items-center justify-center">
+                        <img
+                          className={`h-12 w-24 ${app.title === "Mail" ? "w-[4rem]" : ""
+                            }`}
+                          src={app.hrefimg}
+                          alt={app.title}
+                        />
                       </div>
                       <div>
                         <div className="text-xl font-medium group-hover:underline">
                           {app.title}
                         </div>
-                        <small className="text-gray-500 text-[1rem] tracking-tight leading-relaxed">{app.desc}</small>
+                        <small className="text-[1rem] leading-relaxed tracking-tight text-gray-500">
+                          {app.desc}
+                        </small>
                       </div>
                     </a>
                   </li>
                 ))}
               </ul>
-             
+
               <div className="mt-8">
                 <a
                   href="/all-products.html?ireft=nhome&src=home"
-                  className="text-blue-600 inline-block font-semibold hover:underline text-blue"
+                  className="text-blue-600 inline-block font-semibold text-blue hover:underline"
                 >
                   Explore all products
                 </a>
@@ -417,95 +442,101 @@ export default function Home() {
           </div>
         </section>
 
-
-
         {/* new section 2  */}
 
-        <section className="relative bg-[#ffd600] overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 flex flex-col md:flex-row justify-between items-center gap-12">
-        {/* Left Content */}
-        <div className=" flex flex-col md:flex-row justify-center items-center gap-4 sm:gap-6 md:w-1/2 w-full md:items-start ">
-          <Image
-            alt="Zoho One Logo"
-            className="flex-shrink-0"
-            height={64}
-            width={64}
-            src="https://www.zosuccess.com/wp-content/uploads/2023/01/zoho-one-svg.png"
-          />
-          <div className="text-black flex flex-col items-center text-center md:text-left md:items-start">
-            <p className="text-sm leading-5 font-normal mb-1">All-in-one suite</p>
-            <h1 className="text-[2.5rem] sm:text-[3rem] lg:text-[4rem] leading-tight font-normal font-sans mb-2">
-              Zoho One
-            </h1>
-            <p className="text-sm leading-5 font-normal mb-4 sm:mb-6">
-              The operating system for business
-            </p>
-            <p className="text-base sm:text-[1rem] leading-7 font-normal max-w-md mb-6 sm:mb-8">
-              Run your entire business on Zoho with our unified cloud software, designed to help you break
-              down silos between departments and increase organizational efficiency.
-            </p>
-            <button
-              type="button"
-              className="bg-[#e60028] text-white text-sm font-semibold uppercase px-6 py-3 rounded-sm flex items-center gap-2 hover:bg-[#b80020] transition"
-            >
-              Try Zoho One
-              <svg
-                className="h-3 w-3"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </button>
-          </div>
-        </div>
+        <section className="relative overflow-hidden bg-[#ffd600]">
+          <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-12 px-4 py-16 sm:px-6 md:flex-row md:py-24 lg:px-8">
+            {/* Left Content */}
+            <div className=" flex w-full flex-col items-center justify-center gap-4 sm:gap-6 md:w-1/2 md:flex-row md:items-start ">
+              <Image
+                alt="Zoho One Logo"
+                className="flex-shrink-0"
+                height={64}
+                width={64}
+                src="https://www.zosuccess.com/wp-content/uploads/2023/01/zoho-one-svg.png"
+              />
+              <div className="flex flex-col items-center text-center text-black md:items-start md:text-left">
+                <p className="mb-1 text-sm font-normal leading-5">
+                  All-in-one suite
+                </p>
+                <h1 className="mb-2 font-sans text-[2.5rem] font-normal leading-tight sm:text-[3rem] lg:text-[4rem]">
+                  Zoho One
+                </h1>
+                <p className="mb-4 text-sm font-normal leading-5 sm:mb-6">
+                  The operating system for business
+                </p>
+                <p className="mb-6 max-w-md text-base font-normal leading-7 sm:mb-8 sm:text-[1rem]">
+                  Run your entire business on Zoho with our unified cloud
+                  software, designed to help you break down silos between
+                  departments and increase organizational efficiency.
+                </p>
 
-        {/* Right Content */}
-        <div className="w-full md:w-1/2 flex flex-col justify-center relative pl-6 sm:pl-12 md:pl-20 border-l border-[#d9b600] max-w-lg">
-          <p className="text-xl sm:text-[1.5rem] leading-8  mb-6 sm:mb-8 text-gray-950 font-light">
-          &quot;You can be a startup, mid-sized company, or an enterprise—Zoho One is a boon for all.&quot;
-          </p>
-          <div className="flex items-center gap-4">
-            <Image
-              alt="Prakarsh Gagdani"
-              className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
-              height={64}
-              width={64}
-              src="https://storage.googleapis.com/a1aa/image/12d136de-5647-461a-457d-630ac5c395cc.jpg"
-            />
-            <div className="text-black">
-              <p className="text-sm font-semibold leading-5">Prakarsh Gagdani</p>
-              <p className="text-xs sm:text-[12px] font-normal leading-4">
-                CEO, 5paisa.com (an IIFL subsidiary)
+
+
+
+                <a
+                  href="https://go.zoho.com/QGR"
+                  type="button"
+                  className="flex items-center gap-2 rounded-sm bg-[#e60028] px-6 py-3 text-sm font-semibold uppercase text-white transition hover:bg-[#b80020]"
+                >
+                  Try Zoho One
+                  <svg
+                    className="h-3 w-3"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9 5l7 7-7 7"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+
+
+              </div>
+            </div>
+
+            {/* Right Content */}
+            <div className="relative flex w-full max-w-lg flex-col justify-center border-l border-[#d9b600] pl-6 sm:pl-12 md:w-1/2 md:pl-20">
+              <p className="mb-6 text-xl font-light  leading-8 text-gray-950 sm:mb-8 sm:text-[1.5rem]">
+                &quot;You can be a startup, mid-sized company, or an
+                enterprise—Zoho One is a boon for all.&quot;
               </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  alt="Prakarsh Gagdani"
+                  className="h-14 w-14 rounded-full object-cover sm:h-16 sm:w-16"
+                  height={64}
+                  width={64}
+                  src="https://storage.googleapis.com/a1aa/image/12d136de-5647-461a-457d-630ac5c395cc.jpg"
+                />
+                <div className="text-black">
+                  <p className="text-sm font-semibold leading-5">
+                    Prakarsh Gagdani
+                  </p>
+                  <p className="text-xs font-normal leading-4 sm:text-[12px]">
+                    CEO, 5paisa.com (an IIFL subsidiary)
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* Decorative Cube Image */}
-      <Image
-        alt="Decorative Cube"
-        aria-hidden="true"
-        className="absolute hidden lg:block -right-24 top-52 pointer-events-none select-none"
-        height={300}
-        width={300}
-        src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-one-bg.png"
-        style={{ maxWidth: 800, maxHeight: 800 }}
-      />
-    </section>
-
-    
-
-
-
-        
-
-
-
+          {/* Decorative Cube Image */}
+          <Image
+            alt="Decorative Cube"
+            aria-hidden="true"
+            className="pointer-events-none absolute -right-24 top-52 hidden select-none lg:block"
+            height={300}
+            width={300}
+            src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-one-bg.png"
+            style={{ maxWidth: 800, maxHeight: 800 }}
+          />
+        </section>
 
         <section className="bg-gray-800 py-12 text-white">
           <div className="container mx-auto flex flex-col items-center px-6 md:flex-row">
@@ -670,12 +701,13 @@ export default function Home() {
           </div>
         </section>
 
+        {/* why choose leads2crm  */}
+
         <section className="flex justify-center bg-[#71cbd1ff] py-12">
           <div className="container mx-auto flex flex-col items-center justify-between space-y-6 px-6 md:flex-row md:space-x-12 md:space-y-0">
-            {/* Text Section */}
             <div className="max-w-lg text-left">
               <h2 className="mb-4 font-poppins text-3xl font-medium text-black">
-                Why Choose Maiprosoft?
+                Why choose Leads2CRM?
               </h2>
               <ul className="space-y-2 text-lg text-black ">
                 <li>Proven expertise in Zoho implementation and management</li>
@@ -687,7 +719,6 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Image Section */}
             <div className="relative h-64 w-64 flex-shrink-0 overflow-hidden bg-cover bg-center md:h-80  md:w-80">
               <img
                 src="/images/zoho/Zoho/Images/speaker.png"
@@ -695,115 +726,113 @@ export default function Home() {
                 className="h-full w-full object-cover"
               />
             </div>
-            {/* <div className=" inset-0 bg-black opacity-50"></div> */}
-            {/* <h1 className=" text-2xl md:text-3xl font-bold text-white text-center">
-        WHY CHOOSE US?
-      </h1> */}
           </div>
         </section>
 
-        <section className="flex min-h-screen flex-col items-center justify-center bg-gray-100 md:flex-row">
-          {/* Image Section */}
-          <div className="w-full md:w-1/2">
-            <img
-              src="https://storage.googleapis.com/a1aa/image/Us2JN7WsDLaJNNJMIpqaYHzywSI4pbgUTaZqojgtWCQvr6fJA.jpg"
-              alt="Person working on a laptop"
-              className="h-full w-full object-cover"
-              height="400"
-              width="600"
-            />
-          </div>
+        <section className="flex min-h-screen items-center justify-center bg-[#fed600ff] px-4 py-12">
+          <div className="grid w-full max-w-6xl grid-cols-1 overflow-hidden rounded-xl bg-white shadow-lg md:grid-cols-2">
+            {/* Image Section */}
+            <div className="h-full w-full">
+              <img
+                src="https://storage.googleapis.com/a1aa/image/Us2JN7WsDLaJNNJMIpqaYHzywSI4pbgUTaZqojgtWCQvr6fJA.jpg"
+                alt="Consultation"
+                className="h-full w-full object-cover"
+              />
+            </div>
 
-          {/* Form Section */}
-          <div
-            className="w-full rounded-lg bg-white p-8 shadow-lg md:w-1/2"
-            ref={consultationRef}
-          >
-            <h1 className="mb-4 font-poppins text-3xl font-bold">
-              Book a <span className="text-blue-500">free</span> Consultation
-            </h1>
-            <form>
-              {/* Full Name */}
-              <div className="mb-4">
-                <label
-                  htmlFor="fullName"
-                  className="block font-medium text-gray-700"
+            {/* Form Section */}
+            <div className="p-10">
+              <h2 className="mb-6 text-3xl font-bold text-black md:text-4xl">
+                Book Your <span className="text-green-600">Free</span>{" "}
+                Consultation
+              </h2>
+              <p className="mb-8 text-gray-600">
+                Tell us a bit about your project and well get back to you
+                within 24 hours.
+              </p>
+              <form className="space-y-5">
+                {/* Full Name */}
+                <div>
+                  <label
+                    htmlFor="fullName"
+                    className="block text-sm font-medium text-black"
+                  >
+                    Full Name
+                  </label>
+                  <input
+                    id="fullName"
+                    type="text"
+                    placeholder="John Doe"
+                    className="focus:border-green-500 focus:ring-green-500 mt-1 w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-black focus:outline-none focus:ring-2"
+                  />
+                </div>
+
+                {/* Email */}
+                <div>
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-black"
+                  >
+                    Email
+                  </label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    className="focus:border-green-500 focus:ring-green-500 mt-1 w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-black focus:outline-none focus:ring-2"
+                  />
+                </div>
+
+                {/* Phone */}
+                <div>
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-black"
+                  >
+                    Phone Number
+                  </label>
+                  <input
+                    id="phone"
+                    type="text"
+                    placeholder="+1 234 567 890"
+                    className="focus:border-green-500 focus:ring-green-500 mt-1 w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-black focus:outline-none focus:ring-2"
+                  />
+                </div>
+
+                {/* Description */}
+                <div>
+                  <label
+                    htmlFor="project"
+                    className="block text-sm font-medium text-black"
+                  >
+                    Project Description
+                  </label>
+                  <textarea
+                    id="project"
+                    placeholder="Describe your project needs..."
+                    rows={4}
+                    className="focus:border-green-500 focus:ring-green-500 mt-1 w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-black focus:outline-none focus:ring-2"
+                  ></textarea>
+                </div>
+
+                {/* Submit */}
+                <button
+                  type="submit"
+                  className="bg-green-600 hover:bg-green-700 w-full rounded-md px-6 py-3 text-white bg-sky-600 transition duration-300"
                 >
-                  Full Name
-                </label>
-                <input
-                  id="fullName"
-                  type="text"
-                  placeholder="Enter your full name"
-                  className="focus:ring-blue-400 w-full rounded-lg border border-gray-300 bg-white px-4 py-2 text-gray-800 focus:outline-none focus:ring-2"
-                />
-              </div>
+                  Submit Request
+                </button>
 
-              {/* Email */}
-              <div className="mb-4">
-                <label
-                  htmlFor="email"
-                  className="block font-medium text-gray-700"
-                >
-                  Email
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="Enter your email"
-                  className="focus:ring-blue-400 w-full rounded-lg border border-gray-300 bg-white px-4 py-2 text-gray-800 focus:outline-none focus:ring-2"
-                />
-              </div>
-
-              {/* Number */}
-              <div className="mb-4">
-                <label
-                  htmlFor="number"
-                  className="block font-medium text-gray-700"
-                >
-                  Number
-                </label>
-                <input
-                  id="number"
-                  type="text"
-                  placeholder="Enter your phone number"
-                  className="focus:ring-blue-400 w-full rounded-lg border border-gray-300 bg-white px-4 py-2 text-gray-800 focus:outline-none focus:ring-2"
-                />
-              </div>
-
-              {/* Project Description */}
-              <div className="mb-4">
-                <label
-                  htmlFor="project"
-                  className="block font-medium text-gray-700"
-                >
-                  Describe Your Project Need
-                </label>
-                <textarea
-                  id="project"
-                  placeholder="Briefly describe your project need"
-                  className="focus:ring-blue-400 w-full rounded-lg border border-gray-300 bg-white px-4 py-2 text-gray-800 focus:outline-none focus:ring-2"
-                  rows={4}
-                ></textarea>
-              </div>
-
-              {/* Privacy Policy */}
-              <div className="mb-4 text-sm text-gray-600">
-                By submitting this form, you agree to our{" "}
-                <a href="#" className="text-blue-500 underline">
-                  Privacy Policy
-                </a>
-                .
-              </div>
-
-              {/* Submit Button */}
-              <button
-                type="submit"
-                className="bg-blue-500 hover:bg-blue-600 w-full rounded-lg py-2 text-white transition duration-300 ease-in-out"
-              >
-                Get in Touch
-              </button>
-            </form>
+                {/* Policy */}
+                <p className="text-center text-xs text-gray-500">
+                  By submitting this form, you agree to our{" "}
+                  <a href="#" className="text-green-600 underline">
+                    Privacy Policy
+                  </a>
+                  .
+                </p>
+              </form>
+            </div>
           </div>
         </section>
       </main>

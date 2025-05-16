@@ -71,9 +71,9 @@ export default function Home() {
               </li>
             ))}
           </ul>
-          <div className="pt-10">
+          {/* <div className="pt-10">
             <button className="px-6 py-3 text-sm sm:text-base bg-blue hover:bg-sky-500 text-white rounded-sm transition duration-300">START TODAY FOR FREE</button>
-          </div>
+          </div> */}
         </div>
 
         <div className="relative xl:ml-36 mt-8 w-full rounded-xl bg-white p-6 shadow-xl md:ml-24 md:max-w-sm">
@@ -135,7 +135,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center xl:ml-14">
             <Image
-              src="/images/zoho/Zoho/Images/image200.png"
+              src="/images/zoho/Zoho/Images/BMS1.jpg"
               alt="IT Strategy"
               width={400}
               height={300}
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="flex justify-center items-center order-1 md:order-none xl:mr-8">
             <Image
-              src="/images/zoho/Zoho/Images/image192.png"
+              src="/images/zoho/Zoho/Images/BMS2.jpg"
               alt="Digital Planning"
               width={400}
               height={300}

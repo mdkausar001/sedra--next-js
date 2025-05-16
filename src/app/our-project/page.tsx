@@ -3,7 +3,7 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { LocateIcon, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 const projects = [
   {
@@ -21,7 +21,7 @@ const projects = [
   {
     projectName: "Masar Makkah Underpass & Data Center",
     Location: "Makkah",
-    Client: "Baud Telecom Company (BTC)",
+    Client: "Baud Telecom Company",
     imageURL: "https://sedra.net.sa/wp-content/uploads/2024/03/Masar.jpg",
     Scope: [{ service: "BMS" }],
   },
@@ -205,15 +205,15 @@ const OurProjects = () => {
                 </a>
                 <div className="px-4 py-6">
                   <a href="#">
-                    <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-800 dark:text-white">
+                    <h1 className="mb-2 text-xl font-semibold tracking-tight text-gray-800 dark:text-white">
                       {item.projectName}
-                    </h5>
+                    </h1>
                   </a>
                   <div className="flex justify-between">
-                    <p className="mb-3 text-base font-medium text-gray-600 dark:text-gray-400">
+                    <p className="mb-2 text-base font-normal text-gray-600 dark:text-gray-400">
                       Client : {item.Client}
                     </p>
-                    <p className="mb-3 text-base font-medium text-gray-600 dark:text-gray-400 flex"><MapPin />{item.Location}</p>
+                    <p className="mb-2 text-base font-normal text-gray-600 dark:text-gray-400 flex"><MapPin />{item.Location}</p>
                   </div>
                   <ul className="mt-2 list-inside list-disc space-y-1 ps-5 text-gray-600 dark:text-gray-300">
                     {item.Scope.map((service, idx) => (

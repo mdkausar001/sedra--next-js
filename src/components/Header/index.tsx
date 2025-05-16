@@ -27,76 +27,78 @@ const Header = () => {
               contentKey: "api",
             },
             {
-              text: "Zoho CRM",
-              url: "/zoho-crm",
-              contentKey: "crm",
-            },
-
-            {
-              text: "Zoho Creator",
-              url: "/zoho-creator",
-              contentKey: "appBuilder",
-            },
-            {
-              text: "Zoho Books",
-              url: "/zoho-books",
-              contentKey: "accounting",
-            },
-            {
-              text: "Zoho People",
-              url: "/zoho-people",
-              contentKey: "hr",
-            },
-            {
-              text: "Zoho Inventory",
-              url: "/zoho-inventory",
-              contentKey: "inventoryManagement",
-            },
-            {
-              text: "Zoho Projects",
-              url: "/zoho-projects",
-              contentKey: "projectManagement",
-            },
-            {
-              text: "Zoho Desk",
-              url: "/zoho-desk",
-              contentKey: "customerSupport",
-            },
-            {
-              text: "Zoho Analytics",
-              url: "/zoho-analytics",
-              contentKey: "businessIntelligence",
-            },
-            {
-              text: "Zoho SalesIQ",
-              url: "/zoho-salesiq",
-              contentKey: "liveChat",
-            },
-            {
-              text: "Zoho Commerce",
-              url: "/zoho-commerce",
-              contentKey: "eCommerce",
-            },
-            {
               text: "Odoo",
-              url: "https://example.com/operations-management",
+              url: "/odoo",
               contentKey: "cloud",
             },
             {
               text: "Salesforce",
-              url: "https://example.com/financial-management",
+              url: "#",
               contentKey: "financialManagement",
             },
-            {
-              text: "SAP",
-              url: "https://example.com/financial-management",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Oracle",
-              url: "https://example.com/financial-management",
-              contentKey: "financialManagement",
-            },
+            // {
+            //   text: "Zoho CRM",
+            //   url: "/zoho-crm",
+            //   contentKey: "crm",
+            // },
+
+            // {
+            //   text: "Zoho Creator",
+            //   url: "/zoho-creator",
+            //   contentKey: "appBuilder",
+            // },
+            // {
+            //   text: "Zoho Books",
+            //   url: "/zoho-books",
+            //   contentKey: "accounting",
+            // },
+            // {
+            //   text: "Zoho People",
+            //   url: "/zoho-people",
+            //   contentKey: "hr",
+            // },
+            // {
+            //   text: "Zoho Inventory",
+            //   url: "/zoho-inventory",
+            //   contentKey: "inventoryManagement",
+            // },
+            // {
+            //   text: "Zoho Projects",
+            //   url: "/zoho-projects",
+            //   contentKey: "projectManagement",
+            // },
+            // {
+            //   text: "Zoho Desk",
+            //   url: "/zoho-desk",
+            //   contentKey: "customerSupport",
+            // },
+            // {
+            //   text: "Zoho Analytics",
+            //   url: "/zoho-analytics",
+            //   contentKey: "businessIntelligence",
+            // },
+            // {
+            //   text: "Zoho SalesIQ",
+            //   url: "/zoho-salesiq",
+            //   contentKey: "liveChat",
+            // },
+            // {
+            //   text: "Zoho Commerce",
+            //   url: "/zoho-commerce",
+            //   contentKey: "eCommerce",
+            // },
+
+
+            // {
+            //   text: "SAP",
+            //   url: "https://example.com/financial-management",
+            //   contentKey: "financialManagement",
+            // },
+            // {
+            //   text: "Oracle",
+            //   url: "https://example.com/financial-management",
+            //   contentKey: "financialManagement",
+            // },
           ],
         },
         {
@@ -106,23 +108,23 @@ const Header = () => {
 
             {
               text: "Cloud",
-              url: "https://example.com/connectors-workflows",
+              url: "#",
               contentKey: "connectorsWorkflows",
             },
             {
               text: "IoT",
-              url: "https://example.com/connectors-workflows",
+              url: "#",
               contentKey: "connectorsWorkflows",
             },
             {
               text: "Mobile App Development",
-              url: "https://example.com/connectors-workflows",
+              url: "#",
               contentKey: "connectorsWorkflows",
             },
 
             {
               text: "AI & ML",
-              url: "https://example.com/connectors-workflows",
+              url: "#",
               contentKey: "connectorsWorkflows",
             },
           ],
@@ -136,36 +138,36 @@ const Header = () => {
           title: "Our Services",
           icon: "/images/Maiprosoft-menu/Services/Core Services.svg",
           subtitle: [
-            {
-              "text": "Enterprise IT Services",
-              "url": "https://example.com/enterprise-it",
-              "altText": "ERP, SAP, and Oracle implementations",
-              "contentKey": "enterpriseIT"
-            },
-            {
-              "text": "Application Development & Maintenance Services",
-              "url": "https://example.com/application-development",
-              "altText": "Custom Software, Legacy Modernisation",
-              "contentKey": "applicationDevelopment"
-            },
-            {
-              "text": "Digital Transformation",
-              "url": "digitrans#page",
-              "altText": "Strategy, Automation and Process Optimization, Blockchain, UX/UI Design and Customer Experience",
-              "contentKey": "digitalTransformation"
-            },
-            {
-              "text": "Cloud Services",
-              "url": "cloudser#page",
-              "altText": "Hybrid Cloud Strategy, Cloud Migration and Management, Edge Computing",
-              "contentKey": "cloudServices"
-            },
-            {
-              "text": "IoT Services",
-              "url": "https://example.com/iot-services",
-              "altText": "Connected Devices, Industrial IoT",
-              "contentKey": "iotServices"
-            },
+            // {
+            //   "text": "Enterprise IT Services",
+            //   "url": "https://example.com/enterprise-it",
+            //   "altText": "ERP, SAP, and Oracle implementations",
+            //   "contentKey": "enterpriseIT"
+            // },
+            // {
+            //   "text": "Application Development & Maintenance Services",
+            //   "url": "https://example.com/application-development",
+            //   "altText": "Custom Software, Legacy Modernisation",
+            //   "contentKey": "applicationDevelopment"
+            // },
+            // {
+            //   "text": "Digital Transformation",
+            //   "url": "digitrans#page",
+            //   "altText": "Strategy, Automation and Process Optimization, Blockchain, UX/UI Design and Customer Experience",
+            //   "contentKey": "digitalTransformation"
+            // },
+            // {
+            //   "text": "Cloud Services",
+            //   "url": "cloudser#page",
+            //   "altText": "Hybrid Cloud Strategy, Cloud Migration and Management, Edge Computing",
+            //   "contentKey": "cloudServices"
+            // },
+            // {
+            //   "text": "IoT Services",
+            //   "url": "https://example.com/iot-services",
+            //   "altText": "Connected Devices, Industrial IoT",
+            //   "contentKey": "iotServices"
+            // },
             {
               "text": "Building Management System (BMS)",
               "url": "bms#page",
@@ -228,15 +230,15 @@ const Header = () => {
           icon: "/images/Maiprosoft-menu/Industries/Industries.svg",
           subtitle: [
             {
-              text: "INHOUSE",
+              text: "PROJECT",
               url: "/our-project",
               contentKey: "api",
             },
-            {
-              text: "ABC XYZ",
-              url: "/zoho-crm",
-              contentKey: "crm",
-            },
+            // {
+            //   text: "ABC XYZ",
+            //   url: "/zoho-crm",
+            //   contentKey: "crm",
+            // },
           ]
 
         }
@@ -349,42 +351,42 @@ const Header = () => {
     //   ],
     // },
 
-    {
-      "menuName": "Resources",
-      "items": [
-        {
-          "title": "Our Resources",
-          "icon": "/images/Maiprosoft-menu/Resources/resource.svg",
-          "subtitle": [
-            {
-              "text": "Case Study",
-              "url": "https://example.com/case-study",
-              "contentKey": "caseStudy"
-            },
-            {
-              "text": "Tech Articles",
-              "url": "https://example.com/tech-articles",
-              "contentKey": "techArticles"
-            },
-            {
-              "text": "Our Client & Testimonials",
-              "url": "https://example.com/client-testimonials",
-              "contentKey": "clientTestimonials"
-            },
-            {
-              "text": "Career",
-              "url": "https://example.com/career",
-              "contentKey": "career"
-            },
-            {
-              "text": "FAQ",
-              "url": "https://example.com/faq",
-              "contentKey": "faq"
-            },
-          ],
-        },
-      ],
-    },
+    // {
+    //   "menuName": "Resources",
+    //   "items": [
+    //     {
+    //       "title": "Our Resources",
+    //       "icon": "/images/Maiprosoft-menu/Resources/resource.svg",
+    //       "subtitle": [
+    //         {
+    //           "text": "Case Study",
+    //           "url": "https://example.com/case-study",
+    //           "contentKey": "caseStudy"
+    //         },
+    //         {
+    //           "text": "Tech Articles",
+    //           "url": "https://example.com/tech-articles",
+    //           "contentKey": "techArticles"
+    //         },
+    //         {
+    //           "text": "Our Client & Testimonials",
+    //           "url": "https://example.com/client-testimonials",
+    //           "contentKey": "clientTestimonials"
+    //         },
+    //         {
+    //           "text": "Career",
+    //           "url": "https://example.com/career",
+    //           "contentKey": "career"
+    //         },
+    //         {
+    //           "text": "FAQ",
+    //           "url": "https://example.com/faq",
+    //           "contentKey": "faq"
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
 
     {
       menuName: "Technologies ",
@@ -601,52 +603,47 @@ const Header = () => {
           icon: "/images/Maiprosoft-menu/About us/About us.svg",
           subtitle: [
             {
-              text: "Experience certainty",
-              url: "https://example.com/erp-solutions",
+              text: "About Us",
+              url: "/about-sedra",
               contentKey: "erpSolutions",
             },
-            {
-              text: "Why Sedra",
-              url: "https://example.com/operations-management",
-              contentKey: "operationsManagement",
-            },
-            {
-              text: "Heritage & Values",
-              url: "https://example.com/financial-management",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Corporate Sustainability",
-              url: "https://example.com/financial-management",
-              contentKey: "financialManagement",
-            },
+            // {
+            //   text: "Experience certainty",
+            //   url: "https://example.com/erp-solutions",
+            //   contentKey: "erpSolutions",
+            // },
+            // {
+            //   text: "Why Sedra",
+            //   url: "https://example.com/operations-management",
+            //   contentKey: "operationsManagement",
+            // },
+            // {
+            //   text: "Heritage & Values",
+            //   url: "https://example.com/financial-management",
+            //   contentKey: "financialManagement",
+            // },
+            // {
+            //   text: "Corporate Sustainability",
+            //   url: "https://example.com/financial-management",
+            //   contentKey: "financialManagement",
+            // },
 
-            {
-              text: "Our Leadership",
-              url: "https://example.com/financial-management",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Our Global Footprint",
-              url: "https://example.com/financial-management",
-              contentKey: "financialManagement",
-            },
+            // {
+            //   text: "Our Leadership",
+            //   url: "https://example.com/financial-management",
+            //   contentKey: "financialManagement",
+            // },
+            // {
+            //   text: "Our Global Footprint",
+            //   url: "https://example.com/financial-management",
+            //   contentKey: "financialManagement",
+            // },
 
           ],
         },
       ],
     },
   ];
-
-
-
-
-
-
-
-
-
-
 
 
   const handleStickyNavbar = () => {
@@ -665,14 +662,9 @@ const Header = () => {
         <div className="flex justify-between items-center px-5 py-4 max-w-7xl mx-auto w-full">
           <Link href="/">
             <img
-
               src="/images/logo/sedra2.png"
-
               alt="Logo"
               className="h-15 w-[160px] z-40 mt-[-8px]" // Adjust height as needed
-
-
-
             />
           </Link>
 
@@ -700,7 +692,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden sm:flex space-x-10 ml-auto">
-            <ul className={`flex space-x-6 font-medium transition-colors duration-300  ${sticky ? "text-black " : "text-white "}`}>
+            <ul className={`flex items-center space-x-6 font-medium transition-colors duration-300  ${sticky ? "text-black " : "text-white "}`}>
               {menuData.map((menu, menuIndex) => (
                 // <li
                 //   key={menuIndex}
@@ -871,6 +863,9 @@ const Header = () => {
 
                 </li>
               ))}
+              <a href="/contact"><button className="px-6 py-2 rounded-xl transition-colors duration-300 bg-sky-700 text-white dark:bg-sky-700 dark:text-white  hover:bg-sky-900 dark:hover:bg-sky-900">
+                Contact Us
+              </button></a>
 
             </ul>
           </nav>
