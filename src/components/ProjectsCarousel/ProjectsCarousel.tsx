@@ -6,45 +6,45 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MapPin } from 'lucide-react';
 
-// const settings = {
-//   dots: false,
-//   infinite: true,
-//   speed: 3000,
-//   slidesToShow: 5,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 0, // Makes it scroll continuously
-//   cssEase: "linear", // Smooth scrolling effect
-//   pauseOnHover: false,
-// };
 
 const settings = {
-    dots: false,
+    // dots: true,
     infinite: true,
-    speed: 3000,
-    slidesToShow: 5,
+    speed: 400,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 0, // Makes it scroll continuously
-    cssEase: "linear", // Smooth scrolling effect
-    pauseOnHover: false,
-    arrows: false, // Disable left and right slider icons
+    autoplaySpeed: 2000,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+            },
+        },
+        {
+            breakpoint: 640,
+            settings: {
+                slidesToShow: 1,
+            },
+        },
+    ],
 };
 
-const partners = [
-    "https://sedra.net.sa/wp-content/uploads/2024/08/1.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/2.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/3.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/4.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/5.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/6.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/7.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/8.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/9.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/10.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/11.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/12.png",
-];
+
+// const settings = {
+//     dots: false,
+//     infinite: true,
+//     speed: 3000,
+//     slidesToShow: 5,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 0, // Makes it scroll continuously
+//     cssEase: "linear", // Smooth scrolling effect
+//     pauseOnHover: false,
+//     arrows: false, // Disable left and right slider icons
+// };
+
 
 const projects = [
     {
@@ -53,18 +53,12 @@ const projects = [
         Client: "Golden Land",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/08/IMG-20240325-WA0012-895x1024.jpg",
-        Scope: [
-            { service: "BMS" },
-            { service: "GRMS" },
-            { service: "VingCard" },
-        ],
     },
     {
-        projectName: "Masar Makkah Underpass & Data Center",
+        projectName: "Masar Makkah Data Center",
         Location: "Makkah",
         Client: "Baud Telecom Company",
         imageURL: "https://sedra.net.sa/wp-content/uploads/2024/03/Masar.jpg",
-        Scope: [{ service: "BMS" }],
     },
     {
         projectName: "MISK Sport City",
@@ -72,7 +66,6 @@ const projects = [
         Client: "Marco",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/03/MISK1-1024x576.jpg",
-        Scope: [{ service: "BMS" }],
     },
     {
         projectName: "IHG Intercontinental Hotel",
@@ -80,15 +73,13 @@ const projects = [
         Client: "BTC",
         imageURL:
             "https://images.trvl-media.com/lodging/1000000/10000/2500/2414/fd497a17.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
-        Scope: [{ service: "GRMS" }],
     },
     {
-        projectName: "RED SEA FILM FESTIVAL FOUNDATION",
+        projectName: "RED SEA Film Festival Foundation",
         Location: "Jeddah",
         Client: "MAC",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/08/Red-Sea-International-Film-Festival-8-1024x768.png",
-        Scope: [{ service: "Data System" }],
     },
     {
         projectName: "Courtyard Hotel by Marriot",
@@ -96,7 +87,6 @@ const projects = [
         Client: "Pro Art",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/03/88114c39d3a3ec98a8fa86c3c90a2572.webp",
-        Scope: [{ service: "BMS" }, { service: "GRMS" }],
     },
     {
         projectName: "Double Tree Hotel by Hilton",
@@ -104,7 +94,6 @@ const projects = [
         Client: "HHC",
         imageURL:
             "https://jtpartners.com/wp-content/uploads/2021/09/c4-6.jpg",
-        Scope: [{ service: "BMS" }, { service: "Lighting Control" }],
     },
     {
         projectName: "Al Riyadh Hospital",
@@ -112,11 +101,6 @@ const projects = [
         Client: "Inma-Tech",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/08/RH-Hospital-B-1024x682.png",
-        Scope: [
-            { service: "Supply" },
-            { service: "test" },
-            { service: "programming for Building Management System (BMS)" },
-        ],
     },
     {
         projectName: "Nahda Academy school",
@@ -124,7 +108,6 @@ const projects = [
         Client: "Dar Al Afnan",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/05/Nahda-Academy-school-.png",
-        Scope: [{ service: "Fire Alarm & Sound System" }],
     },
     {
         projectName: "Court Of Appeal",
@@ -132,14 +115,12 @@ const projects = [
         Client: "Saudi protech",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/05/Fse5GdcXsA0unek.jpg",
-        Scope: [{ service: "Fire Alaram" }],
     },
     {
         projectName: "Afrina HQ",
         Location: "Jeddah",
         Client: "Afrina",
         imageURL: "https://sedra.net.sa/wp-content/uploads/2024/05/Afrina.png",
-        Scope: [{ service: "Smart Light Control" }],
     },
     {
         projectName: "CHKN restaurant",
@@ -147,21 +128,18 @@ const projects = [
         Client: "Salma international security",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/05/%D8%B4%D9%83%D9%86-771x405-1.webp",
-        Scope: [{ service: "Smart Light Control" }],
     },
     {
         projectName: "Abdullah Saleh Kamel Palace",
         Location: "Jeddah",
         Client: "KUN",
         imageURL: "",
-        Scope: [{ service: "KNX - BMS - Data System" }],
     },
     {
         projectName: "TBC - School",
         Location: "Jeddah",
         Client: "Kholoud trading company",
         imageURL: "https://sedra.net.sa/wp-content/uploads/2024/05/TBC.png",
-        Scope: [{ service: "Data System" }],
     },
     {
         projectName: "Schnider Electric Office",
@@ -169,7 +147,6 @@ const projects = [
         Client: "Modern EEMAR",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/03/TA_20211230142540076_391373.jpg",
-        Scope: [{ service: "Access Control System" }],
     },
     {
         projectName: "Riyadh Metro",
@@ -177,7 +154,6 @@ const projects = [
         Client: "Kgtech",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/05/Riyadh-Metro.jpg",
-        Scope: [{ service: "Data System" }],
     },
     {
         projectName: "KAIA",
@@ -185,7 +161,6 @@ const projects = [
         Client: "Kholoud trading company",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/03/WhatsApp-Image-2022-06-25-at-3.45.05-PM.jpeg",
-        Scope: [{ service: "Gate barrier - Data System - UPS" }],
     },
     {
         projectName: "Ibdaat 3 Tower",
@@ -193,7 +168,6 @@ const projects = [
         Client: "Roya Company",
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/08/Ibdaat-3-Tower-933x1024.jpg",
-        Scope: [{ service: "(BMS)" }],
     },
 ];
 
@@ -214,35 +188,51 @@ const ProjectsCarousel = () => {
     return (
         <div className="bg-gray-50 py-12">
             <div className="container mx-auto px-4">
-                <h2 className="text-center text-xl md:text-3xl font-sans font-semibold  mb-8 text-gray-600">OUR PROJECTS
+                <h2 className="text-center text-xl md:text-3xl font-sans font-semibold mb-8 text-gray-800">
+                    OUR PROJECTS
                 </h2>
-                <p className="max-w-5xl mx-auto text-center font-sans font-normal text-gray-600 text-sm md:text-lg leading-[1.4]">
+                <p className="max-w-5xl mx-auto text-center font-sans font-normal text-gray-800 text-sm md:text-lg leading-[1.4]">
                     At Sedra Information Technology, we take pride in our successful delivery of strategic digital solutions to esteemed organizations across various sectors. Below is a selection of our key projects that highlight our capabilities and trusted partnerships.
                 </p>
-                <hr className='max-w-6xl block mx-auto mt-6 border border-gray-200' />
+                <hr className="max-w-6xl block mx-auto mt-6 border border-gray-200" />
+
                 <div className="max-w-6xl mx-auto py-12">
-                    <Slider {...settings}>
-                        {projects.map((project, index) => (
-                            <div key={index} className="md:px-4 px-2">
-                                <div className="relative w-full h-52 overflow-hidden rounded-md">
-                                    <img
-                                        src={project.imageURL}
-                                        alt={`Project ${index + 1}`}
-                                        className="w-full h-full object-cover"
-                                    />
-                                    {/* Overlay */}
-                                    <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/100 to-transparent text-white p-2">
-                                        <h3 className="text-sm font-semibold">{project.projectName}</h3>
-                                        <p className="text-xs flex items-center"><MapPin size={10} />{project.Location}</p>
+                    <Slider {...settings} className="-mx-3"> {/* Add negative margin here */}
+                        {projects.map((item, index) => (
+                            <div key={index} className="px-2"> {/* Padding here creates the gap */}
+                                <div className="group rounded-lg border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:shadow-sm hover:scale-105 dark:border-gray-700 dark:bg-gray-800">
+                                    <a href="#">
+                                        <div className="h-60 overflow-hidden rounded-t">
+                                            <img
+                                                src={item.imageURL ? item.imageURL : './images/dummyImage.jpg'}
+                                                alt={item.projectName}
+                                                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                            />
+                                        </div>
+                                    </a>
+                                    <div className="px-2 py-6">
+                                        <a href="#">
+                                            <h1 className="mb-2 text-base font-semibold tracking-tight text-gray-800 dark:text-white">
+                                                {item.projectName}
+                                            </h1>
+                                        </a>
+                                        <div>
+                                            <p className="mb-2 text-base font-normal text-gray-600 dark:text-gray-400 flex">
+                                                {item.Client}
+                                            </p>
+                                            <p className="mb-2 items-center text-base font-normal text-gray-600 dark:text-gray-400 flex">
+                                                <MapPin className="w-4 h-4 mr-1" />{item.Location}
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         ))}
                     </Slider>
-
                 </div>
+
             </div>
-        </div>
+        </div >
     );
 };
 
