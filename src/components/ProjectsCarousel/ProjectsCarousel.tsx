@@ -6,26 +6,27 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { MapPin } from 'lucide-react';
 
-
 const settings = {
     // dots: true,
     infinite: true,
-    speed: 400,
-    slidesToShow: 4,
-    slidesToScroll: 1,
+    speed: 500,
     autoplay: true,
     autoplaySpeed: 2000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1024, // tablets
             settings: {
                 slidesToShow: 2,
+                slidesToScroll: 1,
             },
         },
         {
-            breakpoint: 600,
+            breakpoint: 640, // mobile
             settings: {
                 slidesToShow: 1,
+                slidesToScroll: 1,
             },
         },
     ],
@@ -187,51 +188,48 @@ const ProjectsCarousel = () => {
 
     return (
         <div className="bg-gray-50 py-12">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-2">
                 <h2 className="text-center text-xl md:text-3xl font-sans font-semibold mb-8 text-gray-800">
                     OUR PROJECTS
                 </h2>
                 <p className="max-w-5xl mx-auto text-center font-sans font-normal text-gray-800 text-sm md:text-lg leading-[1.4]">
                     At Sedra Information Technology, we take pride in our successful delivery of strategic digital solutions to esteemed organizations across various sectors. Below is a selection of our key projects that highlight our capabilities and trusted partnerships.
                 </p>
-                <hr className="max-w-6xl block mx-auto mt-6 border border-gray-200" />
+                <hr className="md:max-w-6xl max-w-5xl block mx-auto my-12 border border-gray-200" />
 
-                <div className="max-w-6xl mx-auto py-12">
-                    <Slider {...settings} className="-mx-3"> {/* Add negative margin here */}
+                <div className="max-w-full md:max-w-6xl mx-auto overflow-x-hidden px-2">
+                    <Slider {...settings} className="-mx-2">
                         {projects.map((item, index) => (
-                            <div key={index} className="px-2"> {/* Padding here creates the gap */}
-                                <div className="group rounded-lg border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:shadow-sm hover:scale-105 dark:border-gray-700 dark:bg-gray-800">
+                            <div key={index} className="px-2">
+                                <div className="group rounded-lg border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:scale-105">
                                     <a href="#">
-                                        <div className="h-60 overflow-hidden rounded-t">
+                                        <div className="h-48 md:h-60 overflow-hidden rounded-t">
                                             <img
-                                                src={item.imageURL ? item.imageURL : './images/dummyImage.jpg'}
+                                                src={item.imageURL || './images/dummyImage.jpg'}
                                                 alt={item.projectName}
                                                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                                             />
                                         </div>
                                     </a>
-                                    <div className="px-2 py-6">
+                                    <div className="px-3 py-4">
                                         <a href="#">
-                                            <h1 className="mb-2 text-base font-semibold tracking-tight text-gray-800 dark:text-white">
+                                            <h1 className="mb-1 text-sm font-semibold text-gray-800">
                                                 {item.projectName}
                                             </h1>
                                         </a>
-                                        <div>
-                                            <p className="mb-2 text-base font-normal text-gray-600 dark:text-gray-400 flex">
-                                                {item.Client}
-                                            </p>
-                                            <p className="mb-2 items-center text-base font-normal text-gray-600 dark:text-gray-400 flex">
-                                                <MapPin className="w-4 h-4 mr-1" />{item.Location}
-                                            </p>
-                                        </div>
+                                        <p className="text-sm text-gray-600 py-2">{item.Client}</p>
+                                        <p className="flex items-center text-sm text-gray-600">
+                                            <MapPin className="w-4 h-4 mr-1" /> {item.Location}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         ))}
                     </Slider>
                 </div>
-
             </div>
+
+
         </div >
     );
 };
