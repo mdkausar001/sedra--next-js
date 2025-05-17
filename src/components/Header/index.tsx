@@ -26,16 +26,16 @@ const Header = () => {
               url: "/zoho",
               contentKey: "api",
             },
-            {
-              text: "Odoo",
-              url: "/odoo",
-              contentKey: "cloud",
-            },
-            {
-              text: "Salesforce",
-              url: "#",
-              contentKey: "financialManagement",
-            },
+            // {
+            //   text: "Odoo",
+            //   url: "/odoo",
+            //   contentKey: "cloud",
+            // },
+            // {
+            //   text: "Salesforce",
+            //   url: "#",
+            //   contentKey: "financialManagement",
+            // },
             // {
             //   text: "Zoho CRM",
             //   url: "/zoho-crm",
@@ -860,14 +860,13 @@ const Header = () => {
                     </div>
                   )}
 
-
                 </li>
               ))}
-              <a href="/contact">
-                <button className="px-6 py-2 rounded-xl transition-colors duration-300 bg-sky-700 text-white dark:bg-sky-700 dark:text-white  hover:bg-sky-900 dark:hover:bg-sky-900">
+              <li><a href="/contact">
+                <button className="px-6 py-2 rounded-md transition-colors duration-300 bg-[#4763ad] text-white dark:bg-[#4763ad] dark:text-white  hover:bg-[#435fae] dark:hover:bg-[#435fae]">
                   Contact Us
                 </button>
-              </a>
+              </a></li>
 
             </ul>
           </nav>

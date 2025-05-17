@@ -34,7 +34,7 @@ const ContactUs = () => {
                     <h2 className="text-2xl md:text-3xl font-bold text-cyan-400 mb-6 tracking-widest">
                         INFORMATION
                     </h2>
-                    <div className="flex items-start gap-6 mb-4" data-aos="fade-up">
+                    <div className="flex items-start gap-6 mb-4">
                         <MapPin className="text-cyan-400 w-6 h-6" />
                         <p className="mb-4 leading-relaxed text-gray-200">
                             Kingdom of Saudi Arabia<br />
@@ -42,7 +42,7 @@ const ContactUs = () => {
                             Floor 5, Office 505
                         </p></div>
 
-                    <div className="flex items-start gap-6 mb-4" data-aos="fade-up">
+                    <div className="flex items-start gap-6 mb-4">
                         <Phone className="text-cyan-400 w-6 h-6" />
                         <p>
                             Tel: 00 966 114 229 922<br />
@@ -50,12 +50,12 @@ const ContactUs = () => {
                         </p>
                     </div>
 
-                    <div className="flex items-start gap-6 mb-4" data-aos="fade-up">
+                    <div className="flex items-start gap-6 mb-4">
                         <Mail className="text-cyan-400 w-6 h-6" />
                         <p>info@sedra.net.sa</p>
                     </div>
 
-                    <div className="flex items-start gap-6 mb-4" data-aos="fade-up">
+                    <div className="flex items-start gap-6 mb-4">
                         <MapPin className="text-cyan-400 w-6 h-6" />
                         <p>www.sedra.net.sa</p>
                     </div>

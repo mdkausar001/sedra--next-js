@@ -187,12 +187,12 @@ const ProjectsCarousel = () => {
     const currentProject = projects[currentIndex];
 
     return (
-        <div className="bg-gray-50 py-12">
+        <div className="bg-white py-12">
             <div className="container mx-auto px-2">
-                <h2 className="text-center text-xl md:text-3xl font-sans font-semibold mb-8 text-gray-800">
+                <h2 className="text-center text-xl font-sans mb-8 uppercase text-gray-700 font-medium md:text-3xl">
                     OUR PROJECTS
                 </h2>
-                <p className="max-w-5xl mx-auto text-center font-sans font-normal text-gray-800 text-sm md:text-lg leading-[1.4]">
+                <p className="max-w-5xl mx-auto text-center font-sans font-normal text-gray-700 text-sm md:text-lg leading-[1.4]">
                     At Sedra Information Technology, we take pride in our successful delivery of strategic digital solutions to esteemed organizations across various sectors. Below is a selection of our key projects that highlight our capabilities and trusted partnerships.
                 </p>
                 <hr className="md:max-w-6xl max-w-5xl block mx-auto my-12 border border-gray-200" />
@@ -200,8 +200,8 @@ const ProjectsCarousel = () => {
                 <div className="max-w-full md:max-w-6xl mx-auto overflow-x-hidden px-2">
                     <Slider {...settings} className="-mx-2">
                         {projects.map((item, index) => (
-                            <div key={index} className="px-2">
-                                <div className="group rounded-lg border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:scale-105">
+                            <div key={index} className="px-2 py-4">
+                                <div className="group rounded-lg border border-gray-200 bg-gray-50 transition-transform duration-300 hover:scale-105">
                                     <a href="#">
                                         <div className="h-48 md:h-60 overflow-hidden rounded-t">
                                             <img

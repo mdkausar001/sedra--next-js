@@ -136,7 +136,10 @@ const ClientsSection: React.FC = () => {
   const clientGroups = chunkArray(clients, 4); // 4 = 2x2 grid per group
 
   return (
-    <section className="py-20 px-4 text-center bg-gray-50 flex flex-col items-center justify-center">
+    <section style={{
+      backgroundImage:
+        "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+    }} className="py-20 px-4 text-center bg-gray-50 flex flex-col items-center justify-center">
       <h4 className="text-sm uppercase text-gray-700 font-medium md:text-2xl">Our Clients</h4>
       <h2 className="text-3xl md:text-4xl mt-2 text-gray-700 font-light font-sans">
         Trusted by over{' '}
@@ -165,10 +168,10 @@ const ClientsSection: React.FC = () => {
             ))}
           </div>
 
-    
+
         ))}
 
-        
+
 
 
       </div>

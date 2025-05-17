@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Sedra - Expertise You Can Trust",
     description:
       "We are committed to transforming clients' businesses and driving success in the digital age",
-    url: "https://https://sedra.net.sa",
+    url: "https://sedra.net.sa",
     type: "website",
     images: [
       {

@@ -76,7 +76,7 @@
 //         {/* Heading */}
 //         <h3 className="text-3xl font-semibold mb-8">Our Partners</h3>
 //         <h2 className="text-3xl font-extrabold text-gray-800 mb-8">Partnered with Best Tech & ERP Providers</h2>
-        
+
 //         <div className="zwc-home-brand">
 //           <ul id="brandlisting" className="flex flex-wrap justify-center gap-8">
 //             {/* Partner 1 */}
@@ -163,9 +163,9 @@ const PartnerSection = () => {
     cssEase: "linear", // Smooth scrolling effect
     pauseOnHover: false,
     arrows: false, // Disable left and right slider icons
-};
+  };
 
-  
+
   const partners = [
     "https://sedra.net.sa/wp-content/uploads/2024/08/1.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/2.png",
@@ -179,11 +179,11 @@ const PartnerSection = () => {
     "https://sedra.net.sa/wp-content/uploads/2024/08/10.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/11.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/12.png",
-    
 
-   
 
-    
+
+
+
 
 
     // "https://cdn-jhpip.nitrocdn.com/GENdBIltwBtSZkSFCgaXAqdoCWxpqhRH/assets/images/optimized/rev-0d8e292/alnafitha.com/wp-content/uploads/2023/06/Logetic.gif",
@@ -194,12 +194,12 @@ const PartnerSection = () => {
   ];
 
   return (
-    <div className="bg-gray-50 py-12">
-      <div className="container mx-auto px-4">
-        <h2 className="text-center text-xl md:text-3xl font-sans font-semibold  mb-8 text-black">PARTNERSHIP WITH
+    <div className="bg-white py-12" >
+      <div className="container md:w-9/12 mx-auto px-4">
+        <h2 className="text-center text-xl md:text-3xl font-sans font-semibold  mb-8 text-gray-700">PARTNERSHIP WITH
         </h2>
-        <p className="text-center font-sans font-normal text-[#14142b] text-sm md:text-lg leading-[1.4]">
-        We prioritize understanding their needs and challenges, striving to deliver tailored solutions that not only meet but exceed their expectations. By forging strong relationships, we view our customers as integral partners in our journey toward mutual success. Their satisfaction fuels our drive for continuous innovation, ensuring that we remain their trusted ally in achieving their goals
+        <p className="text-center font-sans font-normal text-gray-700 text-sm md:text-lg leading-[1.4]">
+          We prioritize understanding their needs and challenges, striving to deliver tailored solutions that not only meet but exceed their expectations. By forging strong relationships, we view our customers as integral partners in our journey toward mutual success. Their satisfaction fuels our drive for continuous innovation, ensuring that we remain their trusted ally in achieving their goals
         </p>
         <div className="max-w-5xl mx-auto py-10">
           <Slider {...settings}>

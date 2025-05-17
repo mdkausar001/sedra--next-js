@@ -59,16 +59,21 @@ export default function Testimonial() {
   const { name, image, title, text } = testimonials[current];
 
   return (
-    <section className="py-12 lg:py-20 px-6 bg-white text-black">
+    <section
+      style={{
+        backgroundImage:
+          "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      }}
+      className="py-10 lg:py-20 px-6 bg-gray-50 text-black">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-sm text-sky-500 font-normal uppercase mb-1 font-sans">
+        <h2 className="text-sm text-[#4763ad] font-semibold uppercase mb-1 font-sans">
           Our Testimonials
         </h2>
-        <h3 className="text-3xl font-semibold mb-8 tracking-tight">
+        <h3 className="text-3xl font-semibold mb-4 tracking-tight">
           What They&lsquo;re Saying?
         </h3>
 
-        <div className="relative bg-[#121f6b] text-white px-6 py-14 lg:px-10 lg:pt-20 lg:pb-28  shadow-lg">
+        <div className="relative bg-[#4763ad] text-white px-6 py-12 lg:px-10 lg:pt-20 lg:pb-28  shadow-lg">
           <div
             key={current}
             className="flex flex-col items-start gap-6 transition-all duration-300 ease-in-out"
@@ -88,8 +93,8 @@ export default function Testimonial() {
 
             <div>
               <h4 className="font-semibold text-lg font-sans">{name}</h4>
-              <p className="text-sky-400 text-sm mb-4">{title}</p>
-              <p className="leading-relaxed text-sm md:text-base">{text}</p>
+              <p className="text-sm mb-4">{title}</p>
+              <p className="leading-relaxed text-lg sm:text-base text-justify md:text-base">{text}</p>
             </div>
           </div>
 

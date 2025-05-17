@@ -229,7 +229,7 @@ const ExpertiseSection = () => {
 
 
 
-    <div className="expertise-wrapper bg-gray-50 py-16 lg:pt-28 xl:px-28 ">
+    <div className="expertise-wrapper bg-white py-16 lg:pt-28 xl:px-28 ">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-center text-3xl mb-8 text-black ">Our Areas of Expertise</h2>
@@ -237,11 +237,11 @@ const ExpertiseSection = () => {
             Unlock growth with Maiprosoft’s digital solutions. From Data Analytics to Cloud, AI/ML, IoT, and ERP, we bring tech innovations to life, transforming businesses worldwide.
           </p>
         </div>
-        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-4">
+        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-8">
           {expertiseData.map((item, index) => (
             <div
               key={index}
-              className="expertise-col group relative bg-white shadow-lg rounded-lg p-6 hover:bg-mai transition-all duration-300 min-h-[20rem] sm:h-[24rem] md:h-[24rem] lg:h-80 "
+              className="expertise-col group relative bg-gray-100 shadow-md rounded-lg p-8 hover:bg-mai hover:shadow-lg transition-all duration-300 min-h-[20rem] sm:h-[24rem] md:h-[24rem] lg:h-80 "
             >
               <div className="expertise-content text-center transition-transform duration-300 group-hover:-translate-y-3">
                 <div className="expertise-icon mb-4">
@@ -257,9 +257,9 @@ const ExpertiseSection = () => {
                   {item.title}
                 </h3>
 
-                <div className="h-6" /> {/* Adjust height as needed */}
+                <div className="h-4" /> {/* Adjust height as needed */}
 
-                <p className="text-black mb-4 transition-colors duration-300 group-hover:text-white group-hover:-translate-y-2">
+                <p className="text-black text-justify transition-colors duration-300 group-hover:text-white group-hover:-translate-y-2">
                   {item.description}
                 </p>
               </div>
@@ -270,7 +270,7 @@ const ExpertiseSection = () => {
 
               <Link href={item.link} className="absolute bottom-5 left-4 hidden group-hover:flex items-center text-primary font-poppins font-semibold group-hover:text-white transition-opacity duration-300">
                 Explore our {item.title} Offerings
-                <span className="ml-2 inline-block font-bold text-2xl">→</span> {/* Arrow icon */}
+                <span className="ml-4 mr-2 inline-block font-bold text-2xl">→</span> {/* Arrow icon */}
               </Link>
             </div>
           ))}
