@@ -286,7 +286,7 @@ const techDetails = [
     id: "node-js",
     title: "Node.js",
     parentDescription:
-      "At Maiprosoft, we utilize Node.js to build fast, scalable, and efficient server-side applications. Its event-driven, non-blocking architecture ensures high performance, making it ideal for real-time and data-intensive solutions.",
+      "At Sedra, we utilize Node.js to build fast, scalable, and efficient server-side applications. Its event-driven, non-blocking architecture ensures high performance, making it ideal for real-time and data-intensive solutions.",
     content: [
       {
         point: "Event-driven",
@@ -314,7 +314,7 @@ const techDetails = [
     id: "express-js",
     title: "Express.js",
     parentDescription:
-      "At Maiprosoft, we harness the power of Express.js to build efficient web applications and APIs. Known for its minimalistic design, Express.js simplifies routing, integrates middleware seamlessly, and ensures high-performance, scalable solutions. With Express.js, we deliver fast, maintainable, and robust backend solutions tailored to your needs.",
+      "At Sedra, we harness the power of Express.js to build efficient web applications and APIs. Known for its minimalistic design, Express.js simplifies routing, integrates middleware seamlessly, and ensures high-performance, scalable solutions. With Express.js, we deliver fast, maintainable, and robust backend solutions tailored to your needs.",
     content: [
       {
         point: "Request and Response Objects",
@@ -339,7 +339,7 @@ const techDetails = [
     id: "django",
     title: "Django",
     parentDescription:
-      "At Maiprosoft, we specialize in Django development to build secure, scalable, and high-performing web applications. With its robust framework, Django simplifies complex backend tasks, supports rapid development, and ensures seamless integration. From APIs to enterprise solutions, we deliver tailored, efficient results.",
+      "At Sedra, we specialize in Django development to build secure, scalable, and high-performing web applications. With its robust framework, Django simplifies complex backend tasks, supports rapid development, and ensures seamless integration. From APIs to enterprise solutions, we deliver tailored, efficient results.",
     content: [
       {
         point: "Modular Design",
@@ -367,7 +367,7 @@ const techDetails = [
     id: "ruby-on-rails",
     title: "Ruby on Rails",
     parentDescription:
-      "At Maiprosoft, we specialize in Ruby on Rails to build dynamic, scalable, and high-performing web applications. This powerful framework accelerates development with its convention-over-configuration approach and rich library of tools. From startups to enterprises, we deliver tailored, maintainable, and secure solutions.",
+      "At Sedra, we specialize in Ruby on Rails to build dynamic, scalable, and high-performing web applications. This powerful framework accelerates development with its convention-over-configuration approach and rich library of tools. From startups to enterprises, we deliver tailored, maintainable, and secure solutions.",
     content: [
       {
         point: "MVC Architecture",
@@ -395,7 +395,7 @@ const techDetails = [
     id: "spring-boot",
     title: "Spring Boot",
     parentDescription:
-      "Maiprosoft utilizes Spring Boot to create fast, scalable, and production-ready Java applications. By simplifying configuration and offering integrated tools, it enables us to deliver high-performing, secure solutions for businesses, helping them scale efficiently while minimizing developme.",
+      "Sedra utilizes Spring Boot to create fast, scalable, and production-ready Java applications. By simplifying configuration and offering integrated tools, it enables us to deliver high-performing, secure solutions for businesses, helping them scale efficiently while minimizing developme.",
     content: [
       {
         point: "Auto-Configuration",
@@ -422,7 +422,7 @@ const techDetails = [
     id: "flask",
     title: "Flask",
     parentDescription:
-      "At Maiprosoft, Flask empowers us to deliver fast, scalable, and secure web applications. Its simplicity and flexibility, combined with robust plugin support, allow us to quickly develop custom APIs and dynamic websites, ensuring optimal performance and seamless user experiences.",
+      "At Sedra, Flask empowers us to deliver fast, scalable, and secure web applications. Its simplicity and flexibility, combined with robust plugin support, allow us to quickly develop custom APIs and dynamic websites, ensuring optimal performance and seamless user experiences.",
     content: [
       {
         point: "Microframework",
@@ -448,7 +448,7 @@ const techDetails = [
     id: "dotnet-core",
     title: ".NET Core",
     parentDescription:
-      "At Maiprosoft, we specialize in delivering robust .NET Core applications that are fast, secure, and scalable. Our experienced developers build efficient, cross-platform solutions that empower businesses to thrive. With .NET Core, we ensure seamless performance, innovation, and long-term growth for your enterprise.",
+      "At Sedra, we specialize in delivering robust .NET Core applications that are fast, secure, and scalable. Our experienced developers build efficient, cross-platform solutions that empower businesses to thrive. With .NET Core, we ensure seamless performance, innovation, and long-term growth for your enterprise.",
     content: [
       {
         point: "Cross-Platform",
@@ -476,7 +476,7 @@ const techDetails = [
     id: "go",
     title: "Go",
     parentDescription:
-      "At Maiprosoft, we leverage Go, a powerful and efficient programming language, to build high-performance, scalable, and reliable applications. Its simplicity, concurrency model, and robust standard library enable us to deliver solutions optimized for speed and scalability, ensuring seamless functionality and maintainability.",
+      "At Sedra, we leverage Go, a powerful and efficient programming language, to build high-performance, scalable, and reliable applications. Its simplicity, concurrency model, and robust standard library enable us to deliver solutions optimized for speed and scalability, ensuring seamless functionality and maintainability.",
     content: [
       {
         point: "Simplicity",
@@ -505,7 +505,7 @@ const techDetails = [
     id: "java",
     title: "Java",
     parentDescription:
-      "Maiprosoft excels in Java development, offering scalable, reliable, and secure applications. We build customized Java-based solutions to meet your business needs, ensuring high performance, efficiency, and seamless integration across platforms. Trust us to drive your digital transformation.",
+      "Sedra excels in Java development, offering scalable, reliable, and secure applications. We build customized Java-based solutions to meet your business needs, ensuring high performance, efficiency, and seamless integration across platforms. Trust us to drive your digital transformation.",
     content: [
       {
         point: "Object-Oriented",
@@ -530,7 +530,7 @@ const techDetails = [
     id: "python",
     title: "Python",
     parentDescription:
-      "Maiprosoft excels in Python development, creating powerful, scalable, and secure applications. Our expert team leverages Python's versatility to build efficient, cross-platform solutions that meet your business needs, driving innovation and ensuring long-term success.",
+      "Sedra excels in Python development, creating powerful, scalable, and secure applications. Our expert team leverages Python's versatility to build efficient, cross-platform solutions that meet your business needs, driving innovation and ensuring long-term success.",
     content: [
       {
         point: "Easy to Use and Implement",
@@ -657,7 +657,7 @@ export default function Backend() {
                       Backend Technology
                     </h1>
                     <p className="mt-6 text-lg leading-relaxed">
-                    At Maiprosoft, we specialize in robust backend development to power secure, scalable, and high-performing applications. Our solutions are designed to handle complex business logic, manage databases efficiently, and deliver seamless communication between servers and clients. With a focus on speed, security, and reliability, we ensure your applications perform flawlessly under any load. By implementing structured, optimized coding practices and modern development methodologies, we build backend systems that enable smooth data processing, integrate seamlessly with third-party tools, and support future scalability, driving business success.                    </p>
+                    At Sedra, we specialize in robust backend development to power secure, scalable, and high-performing applications. Our solutions are designed to handle complex business logic, manage databases efficiently, and deliver seamless communication between servers and clients. With a focus on speed, security, and reliability, we ensure your applications perform flawlessly under any load. By implementing structured, optimized coding practices and modern development methodologies, we build backend systems that enable smooth data processing, integrate seamlessly with third-party tools, and support future scalability, driving business success.                    </p>
                   </div>
                 </div>
               </div>

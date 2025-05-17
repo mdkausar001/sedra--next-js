@@ -161,9 +161,9 @@ const ClientsSection: React.FC = () => {
             {group.map((client) => (
               <div
                 key={client.alt}
-                className="bg-gray-300 p-8 flex items-center justify-center rounded-lg shadow-sm hover:shadow-md transition"
+                className="bg-gray-300 p-8 flex items-center justify-center rounded-lg shadow-sm hover:shadow-md transition "
               >
-                <img src={client.src} alt={client.alt} className="w-20 h-20 object-contain" />
+                <img src={client.src} alt={client.alt} className="w-20 h-20 object-contain " />
               </div>
             ))}
           </div>

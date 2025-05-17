@@ -99,7 +99,7 @@ export default function Home() {
 
     <>
       <Head>
-        <title>Zoho with Maiprosoft</title>
+        <title>Zoho with Sedra</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="stylesheet"
@@ -154,7 +154,7 @@ export default function Home() {
 </h1> */}
 
             <h1 className="font-poppins text-4xl font-normal">
-              Unlock the full potential of Zoho with Maiprosoft,
+              Unlock the full potential of Zoho with Sedra,
             </h1>
 
             {/* <p className="text-lg mb-6" style={{ fontFamily: 'Quicksand', fontWeight: 200 }}>

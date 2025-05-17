@@ -177,7 +177,7 @@ const AboutSedra = () => {
       }}
       className="bg-white"
     >
-      <div className="mx-auto max-w-6xl px-4 py-28 text-gray-800 sm:px-6 lg:px-8 dark:text-gray-200">
+      <div className="mx-auto max-w-6xl px-4 py-28 text-gray-700 sm:px-6 lg:px-8 dark:text-gray-200">
         {/* Title */}
         <h1 className="text-blue-700 mb-4 text-center text-4xl font-bold">
           About Sedra
@@ -232,25 +232,25 @@ const AboutSedra = () => {
 
         {/* Why Choose Sedra */}
         <div className="container mx-auto px-4 py-10">
-          <h2 className="text-blue-700 mb-6 text-center text-3xl font-bold lg:text-left">
+          <h2 className="text-blue-700 mb-6 text-center text-3xl font-bold text-gray-700 lg:text-left">
             Why Choose Sedra?
           </h2>
           <ul className="list-disc space-y-4 pl-5 text-lg text-gray-700">
-            <li data-aos="fade-up">
+            <li data-aos="fade-up" data-aos-offset="50">
               <span className="font-semibold">Expertise Across Sectors -</span>{" "}
               We understand the needs of government entities, enterprises, and
               SMEs.
             </li>
-            <li data-aos="fade-up">
+            <li data-aos="fade-up" data-aos-offset="50">
               <span className="font-semibold">Agile and Efficient -</span> Fast
               response, flexible solutions, and on-time delivery.
             </li>
-            <li data-aos="fade-up">
+            <li data-aos="fade-up" data-aos-offset="50">
               <span className="font-semibold">Innovative Technologies -</span>{" "}
               We utilize the latest tools and frameworks to future-proof your
               systems.
             </li>
-            <li data-aos="fade-up">
+            <li data-aos="fade-up" data-aos-offset="50">
               <span className="font-semibold">Trusted Partner -</span> Long-term
               relationships built on transparency and results.
             </li>
@@ -258,8 +258,10 @@ const AboutSedra = () => {
         </div>
 
         {/* Services */}
-        <h2 className="text-blue-700 mb-4 text-3xl font-bold">Our Services</h2>
-        <div className="grid gap-4 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-10">
+        <h2 className="text-blue-700 mb-4 px-4 text-3xl font-bold">
+          Our Services
+        </h2>
+        <div className="grid gap-4 px-4 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-10">
           {services.map((service, index) => (
             <div
               key={index}

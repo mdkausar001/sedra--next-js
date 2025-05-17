@@ -232,15 +232,17 @@ const ExpertiseSection = () => {
     <div className="expertise-wrapper bg-white py-16 lg:pt-28 xl:px-28 ">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-center text-3xl mb-8 text-black ">Our Areas of Expertise</h2>
+          <h2 className="text-center text-3xl mb-8 text-black animate__animated animate__fadeIn">Our Areas of Expertise</h2>
           <p className="max-w-[867px] mx-auto text-center font-sans font-light text-[#14142b] text-[1.25rem] leading-[1.4]">
-            Unlock growth with Maiprosoft’s digital solutions. From Data Analytics to Cloud, AI/ML, IoT, and ERP, we bring tech innovations to life, transforming businesses worldwide.
+            Unlock growth with Sedra digital solutions. From Data Analytics to Cloud, AI/ML, IoT, and ERP, we bring tech innovations to life, transforming businesses worldwide.
           </p>
         </div>
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-8">
           {expertiseData.map((item, index) => (
             <div
               key={index}
+              data-aos-offset="80"
+              data-aos="zoom-in"
               className="expertise-col group relative bg-gray-100 shadow-md rounded-lg p-8 hover:bg-mai hover:shadow-lg transition-all duration-300 min-h-[20rem] sm:h-[24rem] md:h-[24rem] lg:h-80 "
             >
               <div className="expertise-content text-center transition-transform duration-300 group-hover:-translate-y-3">

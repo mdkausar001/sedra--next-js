@@ -38,7 +38,6 @@ import AboutSedra from '@/components/About/AboutSedra'
 import ProjectsCarousel from "@/components/ProjectsCarousel/ProjectsCarousel";
 
 
-
 export const metadata: Metadata = {
   title: "Sedra - Expertise You Can Trust",
   description: "We are committed to transform clients businesses and driving success in the digital age",

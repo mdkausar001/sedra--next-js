@@ -152,7 +152,7 @@
 // //         </div>
 // //       </div>
 
-      
+
 // //       {/* Technology Sections with Dynamic Portfolio */}
 // //       {techDetails.map((tech, index) => (
 // //         <div className="bg-white p-8 mt-8" key={index}>
@@ -248,63 +248,63 @@
 //     id: "react-js",
 //     title: "React.js",
 //     content:
-//       "React.js is a powerful library for building dynamic and interactive user interfaces. With features like virtual DOM and fast rendering, React.js delivers high-performance, responsive, and scalable web applications tailored for modern needs.  Maiprosoft specializes in React JS solutions, empowering businesses to build scalable, high-performance web applications with efficient and reusable UI components. Our expert team provides comprehensive services, from setup to integration, management, and optimization.",
+//       "React.js is a powerful library for building dynamic and interactive user interfaces. With features like virtual DOM and fast rendering, React.js delivers high-performance, responsive, and scalable web applications tailored for modern needs.  Sedra specializes in React JS solutions, empowering businesses to build scalable, high-performance web applications with efficient and reusable UI components. Our expert team provides comprehensive services, from setup to integration, management, and optimization.",
 //     image: "/images/Frontend/reactjs-icon.png",
 //   },
 //   {
 //     id: "next-js",
 //     title: "Next.js",
 //     content:
-//       "At Maiprosoft, we specialize in Next.js to deliver high-speed, SEO-optimized web solutions. With features like automatic server-side rendering and static site generation, we build dynamic, responsive applications that load quickly and provide seamless user experiences, ensuring superior performance across devices.",
+//       "At Sedra, we specialize in Next.js to deliver high-speed, SEO-optimized web solutions. With features like automatic server-side rendering and static site generation, we build dynamic, responsive applications that load quickly and provide seamless user experiences, ensuring superior performance across devices.",
 //     image: "/images/Frontend/image1-18.png",
 //   },
 //   {
 //     id: "vue-js",
 //     title: "Vue.js",
 //     content:
-//       "At Maiprosoft, we harness the power of Vue.js to develop lightweight, high-performing, and scalable web applications. With its flexible, component-based architecture, we create intuitive interfaces that deliver seamless user experiences. Our solutions prioritize maintainability, efficiency, and long-term success, ensuring your digital platforms remain future-ready.",
+//       "At Sedra, we harness the power of Vue.js to develop lightweight, high-performing, and scalable web applications. With its flexible, component-based architecture, we create intuitive interfaces that deliver seamless user experiences. Our solutions prioritize maintainability, efficiency, and long-term success, ensuring your digital platforms remain future-ready.",
 //     image: "/images/Frontend/image1.png",
 //   },
 //   {
 //     id: "angular",
 //     title: "Angular",
 //     content:
-//       "At Maiprosoft, we specialize in Angular to build robust, scalable web applications. Its powerful framework features two-way data binding, dependency injection, and modularity, enabling us to create dynamic, high-performance apps. We use Angular’s tools and flexibility to deliver responsive, maintainable solutions tailored to your business.",
+//       "At Sedra, we specialize in Angular to build robust, scalable web applications. Its powerful framework features two-way data binding, dependency injection, and modularity, enabling us to create dynamic, high-performance apps. We use Angular’s tools and flexibility to deliver responsive, maintainable solutions tailored to your business.",
 //     image: "/images/Frontend/angular.png",
 //   },
 //   {
 //     id: "html-css",
 //     title: "HTML5 & CSS3",
 //     content:
-//       "At Maiprosoft, we leverage HTML5 and CSS3 to deliver cutting-edge, responsive web solutions. HTML5 ensures rich multimedia support and semantic structure, while CSS3 enhances design with smooth animations, transitions, and mobile-friendly layouts for an exceptional user experience.",
+//       "At Sedra, we leverage HTML5 and CSS3 to deliver cutting-edge, responsive web solutions. HTML5 ensures rich multimedia support and semantic structure, while CSS3 enhances design with smooth animations, transitions, and mobile-friendly layouts for an exceptional user experience.",
 //     image: "/images/Frontend/html-css.png",
 //   },
 //   {
 //     id: "tailwind-css",
 //     title: "Tailwind CSS",
 //     content:
-//       "At Maiprosoft, we harness the power of Tailwind CSS to craft clean, responsive, and customizable designs. Its utility-first approach accelerates development, allowing us to create scalable, maintainable websites with a focus on performance and flexibility, ensuring an optimal user experience across all platforms.",
+//       "At Sedra, we harness the power of Tailwind CSS to craft clean, responsive, and customizable designs. Its utility-first approach accelerates development, allowing us to create scalable, maintainable websites with a focus on performance and flexibility, ensuring an optimal user experience across all platforms.",
 //     image: "/images/Frontend/path3.png",
 //   },
 //   {
 //     id: "bootstrap",
 //     title: "Bootstrap",
 //     content:
-//       "At Maiprosoft, we harness the power of Bootstrap to craft sleek, responsive web designs. Its flexible grid system and pre-styled components allow us to develop fast, consistent, and mobile-friendly interfaces. This ensures visually appealing, user-centric solutions that adapt seamlessly to all devices.",
+//       "At Sedra, we harness the power of Bootstrap to craft sleek, responsive web designs. Its flexible grid system and pre-styled components allow us to develop fast, consistent, and mobile-friendly interfaces. This ensures visually appealing, user-centric solutions that adapt seamlessly to all devices.",
 //     image: "/images/Frontend/bootstrap.png",
 //   },
 //   {
 //     id: "sass",
 //     title: "Sass",
 //     content:
-//       "At Maiprosoft, we use Sass to enhance CSS with powerful features like variables, nested rules, and mixins. This preprocessor streamlines stylesheets, improves code maintainability, and allows for greater flexibility in design. With Sass, we deliver scalable, efficient, and clean CSS for high-performance web applications.",
+//       "At Sedra, we use Sass to enhance CSS with powerful features like variables, nested rules, and mixins. This preprocessor streamlines stylesheets, improves code maintainability, and allows for greater flexibility in design. With Sass, we deliver scalable, efficient, and clean CSS for high-performance web applications.",
 //     image: "/images/Frontend/sass.png",
 //   },
 //   {
 //     id: "jquery",
 //     title: "jQuery",
 //     content:
-//       "At Maiprosoft, we integrate jQuery to create dynamic, interactive websites with ease. Its simple syntax allows for smooth DOM manipulation, event handling, and animations, enabling us to build fast, responsive, and engaging web applications across all browsers.",
+//       "At Sedra, we integrate jQuery to create dynamic, interactive websites with ease. Its simple syntax allows for smooth DOM manipulation, event handling, and animations, enabling us to build fast, responsive, and engaging web applications across all browsers.",
 //     image: "/images/Frontend/jquery.png",
 //   },
 // ];
@@ -371,7 +371,7 @@ const techDetails = [
     id: "react-js",
     title: "React.js",
     parentDescription:
-      "React.js is a powerful library for building dynamic and interactive user interfaces. With features like virtual DOM and fast rendering, React.js delivers high-performance, responsive, and scalable web applications tailored for modern needs.  Maiprosoft specializes in React JS solutions, empowering businesses to build scalable, high-performance web applications with efficient and reusable UI components. Our expert team provides comprehensive services, from setup to integration, management, and optimization.",
+      "React.js is a powerful library for building dynamic and interactive user interfaces. With features like virtual DOM and fast rendering, React.js delivers high-performance, responsive, and scalable web applications tailored for modern needs.  Sedra specializes in React JS solutions, empowering businesses to build scalable, high-performance web applications with efficient and reusable UI components. Our expert team provides comprehensive services, from setup to integration, management, and optimization.",
     content: [
       {
         point: "Components",
@@ -400,7 +400,7 @@ const techDetails = [
     id: "next-js",
     title: "Next.js",
     parentDescription:
-      "At Maiprosoft, we specialize in Next.js to deliver high-speed, SEO-optimized web solutions. With features like automatic server-side rendering and static site generation, we build dynamic, responsive applications that load quickly and provide seamless user experiences, ensuring superior performance across devices.",
+      "At Sedra, we specialize in Next.js to deliver high-speed, SEO-optimized web solutions. With features like automatic server-side rendering and static site generation, we build dynamic, responsive applications that load quickly and provide seamless user experiences, ensuring superior performance across devices.",
     content: [
       {
         point: "Server-Side Rendering",
@@ -429,7 +429,7 @@ const techDetails = [
     id: "vue-js",
     title: "Vue.js",
     parentDescription:
-      "At Maiprosoft, we harness the power of Vue.js to develop lightweight, high-performing, and scalable web applications. With its flexible, component-based architecture, we create intuitive interfaces that deliver seamless user experiences. Our solutions prioritize maintainability, efficiency, and long-term success, ensuring your digital platforms remain future-ready.",
+      "At Sedra, we harness the power of Vue.js to develop lightweight, high-performing, and scalable web applications. With its flexible, component-based architecture, we create intuitive interfaces that deliver seamless user experiences. Our solutions prioritize maintainability, efficiency, and long-term success, ensuring your digital platforms remain future-ready.",
     content: [
       {
         point: "Components",
@@ -458,7 +458,7 @@ const techDetails = [
     id: "angular",
     title: "Angular",
     parentDescription:
-      "At Maiprosoft, we specialize in Angular to build robust, scalable web applications. Its powerful framework features two-way data binding, dependency injection, and modularity, enabling us to create dynamic, high-performance apps. We use Angular’s tools and flexibility to deliver responsive, maintainable solutions tailored to your business.",
+      "At Sedra, we specialize in Angular to build robust, scalable web applications. Its powerful framework features two-way data binding, dependency injection, and modularity, enabling us to create dynamic, high-performance apps. We use Angular’s tools and flexibility to deliver responsive, maintainable solutions tailored to your business.",
     content: [
       {
         point: "Components",
@@ -487,7 +487,7 @@ const techDetails = [
     id: "html-css",
     title: "HTML5 & CSS3",
     parentDescription:
-      "At Maiprosoft, we leverage HTML5 and CSS3 to deliver cutting-edge, responsive web solutions. HTML5 ensures rich multimedia support and semantic structure, while CSS3 enhances design with smooth animations, transitions, and mobile-friendly layouts for an exceptional user experience.",
+      "At Sedra, we leverage HTML5 and CSS3 to deliver cutting-edge, responsive web solutions. HTML5 ensures rich multimedia support and semantic structure, while CSS3 enhances design with smooth animations, transitions, and mobile-friendly layouts for an exceptional user experience.",
     content: [
       {
         point: "Improved Semantics",
@@ -516,7 +516,7 @@ const techDetails = [
     id: "tailwind-css",
     title: "Tailwind CSS",
     parentDescription:
-      "At Maiprosoft, we harness the power of Tailwind CSS to craft clean, responsive, and customizable designs. Its utility-first approach accelerates development, allowing us to create scalable, maintainable websites with a focus on performance and flexibility, ensuring an optimal user experience across all platforms.",
+      "At Sedra, we harness the power of Tailwind CSS to craft clean, responsive, and customizable designs. Its utility-first approach accelerates development, allowing us to create scalable, maintainable websites with a focus on performance and flexibility, ensuring an optimal user experience across all platforms.",
     content: [
       {
         point: "Utility-First Approach",
@@ -545,7 +545,7 @@ const techDetails = [
     id: "bootstrap",
     title: "Bootstrap",
     parentDescription:
-      "At Maiprosoft, we harness the power of Bootstrap to craft sleek, responsive web designs. Its flexible grid system and pre-styled components allow us to develop fast, consistent, and mobile-friendly interfaces. This ensures visually appealing, user-centric solutions that adapt seamlessly to all devices.",
+      "At Sedra, we harness the power of Bootstrap to craft sleek, responsive web designs. Its flexible grid system and pre-styled components allow us to develop fast, consistent, and mobile-friendly interfaces. This ensures visually appealing, user-centric solutions that adapt seamlessly to all devices.",
     content: [
       {
         point: "Fast Development",
@@ -574,7 +574,7 @@ const techDetails = [
     id: "sass",
     title: "Sass",
     parentDescription:
-      "At Maiprosoft, we use Sass to enhance CSS with powerful features like variables, nested rules, and mixins. This preprocessor streamlines stylesheets, improves code maintainability, and allows for greater flexibility in design. With Sass, we deliver scalable, efficient, and clean CSS for high-performance web applications.",
+      "At Sedra, we use Sass to enhance CSS with powerful features like variables, nested rules, and mixins. This preprocessor streamlines stylesheets, improves code maintainability, and allows for greater flexibility in design. With Sass, we deliver scalable, efficient, and clean CSS for high-performance web applications.",
     content: [
       {
         point: "Variables",
@@ -603,7 +603,7 @@ const techDetails = [
     id: "jquery",
     title: "jQuery",
     parentDescription:
-      "At Maiprosoft, we integrate jQuery to create dynamic, interactive websites with ease. Its simple syntax allows for smooth DOM manipulation, event handling, and animations, enabling us to build fast, responsive, and engaging web applications across all browsers.",
+      "At Sedra, we integrate jQuery to create dynamic, interactive websites with ease. Its simple syntax allows for smooth DOM manipulation, event handling, and animations, enabling us to build fast, responsive, and engaging web applications across all browsers.",
     content: [
       {
         point: "DOM Manipulation",
@@ -688,11 +688,10 @@ const TechSection = ({ tech }) => {
             {tech.content.map((item, index) => (
               <li
                 key={index}
-                className={`cursor-pointer pl-2 py-1 transition-colors duration-300 ${
-                  selectedPoint.point === item.point
+                className={`cursor-pointer pl-2 py-1 transition-colors duration-300 ${selectedPoint.point === item.point
                     ? "font-bold text-2xl"
                     : "hover:text-yellow-200"
-                }`}
+                  }`}
                 onClick={() => setSelectedPoint(item)}
               >
                 {item.point}
@@ -713,41 +712,41 @@ const TechSection = ({ tech }) => {
 export default function Forntend() {
   return (
     <>
-    <div className="bg-gray-100 min-h-screen p-8 pb-[90px] pt-[61px]">
-       <div className="bg-white text-gray-800 font-ubuntu">
-              <div className="container mx-auto p-6">
-                
+      <div className="bg-gray-100 min-h-screen p-8 pb-[90px] pt-[61px]">
+        <div className="bg-white text-gray-800 font-ubuntu">
+          <div className="container mx-auto p-6">
 
-<div className="flex flex-col md:flex-row items-center">
-  <div className="md:w-1/2 w-full">
-    <Image
-      src="/images/Frontend/Frontend.png"
-      alt="Code on a computer screen"
-      width={400}  // Increase image size for better resolution
-      height={400}
-      className="rounded-lg w-full h-auto"
-    />
-  </div>
-  <div className="md:w-1/2 w-full p-6">
-    <h1 className="text-5xl font-poppins font-semibold leading-snug">
-      Frontend Technology
-    </h1>
-    <p className="mt-6 text-lg leading-relaxed">
-      At Maiprosoft, we bring ideas to life through exceptional frontend design and development. Our focus is on creating visually appealing, responsive, and user-friendly interfaces that connect with your audience. By combining creative design with flawless functionality, we ensure every interaction is seamless and engaging. Whether it&#39;s optimizing performance or enhancing usability, we strive to deliver frontend solutions that align with your goals and leave a lasting impact. With Maiprosoft, your digital presence becomes a true reflection of innovation and quality.
-    </p>
-  </div>
-</div>
 
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="md:w-1/2 w-full">
+                <Image
+                  src="/images/Frontend/Frontend.png"
+                  alt="Code on a computer screen"
+                  width={400}  // Increase image size for better resolution
+                  height={400}
+                  className="rounded-lg w-full h-auto"
+                />
+              </div>
+              <div className="md:w-1/2 w-full p-6">
+                <h1 className="text-5xl font-poppins font-semibold leading-snug">
+                  Frontend Technology
+                </h1>
+                <p className="mt-6 text-lg leading-relaxed">
+                  At Sedra, we bring ideas to life through exceptional frontend design and development. Our focus is on creating visually appealing, responsive, and user-friendly interfaces that connect with your audience. By combining creative design with flawless functionality, we ensure every interaction is seamless and engaging. Whether it&#39;s optimizing performance or enhancing usability, we strive to deliver frontend solutions that align with your goals and leave a lasting impact. With Sedra, your digital presence becomes a true reflection of innovation and quality.
+                </p>
               </div>
             </div>
-      {techDetails.map((tech) => (
-        <TechSection key={tech.id} tech={tech} />
-      ))}
-         
 
-    </div>
-     <ConsultationForm/>
-     </>
+          </div>
+        </div>
+        {techDetails.map((tech) => (
+          <TechSection key={tech.id} tech={tech} />
+        ))}
+
+
+      </div>
+      <ConsultationForm />
+    </>
 
   );
 }

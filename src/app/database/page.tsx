@@ -11,7 +11,7 @@ const techDetails = [
     id: "sql-server",
     title: "SQL Server",
     parentDescription:
-      "Maiprosoft is a technology company that offers specialized services in SQL Server solutions. With a focus on data management, performance optimization, and security, Maiprosoft helps businesses harness the full potential of SQL Server for their database needs, ensuring reliable and efficient operations.",
+      "Sedra is a technology company that offers specialized services in SQL Server solutions. With a focus on data management, performance optimization, and security, Sedra helps businesses harness the full potential of SQL Server for their database needs, ensuring reliable and efficient operations.",
     content: [
       {
         point: "Scalability and Performance",
@@ -40,7 +40,7 @@ const techDetails = [
     id: "postgresql",
     title: "PostgreSQL",
     parentDescription:
-      "Maiprosoft provides comprehensive PostgreSQL solutions, specializing in database design, performance tuning, and data management. Leveraging PostgreSQL’s advanced features like ACID compliance, extensibility, and high concurrency, Maiprosoft helps businesses build scalable, secure, and efficient applications to meet their data needs.",
+      "Sedra provides comprehensive PostgreSQL solutions, specializing in database design, performance tuning, and data management. Leveraging PostgreSQL’s advanced features like ACID compliance, extensibility, and high concurrency, Sedra helps businesses build scalable, secure, and efficient applications to meet their data needs.",
     content: [
       {
         point: "Relational Database Management System (RDBMS)",
@@ -69,7 +69,7 @@ const techDetails = [
     id: "firebase",
     title: "Firebase",
     parentDescription:
-      "Maiprosoft provides innovative solutions using Firebase, a powerful platform for building web and mobile applications. Offering real-time databases, authentication, cloud storage, and more, Maiprosoft leverages Firebase's features to help businesses create scalable, secure, and efficient applications with ease.",
+      "Sedra provides innovative solutions using Firebase, a powerful platform for building web and mobile applications. Offering real-time databases, authentication, cloud storage, and more, Sedra leverages Firebase's features to help businesses create scalable, secure, and efficient applications with ease.",
     content: [
       {
         point: "Real-Time Database",
@@ -98,7 +98,7 @@ const techDetails = [
     id: "mongodb",
     title: "MongoDB",
     parentDescription:
-      "Maiprosoft offers MongoDB solutions, utilizing its powerful NoSQL capabilities for scalable and flexible data management. Specializing in high-performance applications, Maiprosoft helps businesses store and process large volumes of unstructured data, ensuring fast retrieval, reliability, and easy scalability in dynamic environments.",
+      "Sedra offers MongoDB solutions, utilizing its powerful NoSQL capabilities for scalable and flexible data management. Specializing in high-performance applications, Sedra helps businesses store and process large volumes of unstructured data, ensuring fast retrieval, reliability, and easy scalability in dynamic environments.",
     content: [
       {
         point: "Document-Oriented Data Model",
@@ -127,7 +127,7 @@ const techDetails = [
     id: "mysql",
     title: "MySQL",
     parentDescription:
-      "Maiprosoft offers expert MySQL database solutions, ensuring efficient data management, scalability, and security. With deep knowledge of MySQL’s capabilities, Maiprosoft helps businesses optimize performance, streamline database operations, and implement reliable, high-performance solutions for their data needs.",
+      "Sedra offers expert MySQL database solutions, ensuring efficient data management, scalability, and security. With deep knowledge of MySQL’s capabilities, Sedra helps businesses optimize performance, streamline database operations, and implement reliable, high-performance solutions for their data needs.",
     content: [
       {
         point: "Relational Database Management System (RDBMS): ",
@@ -156,7 +156,7 @@ const techDetails = [
     id: "elasticsearch",
     title: "Elasticsearch",
     parentDescription:
-      "Maiprosoft specializes in Elasticsearch, a powerful search and analytics engine. By leveraging its full-text search, real-time indexing, and scalability, Maiprosoft helps businesses implement fast, efficient search solutions. Whether for log analysis, data exploration, or enterprise search, Maiprosoft ensures optimal performance.",
+      "Sedra specializes in Elasticsearch, a powerful search and analytics engine. By leveraging its full-text search, real-time indexing, and scalability, Sedra helps businesses implement fast, efficient search solutions. Whether for log analysis, data exploration, or enterprise search, Sedra ensures optimal performance.",
     content: [
       {
         point: "Distributed Search Engine",
@@ -185,7 +185,7 @@ const techDetails = [
     id: "redis",
     title: "Redis",
     parentDescription:
-      "Maiprosoft specializes in Redis, an advanced in-memory data structure store, providing fast and scalable solutions for caching, session storage, real-time analytics, and messaging. Leveraging Redis, Maiprosoft helps businesses enhance application performance, reduce latency, and improve overall system efficiency.",
+      "Sedra specializes in Redis, an advanced in-memory data structure store, providing fast and scalable solutions for caching, session storage, real-time analytics, and messaging. Leveraging Redis, Sedra helps businesses enhance application performance, reduce latency, and improve overall system efficiency.",
     content: [
       {
         point: "In-Memory Data Storage:",
@@ -268,11 +268,10 @@ const TechSection = ({ tech }) => {
             {tech.content.map((item, index) => (
               <li
                 key={index}
-                className={`cursor-pointer pl-2 py-1 transition-colors duration-300 ${
-                  selectedPoint.point === item.point
+                className={`cursor-pointer pl-2 py-1 transition-colors duration-300 ${selectedPoint.point === item.point
                     ? "font-bold text-2xl text-[#333333]"
                     : "hover:text-yello-200"
-                }`}
+                  }`}
                 onClick={() => setSelectedPoint(item)}
               >
                 {item.point}
@@ -293,35 +292,35 @@ const TechSection = ({ tech }) => {
 export default function Backend() {
   return (
     <>
-    <div className="bg-gray-100 min-h-screen p-8 pb-[90px] pt-[61px]">
-       <div className="bg-white text-gray-800 font-ubuntu">
-              <div className="container mx-auto p-6">
-                {/* Section 1 - Hero Section */}
-               <div className="flex flex-col md:flex-row items-center">
-                 <div className="md:w-1/2 w-full">
-                   <Image
-                     src="/images/Frontend/Frontend.png"
-                     alt="Code on a computer screen"
-                     width={400}  // Increase image size for better resolution
-                     height={400}
-                     className="rounded-lg w-full h-auto"
-                   />
-                 </div>
-                 <div className="md:w-1/2 w-full p-6">
-                   <h1 className="text-5xl font-poppins font-semibold leading-snug">
-Database                   </h1>
-                   <p className="mt-6 text-lg leading-relaxed">
-                     At Maiprosoft, we bring ideas to life through exceptional frontend design and development. Our focus is on creating visually appealing, responsive, and user-friendly interfaces that connect with your audience. By combining creative design with flawless functionality, we ensure every interaction is seamless and engaging. Whether it&#39;s optimizing performance or enhancing usability, we strive to deliver frontend solutions that align with your goals and leave a lasting impact. With Maiprosoft, your digital presence becomes a true reflection of innovation and quality.
-                   </p>
-                 </div>
-               </div>
+      <div className="bg-gray-100 min-h-screen p-8 pb-[90px] pt-[61px]">
+        <div className="bg-white text-gray-800 font-ubuntu">
+          <div className="container mx-auto p-6">
+            {/* Section 1 - Hero Section */}
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="md:w-1/2 w-full">
+                <Image
+                  src="/images/Frontend/Frontend.png"
+                  alt="Code on a computer screen"
+                  width={400}  // Increase image size for better resolution
+                  height={400}
+                  className="rounded-lg w-full h-auto"
+                />
+              </div>
+              <div className="md:w-1/2 w-full p-6">
+                <h1 className="text-5xl font-poppins font-semibold leading-snug">
+                  Database                   </h1>
+                <p className="mt-6 text-lg leading-relaxed">
+                  At Sedra, we bring ideas to life through exceptional frontend design and development. Our focus is on creating visually appealing, responsive, and user-friendly interfaces that connect with your audience. By combining creative design with flawless functionality, we ensure every interaction is seamless and engaging. Whether it&#39;s optimizing performance or enhancing usability, we strive to deliver frontend solutions that align with your goals and leave a lasting impact. With Sedra, your digital presence becomes a true reflection of innovation and quality.
+                </p>
               </div>
             </div>
-      {techDetails.map((tech) => (
-        <TechSection key={tech.id} tech={tech} />
-      ))}
-    </div>
-<ConsultationForm/>
+          </div>
+        </div>
+        {techDetails.map((tech) => (
+          <TechSection key={tech.id} tech={tech} />
+        ))}
+      </div>
+      <ConsultationForm />
     </>
   );
 }
