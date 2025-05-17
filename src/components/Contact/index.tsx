@@ -113,7 +113,7 @@ const Contact = () => {
                     ALM Interactive Soft Sol Pvt Ltd <br />
                     4th Floor, Kautilya Complex, <br />
                     Raj Bhavan Quarters Colony, Somajiguda <br />
-                    Hyderabad – 500041. <br />
+                    Hyderabad - 500041. <br />
                     Phone + WhatsApp: +91 8008921118
                   </p>
                   <div>

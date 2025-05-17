@@ -1,3 +1,4 @@
+
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -37,6 +38,7 @@ import AboutSedra from '@/components/About/AboutSedra'
 import ProjectsCarousel from "@/components/ProjectsCarousel/ProjectsCarousel";
 
 
+
 export const metadata: Metadata = {
   title: "Sedra - Expertise You Can Trust",
   description: "We are committed to transform clients businesses and driving success in the digital age",
@@ -60,11 +62,12 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/favicon.PNG", // Path to your favicon
+    icon: "/favicon.png", // Path to your favicon
   },
 };
 
 export default function Home() {
+
   return (
     <>
       <ScrollUp />

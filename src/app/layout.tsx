@@ -10,6 +10,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
@@ -23,12 +24,12 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      
+
       <head />
 
       {/* <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}> */}
       <body className={`bg-[#FFFFFF]  ${inter.className}`}>
-        
+
 
         <Providers>
           {/* <TopBar/> */}

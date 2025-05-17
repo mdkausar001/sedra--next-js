@@ -177,12 +177,12 @@ const AboutSedra = () => {
       }}
       className="bg-white"
     >
-      <div className="mx-auto max-w-6xl px-4 py-32 text-gray-800 sm:px-6 lg:px-8 dark:text-gray-200">
+      <div className="mx-auto max-w-6xl px-4 py-28 text-gray-800 sm:px-6 lg:px-8 dark:text-gray-200">
         {/* Title */}
         <h1 className="text-blue-700 mb-4 text-center text-4xl font-bold">
           About Sedra
         </h1>
-        <p className="mx-auto mb-10 max-w-4xl text-center text-lg">
+        <p className="mx-auto mb-4 max-w-4xl text-center text-lg">
           Sedra Information Technology is a Saudi-based company committed to
           delivering cutting-edge digital solutions and IT services tailored to
           meet the evolving needs of organizations across sectors. With a team
@@ -191,63 +191,66 @@ const AboutSedra = () => {
           insight.
         </p>
 
-        <div className="mt-20 w-full max-w-6xl p-4 sm:p-10">
-          <div className="grid gap-10 md:grid-cols-2">
-            <div>
+        <div className="container mx-auto px-4 py-10">
+          <div className="flex flex-col-reverse items-center gap-10 lg:flex-row lg:items-start">
+            {/* Text Content */}
+            <div className="w-full lg:w-1/2" data-aos="fade-right">
               <h3 className="mb-2 text-2xl font-semibold text-gray-800">
                 Our Vision
               </h3>
-              <p className="mb-4 text-gray-600">
+              <p className="mb-6 text-gray-600">
                 To become a leading digital transformation partner in the
                 region, empowering businesses and institutions with intelligent,
                 secure, and scalable IT solutions.
               </p>
-              {/*  */}
-              <div className="mt-10">
-                <h3 className="mb-2 text-2xl font-semibold text-gray-800">
-                  Our Mission
-                </h3>
-                <p className="mb-4 text-gray-600">
-                  To deliver high-quality, customized technology services that
-                  drive efficiency, enhance user experience, and accelerate
-                  digital growth for our clients.
-                </p>
-              </div>
+
+              <h3 className="mb-2 text-2xl font-semibold text-gray-800">
+                Our Mission
+              </h3>
+              <p className="text-gray-600">
+                To deliver high-quality, customized technology services that
+                drive efficiency, enhance user experience, and accelerate
+                digital growth for our clients.
+              </p>
             </div>
 
-            <div className="flex items-center justify-center xl:ml-14">
+            {/* Image */}
+            <div
+              className="flex w-full justify-center lg:w-1/2"
+              data-aos="fade-left"
+            >
               <Image
-                src="/images/about/about-2.png"
+                src="/images/about/v&m.jpg"
                 alt="IT Strategy"
-                width={400}
-                height={300}
-                className="h-auto w-full max-w-md object-contain"
+                width={600}
+                height={500}
+                className="w-full max-w-md rounded-lg object-contain"
               />
             </div>
           </div>
         </div>
 
         {/* Why Choose Sedra */}
-        <div className="mb-12 mt-10">
-          <h2 className="text-blue-700 mb-4 text-3xl font-bold">
+        <div className="container mx-auto px-4 py-10">
+          <h2 className="text-blue-700 mb-6 text-center text-3xl font-bold lg:text-left">
             Why Choose Sedra?
           </h2>
-          <ul className="list-inside list-disc space-y-4 text-lg">
-            <li>
+          <ul className="list-disc space-y-4 pl-5 text-lg text-gray-700">
+            <li data-aos="fade-up">
               <span className="font-semibold">Expertise Across Sectors -</span>{" "}
               We understand the needs of government entities, enterprises, and
               SMEs.
             </li>
-            <li>
+            <li data-aos="fade-up">
               <span className="font-semibold">Agile and Efficient -</span> Fast
               response, flexible solutions, and on-time delivery.
             </li>
-            <li>
+            <li data-aos="fade-up">
               <span className="font-semibold">Innovative Technologies -</span>{" "}
               We utilize the latest tools and frameworks to future-proof your
               systems.
             </li>
-            <li>
+            <li data-aos="fade-up">
               <span className="font-semibold">Trusted Partner -</span> Long-term
               relationships built on transparency and results.
             </li>
@@ -256,7 +259,7 @@ const AboutSedra = () => {
 
         {/* Services */}
         <h2 className="text-blue-700 mb-4 text-3xl font-bold">Our Services</h2>
-        <div className="grid sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-10">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-10">
           {services.map((service, index) => (
             <div
               key={index}
