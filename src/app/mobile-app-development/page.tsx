@@ -7,10 +7,10 @@ import MobileAppHero from '@/components/MobileAppDevelopment/MobileAppHero'
 const page = () => {
     return (
         <div>
-            <MobileAppHero />
+            {/* <MobileAppHero />
             <MobileSection />
             <CoreSolutions />
-            <Customers />
+            <Customers /> */}
         </div>
     )
 }
