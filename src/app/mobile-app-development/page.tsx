@@ -1,9 +1,8 @@
-import React from 'react'
+
 import CoreSolutions from '@/components/MobileAppDevelopment/CoreSolutions'
-import Achievements from '@/components/MobileAppDevelopment/Achievements'
 import Customers from '@/components/MobileAppDevelopment/Customers'
-import MobileAppHero from '@/components/MobileAppDevelopment/MobileAppHero'
 import MobileSection from '@/components/MobileAppDevelopment/MobileSection'
+import MobileAppHero from '@/components/MobileAppDevelopment/MobileAppHero'
 
 const page = () => {
     return (
@@ -11,7 +10,6 @@ const page = () => {
             <MobileAppHero />
             <MobileSection />
             <CoreSolutions />
-            {/* <Achievements /> */}
             <Customers />
         </div>
     )
