@@ -1,5 +1,17 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 // components/MobileSolution.jsx
 export default function MobileSolution() {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: false,
+        });
+    }, []);
+
     const solutions = [
         {
             icon: (
@@ -68,7 +80,7 @@ export default function MobileSolution() {
     ];
 
     return (
-        <section className="bg-gray-50 py-12">
+        <section className="bg-white py-12">
             <div className="max-w-5xl mx-auto px-4">
                 <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-3">
                     MOBILE APP SOLUTIONS FOR VERTICALS
@@ -80,6 +92,7 @@ export default function MobileSolution() {
                     {solutions.map((s, i) => (
                         <div
                             key={i}
+                            data-aos="zoom-in"
                             className="bg-white hover:bg-[#4763ad] rounded-lg shadow-sm border border-gray-100 p-6 flex flex-col items-start hover:shadow-md transition group"
                         >
                             <div className="mb-4 text-gray-700 group-hover:text-white transition">{s.icon}</div>

@@ -1,5 +1,16 @@
-// components/MobileAppsWeDevelop.jsx
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
 export default function MobileAppsWeDevelop() {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: false,
+        });
+    }, []);
+
     const left = [
         {
             title: "Mobile banking apps",
@@ -39,7 +50,7 @@ export default function MobileAppsWeDevelop() {
     ];
 
     return (
-        <section className="py-12 bg-white">
+        <section className="py-12 bg-gray-50" >
             <div className="max-w-5xl mx-auto px-4">
                 <h2 className="text-2xl text-gray-700 md:text-3xl font-bold text-center mb-10">
                     MOBILE APPS WE DEVELOP
@@ -48,7 +59,7 @@ export default function MobileAppsWeDevelop() {
                     {/* Left Column */}
                     <div className="divide-y divide-gray-200">
                         {left.map((item, i) => (
-                            <div key={i} className="py-8 px-4">
+                            <div key={i} className="py-8 px-4" data-aos="fade-right">
                                 <h3 className="font-semibold text-gray-800 mb-2">{item.title}</h3>
                                 <p className="text-gray-600 text-sm">{item.desc}</p>
                             </div>
@@ -57,7 +68,7 @@ export default function MobileAppsWeDevelop() {
                     {/* Right Column */}
                     <div className="divide-y divide-gray-200 border-l border-gray-200">
                         {right.map((item, i) => (
-                            <div key={i} className="py-8 px-4">
+                            <div key={i} className="py-8 px-4" data-aos="fade-left">
                                 <h3 className="font-semibold text-gray-800 mb-2">{item.title}</h3>
                                 <p className="text-gray-600 text-sm">{item.desc}</p>
                             </div>

@@ -63,7 +63,7 @@ const MobileService = () => {
                     {services.map((service, idx) => (
                         <div
                             key={idx}
-                            data-aos="fade-up"
+                            data-aos="zoom-in"
                             className="bg-white/10 rounded-xl p-10 w-full max-w-sm text-left"
                         >
                             <div className="mb-4">

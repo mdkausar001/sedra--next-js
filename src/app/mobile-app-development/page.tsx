@@ -1,6 +1,8 @@
 'use client'
 import CoreSolutions from '@/components/MobileAppDevelopment/CoreSolutions'
 import Customers from '@/components/MobileAppDevelopment/Customers'
+import DevelopmentProcess from '@/components/MobileAppDevelopment/DevelopmentProcess';
+import FAQ from '@/components/MobileAppDevelopment/FAQ';
 import MobileAppsWeDevelop from '@/components/MobileAppDevelopment/MobileAppsWeDevelop';
 import MobileSection from '@/components/MobileAppDevelopment/MobileSection'
 import MobileService from '@/components/MobileAppDevelopment/MobileService';
@@ -164,6 +166,8 @@ const page = () => {
             <MobileService />
             <MobileSolution />
             <MobileAppsWeDevelop />
+            <DevelopmentProcess />
+            <FAQ />
         </>
     )
 }
