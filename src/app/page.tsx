@@ -40,6 +40,8 @@ import Experience from "@/components/MobileAppDevelopment/Experience";
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://Sedra.net.sa"),
+
   title: "Sedra - Expertise You Can Trust",
   description: "We are committed to transform clients businesses and driving success in the digital age",
   // other metadata
@@ -62,7 +64,7 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/favicon.png", // Path to your favicon
+    icon: "/public/favicon.png", // Path to your favicon
   },
 };
 
