@@ -21,7 +21,7 @@ const MobileAppHero = () => {
         </h1>
         <p className="my-10 max-w-3xl text-left text-base text-white md:text-xl">
           We build scalable, robust applications designed to evolve with your
-          business. Let's craft a mobile app that your customers will love and
+          business. Lets craft a mobile app that your customers will love and
           that will drive your business forward.
         </p>
         <div className="mx-6 my-10 flex flex-col gap-6 sm:flex-row sm:gap-4">
