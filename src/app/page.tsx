@@ -36,6 +36,7 @@ import { FaQq } from "react-icons/fa";
 import AboutPage from "./about/page";
 import AboutSedra from '@/components/About/AboutSedra'
 import ProjectsCarousel from "@/components/ProjectsCarousel/ProjectsCarousel";
+import Experience from "@/components/MobileAppDevelopment/Experience";
 
 
 export const metadata: Metadata = {
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     title: "Sedra - Expertise You Can Trust",
     description:
       "We are committed to transforming clients' businesses and driving success in the digital age",
-    url: "https://sedra.net.sa",
+    url: "https://Sedra.net.sa",
     type: "website",
     images: [
       {
@@ -76,7 +77,7 @@ export default function Home() {
       <ClientsSection />
 
       <PartnerSection />
-
+      <Experience />
       <Testimonial />
       <ProjectsCarousel />
 

@@ -259,12 +259,14 @@ const ExpertiseSection = () => {
                   {item.title}
                 </h3>
 
-                <div className="h-4" /> {/* Adjust height as needed */}
+                <div className="h-2" /> {/* Adjust height as needed */}
 
-                <p className="text-black text-justify transition-colors duration-300 group-hover:text-white group-hover:-translate-y-2">
+                <p className="text-black transition-colors duration-300 group-hover:text-white group-hover:-translate-y-2">
                   {item.description}
                 </p>
+                <div className="h-4" />
               </div>
+
 
               <div className="arrow-btn absolute bottom-5 right-1 flex items-center transition-opacity duration-300 group-hover:hidden">
                 <span className="inline-block text-2xl text-mai mt-2">→</span> {/* Arrow icon */}

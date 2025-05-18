@@ -94,7 +94,7 @@ export default function Testimonial() {
             <div>
               <h4 className="font-semibold text-lg font-sans">{name}</h4>
               <p className="text-sm mb-4">{title}</p>
-              <p className="leading-relaxed text-lg sm:text-base text-justify md:text-base">{text}</p>
+              <p className="leading-relaxed text-md sm:text-base  md:text-base">{text}</p>
             </div>
           </div>
 

@@ -105,7 +105,11 @@ const Header = () => {
           title: "Digital Transformation",
           icon: "/images/Maiprosoft-menu/Expertise/CSD.svg",
           subtitle: [
-
+            {
+              text: "Mobile App Development",
+              url: "/mobile-app-development",
+              contentKey: "connectorsWorkflows",
+            },
             {
               text: "Cloud",
               url: "#",
@@ -116,12 +120,6 @@ const Header = () => {
               url: "#",
               contentKey: "connectorsWorkflows",
             },
-            {
-              text: "Mobile App Development",
-              url: "#",
-              contentKey: "connectorsWorkflows",
-            },
-
             {
               text: "AI & ML",
               url: "#",
