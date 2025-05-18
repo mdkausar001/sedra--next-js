@@ -53,7 +53,13 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white px-4 py-28 sm:px-8 sm:py-12 md:py-28">
+    <div
+      style={{
+        backgroundImage:
+          "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      }}
+      className="flex flex-col items-center justify-center bg-white px-4 py-28 sm:px-8 sm:py-12 md:py-28"
+    >
       {/* GBMS Section */}
       <div className="grid max-w-6xl items-center   md:grid-cols-2">
         <div className="xl:ml-10">

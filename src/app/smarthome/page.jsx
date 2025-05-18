@@ -52,7 +52,13 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white px-4 py-24 sm:px-6 sm:py-24 lg:px-8">
+    <div
+      style={{
+        backgroundImage:
+          "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      }}
+      className="flex flex-col items-center justify-center bg-white px-4 py-24 sm:px-6 sm:py-24 lg:px-8"
+    >
       <div className="grid max-w-6xl items-center   md:grid-cols-2">
         <div className="xl:ml-10">
           <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">

@@ -79,7 +79,7 @@ export default function Home() {
       <ClientsSection />
 
       <PartnerSection />
-      {/* <Experience /> */}
+      <Experience />
       <Testimonial />
       <ProjectsCarousel />
 
