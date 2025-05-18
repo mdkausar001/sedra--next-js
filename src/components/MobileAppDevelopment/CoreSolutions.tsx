@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const partners = [
   {
@@ -56,43 +58,57 @@ const solutions = [
   },
 ];
 
-const CoreSolutions = () => (
-  <section className=" py-12">
-    <div className="mx-auto max-w-7xl px-4">
-      {/* Heading */}
-      <h3 className="mb-6 text-center text-lg font-semibold text-gray-700">
-        Partnered with Best Tech & ERP Providers
-      </h3>
-      {/* Partner Logos */}
-      <div className="my-10 bg-white p-10 flex flex-wrap items-center justify-around gap-8">
-        {partners.map((partner) => (
-          <img
-            key={partner.name}
-            src={partner.logo}
-            alt={partner.alt}
-            className="h-12 object-contain"
-          />
-        ))}
-      </div>
-      {/* Solutions Grid */}
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-        {solutions.map((sol, idx) => (
-          <div
-            key={sol.title}
-            className="flex flex-col gap-3 rounded-xl bg-white hover:bg-gray-200 p-6 shadow-md transition-shadow duration-300 hover:shadow-lg"
-          >
-            <div className="mb-2 flex items-center gap-3">
-              <img src={sol.icon} alt="" className="h-12 w-12 object-contain" />
-              <span className="text-2xl font-bold text-[#23235b]">
-                {sol.title}
-              </span>
+const CoreSolutions = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
+
+  return (
+    <section className=" py-12"
+      style={{
+        backgroundImage:
+          "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      }}>
+      <div className="mx-auto max-w-7xl px-4">
+        {/* Heading */}
+        <h3 className="mb-6 text-center text-lg font-semibold text-gray-700">
+          Partnered with Best Tech & ERP Providers
+        </h3>
+        {/* Partner Logos */}
+        <div className="my-10 bg-white p-10 flex flex-wrap items-center justify-around gap-8">
+          {partners.map((partner) => (
+            <img
+              key={partner.name}
+              src={partner.logo}
+              alt={partner.alt}
+              className="h-12 object-contain" data-aos="zoom-in"
+            />
+          ))}
+        </div>
+        {/* Solutions Grid */}
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+          {solutions.map((sol, idx) => (
+            <div
+              key={sol.title}
+              data-aos="zoom-in"
+              className="flex flex-col gap-3 rounded-xl bg-white hover:bg-gray-200 p-6 shadow-md transition-shadow duration-300 hover:shadow-lg"
+            >
+              <div className="mb-2 flex items-center gap-3">
+                <img src={sol.icon} alt="" className="h-12 w-12 object-contain" />
+                <span className="text-2xl font-bold text-[#23235b]">
+                  {sol.title}
+                </span>
+              </div>
+              <p className="text-sm text-gray-600">{sol.description}</p>
             </div>
-            <p className="text-sm text-gray-600">{sol.description}</p>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+}
 
 export default CoreSolutions;

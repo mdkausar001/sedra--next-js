@@ -63,7 +63,7 @@ export default function FAQ() {
                             aria-expanded={openIndex === idx}
                             aria-controls={`faq-answer-${idx}`}
                         >
-                            <span>{faq.question}</span>
+                            <span className="hover:text-blue text-lg">{faq.question}</span>
                             <svg
                                 className={`w-5 h-5 ml-2 transform transition-transform duration-200 ${openIndex === idx ? "rotate-180" : ""
                                     }`}
