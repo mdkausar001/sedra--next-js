@@ -106,7 +106,7 @@ const Card = ({
             {/* Text Content */}
             <div className={`z-10 flex h-full flex-col px-10 py-8 ${contentAlign}`}>
                 <h3 className="mb-2 text-2xl font-bold">{title}</h3>
-                <p className="w-6/12 text-base">{description}</p>
+                <p className="w-8/12 md:w-6/12 text-base">{description}</p>
             </div>
             {/* Large semi-circular image and icon */}
             <div
@@ -139,7 +139,7 @@ const Card = ({
 };
 
 const Experience = () => (
-    <section className="mt-20 min-h-screen bg-[#f7fafd] py-12">
+    <section className="mt-20 min-h-screen bg-[#f7fafd] py-12 hidden md:block">
         <div className="mx-auto max-w-6xl px-4">
             <h2 className="mb-8 text-center text-2xl font-bold text-[#23235b] md:text-3xl">
                 Why Choose SEDRA IT Solutions?
