@@ -1,7 +1,10 @@
 'use client'
 import CoreSolutions from '@/components/MobileAppDevelopment/CoreSolutions'
 import Customers from '@/components/MobileAppDevelopment/Customers'
+import MobileAppsWeDevelop from '@/components/MobileAppDevelopment/MobileAppsWeDevelop';
 import MobileSection from '@/components/MobileAppDevelopment/MobileSection'
+import MobileService from '@/components/MobileAppDevelopment/MobileService';
+import MobileSolution from '@/components/MobileAppDevelopment/MobileSolution';
 
 const features = [
     {
@@ -158,6 +161,9 @@ const page = () => {
                 </div>
             </div>
             <Customers />
+            <MobileService />
+            <MobileSolution />
+            <MobileAppsWeDevelop />
         </>
     )
 }
