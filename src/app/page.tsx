@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/public/favicon.png", // Path to your favicon
+    icon: "/favicon.png",
   },
 };
 
@@ -79,7 +79,7 @@ export default function Home() {
       <ClientsSection />
 
       <PartnerSection />
-      <Experience />
+      {/* <Experience /> */}
       <Testimonial />
       <ProjectsCarousel />
 
