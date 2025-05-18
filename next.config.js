@@ -36,9 +36,9 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    missingSuspenseWithCSRBailout: false, // Disable missing suspense warning
-  },
+  // experimental: {
+  //   missingSuspenseWithCSRBailout: false, // Disable missing suspense warning
+  // },
   images: {
     domains: [
       "localhost",
