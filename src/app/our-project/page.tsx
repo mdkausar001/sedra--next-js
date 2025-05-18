@@ -192,7 +192,7 @@ const OurProjects = () => {
               <div
                 key={index}
                 data-aos="zoom-in"
-                className="shine-effect group rounded-lg border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:shadow-xl hover:scale-105 dark:border-gray-700 dark:bg-gray-800 m-4"
+                className="shine-effect group rounded-lg border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:shadow-xl hover:scale-105 dark:border-gray-700 dark:bg-gray-800"
               >
                 <a href="#">
                   <div className="h-60 overflow-hidden rounded-t">
@@ -209,13 +209,13 @@ const OurProjects = () => {
                       {item.projectName}
                     </h1>
                   </a>
-                  <div className="flex justify-between">
+                  <div className="flex flex-col md:flex-row justify-between">
                     <p className="mb-2 text-base font-normal text-gray-600 dark:text-gray-400">
                       Client : {item.Client}
                     </p>
-                    <p className="mb-2 text-base font-normal text-gray-600 dark:text-gray-400 flex"><MapPin />{item.Location}</p>
+                    <p className="mb-2 text-md  font-normal text-gray-600 dark:text-gray-400 flex"><MapPin className="w-4 mr-1" />{item.Location}</p>
                   </div>
-                  <ul className="mt-2 list-inside list-disc space-y-1 ps-5 text-gray-600 dark:text-gray-300">
+                  <ul className="mt-2 list-inside font-normal list-disc space-y-1 ps-4 text-gray-600 dark:text-gray-300">
                     {item.Scope.map((service, idx) => (
                       <li key={idx}>{service.service}</li>
                     ))}
