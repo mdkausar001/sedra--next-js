@@ -42,7 +42,7 @@ const features = [
 const MobileSection = () => (
   <section className="bg-white py-12">
     <div className="mx-auto max-w-4xl items-center p-10">
-      <h2 className="mb-4 text-center text-2xl font-semibold text-gray-700 md:text-center md:text-3xl">
+      <h2 className="mb-4 text-center text-xl font-semibold text-gray-700 md:text-center md:text-3xl">
         Why choose Intellectsoft for your mobile app development project?
       </h2>
       <p className="mb-8 text-center text-gray-700 md:text-center">
@@ -87,18 +87,17 @@ const MobileSection = () => (
           ))}
         </ul>
       </div>
-      {/* Right: Mobile Screenshots */}
-      <div className="flex flex-1 justify-center gap-6 md:justify-end">
+      <div className="flex flex-col items-center gap-6 md:flex-row md:justify-end">
         <img
           src="/images/coreSolution/mobileImage.jpg"
           alt="Mobile App 1"
-          className="w-40 rounded-xl border border-gray-200 bg-white shadow-xl md:w-56"
+          className="w-60 max-w-full rounded-xl border border-gray-200 bg-white shadow-xl"
           style={{ objectFit: "cover" }}
         />
         <img
-          src="/images/coreSolution/mobileImage.jpg"
+          src="/images/coreSolution/mobileImage2.jpg"
           alt="Mobile App 2"
-          className="w-40 rounded-2xl border border-gray-200 bg-white shadow-xl md:w-56"
+          className="w-60 max-w-full rounded-xl border border-gray-200 bg-white shadow-xl"
           style={{ objectFit: "cover" }}
         />
       </div>

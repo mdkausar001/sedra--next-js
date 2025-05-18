@@ -1,7 +1,7 @@
 import React from "react";
 
 const MobileAppHero = () => (
-  <section className="relative mt-8 flex min-h-[700px] items-center bg-black">
+  <section className="relative mt-12 flex min-h-[700px] items-center bg-black">
     {/* Background Image with Dark Overlay */}
     <div
       className="absolute inset-0 z-0 h-full w-full bg-cover bg-center"
@@ -23,10 +23,10 @@ const MobileAppHero = () => (
         business. Let's craft a mobile app that your customers will love and
         that will drive your business forward.
       </p>
-      <div className="mt-10 flex flex-col gap-8 sm:flex-row">
+      <div className="my-10 flex flex-col gap-6 sm:mx-auto sm:flex-row sm:gap-4">
         <a
           href="#consultation"
-          className=" border-2 border-[#1677ff] bg-[#1677ff] px-10 py-4 text-center text-lg font-medium text-white shadow transition-colors duration-200 hover:bg-[#125fcc]"
+          className=" md:text-md border-2 border-[#1677ff] bg-[#1677ff] px-4 py-3 text-center text-sm font-medium text-white shadow transition-colors duration-200 hover:bg-[#125fcc] md:px-10 md:py-4 md:text-sm"
         >
           BOOK A FREE CONSULTATION
         </a>
