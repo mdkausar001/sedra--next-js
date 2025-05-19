@@ -929,8 +929,14 @@ const Header = () => {
                       </ul>
                     )}
                   </li>
+
                 ))}
               </ul>
+              <li><a href="/contact">
+                <button className="w-full px-6 mt-2 py-2 rounded transition-colors duration-300 bg-[#4763ad] text-white dark:bg-[#4763ad] dark:text-white  hover:bg-[#435fae] dark:hover:bg-[#435fae]">
+                  Contact Us
+                </button>
+              </a></li>
             </div>
           </div>
         </div>

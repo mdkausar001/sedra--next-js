@@ -62,7 +62,7 @@ const ContactUs = () => {
                 </div>
 
                 {/* Right: Contact Form */}
-                <div data-aos="fade-left">
+                <div data-aos="fade-up">
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6 tracking-widest">
                         GET IN TOUCH
                     </h2>

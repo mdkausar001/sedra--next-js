@@ -229,7 +229,7 @@ const ExpertiseSection = () => {
 
 
 
-    <div className="expertise-wrapper bg-white py-16 lg:pt-28 xl:px-28 ">
+    <div className="expertise-wrapper bg-white py-16 lg:pt-28 xl:px-36">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-center text-3xl mb-8 text-black animate__animated animate__fadeIn">Our Areas of Expertise</h2>

@@ -8,6 +8,7 @@ import MobileAppsWeDevelop from '@/components/MobileAppDevelopment/MobileAppsWeD
 import MobileSection from '@/components/MobileAppDevelopment/MobileSection'
 import MobileService from '@/components/MobileAppDevelopment/MobileService';
 import MobileSolution from '@/components/MobileAppDevelopment/MobileSolution';
+import Partner from '@/components/MobileAppDevelopment/Partner';
 
 const features = [
     {
@@ -54,7 +55,8 @@ const page = () => {
         <>
             <MobileAppHero />
             <MobileSection />
-            <CoreSolutions />
+            {/* <CoreSolutions /> */}
+            <Partner />
             <Customers />
             <MobileService />
             <MobileSolution />

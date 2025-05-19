@@ -140,7 +140,7 @@ const Card = ({
 
 const Experience = () => (
     <section className="mt-20 min-h-screen bg-[#f7fafd] py-12 hidden md:block">
-        <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-6xl">
             <h2 className="mb-8 text-center text-2xl font-bold text-[#23235b] md:text-3xl">
                 Why Choose SEDRA IT Solutions?
             </h2>
