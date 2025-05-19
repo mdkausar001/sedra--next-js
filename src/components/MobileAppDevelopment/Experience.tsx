@@ -101,7 +101,7 @@ const Card = ({
 
     return (
         <div
-            className={`group relative flex min-h-[340px] flex-col justify-center overflow-hidden rounded-xl bg-white text-[#23235b] shadow-md transition-all duration-300 hover:bg-[#23235b] hover:text-white `}
+            className={`group relative flex min-h-[340px] flex-col justify-center overflow-hidden rounded bg-white text-[#23235b] shadow-md transition-all duration-300 hover:bg-[#23235b] hover:text-white `}
         >
             {/* Text Content */}
             <div className={`z-10 flex h-full flex-col px-10 py-8 ${contentAlign}`}>
