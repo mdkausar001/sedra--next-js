@@ -2,28 +2,38 @@ import React from "react";
 
 const customers = [
   {
-    name: "Golden Chicken Gold",
-    logo: "https://sedra.net.sa/wp-content/uploads/2024/08/1.png", // Replace with actual logo
+    name: "Afrina",
+    logo: "/images/customers/afrina.jpg", // Replace with actual logo
     alt: "Golden Chicken Gold",
   },
   {
-    name: "Golden Chicken Red",
-    logo: "https://sedra.net.sa/wp-content/uploads/2024/08/2.png", // Replace with actual logo
+    name: "Millennium",
+    logo: "/images/customers/Millennium.jpg", // Replace with actual logo
     alt: "Golden Chicken Red",
   },
   {
-    name: "Butt Systems",
-    logo: "https://sedra.net.sa/wp-content/uploads/2024/08/3.png", // Replace with actual logo
+    name: "Apolia",
+    logo: "/images/customers/opolia.jpeg", // Replace with actual logo
     alt: "Butt Systems",
   },
   {
-    name: "Hubrum",
-    logo: "https://sedra.net.sa/wp-content/uploads/2024/08/4.png", // Replace with actual logo
-    alt: "Hubrum",
+    name: "Procterandgamble",
+    logo: "/images/customers/pg.jpg", // Replace with actual logo
+    alt: "Procterandgamble",
   },
   {
-    name: "Hoshan Group",
-    logo: "https://sedra.net.sa/wp-content/uploads/2024/08/5.png", // Replace with actual logo
+    name: "ProArt",
+    logo: "/images/customers/proart.png", // Replace with actual logo
+    alt: "Hoshan Group",
+  },
+  {
+    name: "Red Art",
+    logo: "/images/customers/redsea.png", // Replace with actual logo
+    alt: "Hoshan Group",
+  },
+  {
+    name: "Tatweer",
+    logo: "/images/customers/tatweer.jpeg", // Replace with actual logo
     alt: "Hoshan Group",
   },
 ];
@@ -36,8 +46,8 @@ const Customers = () => (
         OUR CUSTOMERS
       </div>
       {/* Main Heading */}
-      <h3 className="mb-8 text-center text-xl font-semibold text-gray-700 md:text-2xl">
-        Trusted by 150+ Happy Clients: Sedra Technologies Delivers Excellence
+      <h3 className="my-8 text-center text-xl font-semibold text-gray-700 md:text-2xl">
+        Trusted by 10+ Happy Clients: Sedra Technologies Delivers Excellence
       </h3>
       {/* Logos Row */}
       <div className="flex flex-wrap items-center justify-around gap-12">

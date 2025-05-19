@@ -4,23 +4,33 @@ import "aos/dist/aos.css";
 
 const partners = [
   {
-    name: "Weya AI",
-    logo: "/images/coreSolution/weya.png", // Replace with your actual logo
+    name: "Assa Abloy",
+    logo: "/images/partnership/assa-abloy.png", // Replace with your actual logo
     alt: "Weya AI",
   },
   {
-    name: "Zoho",
-    logo: "/images/coreSolution/zoho.png", // Replace with your actual logo
+    name: "EAE",
+    logo: "/images/partnership/eae.webp", // Replace with your actual logo
     alt: "Zoho",
   },
   {
-    name: "Odoo",
-    logo: "/images/coreSolution/odoo.png", // Replace with your actual logo
+    name: "Huawei",
+    logo: "/images/partnership/huawei.png", // Replace with your actual logo
     alt: "Odoo",
   },
   {
-    name: "Upy",
-    logo: "/images/coreSolution/supy.png", // Replace with your actual logo
+    name: "Mindware",
+    logo: "/images/partnership/mindware.png", // Replace with your actual logo
+    alt: "Upy",
+  },
+  {
+    name: "Schneider Electric",
+    logo: "/images/partnership/schneider-electric.webp", // Replace with your actual logo
+    alt: "Upy",
+  },
+  {
+    name: "Zennio",
+    logo: "/images/partnership/zennio.jpg", // Replace with your actual logo
     alt: "Upy",
   },
 ];
