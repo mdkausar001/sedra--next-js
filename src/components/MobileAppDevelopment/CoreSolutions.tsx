@@ -6,32 +6,32 @@ const partners = [
   {
     name: "Assa Abloy",
     logo: "/images/partnership/assa-abloy.png", // Replace with your actual logo
-    alt: "Weya AI",
+    alt: "Assa Abloy",
   },
   {
     name: "EAE",
     logo: "/images/partnership/eae.webp", // Replace with your actual logo
-    alt: "Zoho",
+    alt: "EAE",
   },
   {
     name: "Huawei",
     logo: "/images/partnership/huawei.png", // Replace with your actual logo
-    alt: "Odoo",
+    alt: "Huawei",
   },
   {
     name: "Mindware",
     logo: "/images/partnership/mindware.png", // Replace with your actual logo
-    alt: "Upy",
+    alt: "Mindware",
   },
   {
     name: "Schneider Electric",
     logo: "/images/partnership/schneider-electric.webp", // Replace with your actual logo
-    alt: "Upy",
+    alt: "Schneider",
   },
   {
     name: "Zennio",
     logo: "/images/partnership/zennio.jpg", // Replace with your actual logo
-    alt: "Upy",
+    alt: "Zennio",
   },
 ];
 
