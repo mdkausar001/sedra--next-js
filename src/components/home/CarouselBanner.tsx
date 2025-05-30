@@ -89,9 +89,9 @@ export default function CarouselBanner() {
               <h1 className="text-2xl sm:text-2xl md:text-3xl xl:text-5xl font-semibold mb-4 md:pt-8">{slide.title}</h1>
               <h2 className="text-[1rem] sm:text-xl md:text-2xl font-semibold mb-2">{slide.heading}</h2>
               <p className="text-sm sm:text-base md:text-lg text-start md:text-start leading-relaxed font-sans font-light">{slide.description}</p>
-              <button onClick={() => setShowModal(true)} className="md:px-4 md:py-3 px-2 py-2 text-sm md:text-md lg:text-lg font-sans font-light bg-[#4763ad] mt-6 sm:mt-10 text-white ">
+              {/* <button onClick={() => setShowModal(true)} className="md:px-4 md:py-3 px-2 py-2 text-sm md:text-md lg:text-lg font-sans font-light bg-[#4763ad] mt-6 sm:mt-10 text-white ">
                 {slide.buttonText}
-              </button>
+              </button> */}
 
               {/* <ContactModal showModal={showModal} closeModal={() => setShowModal(false)} /> */}
             </div>

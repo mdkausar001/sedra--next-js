@@ -14,121 +14,121 @@ const Header = () => {
 
 
   const menuData = [
-    {
-      menuName: "Expertise",
-      items: [
-        {
-          title: "Enterprise Resource Planning - ERP-[Zoho]",
-          icon: "/images/Maiprosoft-menu/Expertise/ERP.svg",
-          subtitle: [
-            {
-              text: "Zoho",
-              url: "/zoho",
-              contentKey: "api",
-            },
-            // {
-            //   text: "Odoo",
-            //   url: "/odoo",
-            //   contentKey: "cloud",
-            // },
-            // {
-            //   text: "Salesforce",
-            //   url: "#",
-            //   contentKey: "financialManagement",
-            // },
-            // {
-            //   text: "Zoho CRM",
-            //   url: "/zoho-crm",
-            //   contentKey: "crm",
-            // },
+    // {
+    //   menuName: "Expertise",
+    //   items: [
+    //     {
+    //       title: "Enterprise Resource Planning - ERP-[Zoho]",
+    //       icon: "/images/Maiprosoft-menu/Expertise/ERP.svg",
+    //       subtitle: [
+    //         {
+    //           text: "Zoho",
+    //           url: "/zoho",
+    //           contentKey: "api",
+    //         },
+    //         // {
+    //         //   text: "Odoo",
+    //         //   url: "/odoo",
+    //         //   contentKey: "cloud",
+    //         // },
+    //         // {
+    //         //   text: "Salesforce",
+    //         //   url: "#",
+    //         //   contentKey: "financialManagement",
+    //         // },
+    //         // {
+    //         //   text: "Zoho CRM",
+    //         //   url: "/zoho-crm",
+    //         //   contentKey: "crm",
+    //         // },
 
-            // {
-            //   text: "Zoho Creator",
-            //   url: "/zoho-creator",
-            //   contentKey: "appBuilder",
-            // },
-            // {
-            //   text: "Zoho Books",
-            //   url: "/zoho-books",
-            //   contentKey: "accounting",
-            // },
-            // {
-            //   text: "Zoho People",
-            //   url: "/zoho-people",
-            //   contentKey: "hr",
-            // },
-            // {
-            //   text: "Zoho Inventory",
-            //   url: "/zoho-inventory",
-            //   contentKey: "inventoryManagement",
-            // },
-            // {
-            //   text: "Zoho Projects",
-            //   url: "/zoho-projects",
-            //   contentKey: "projectManagement",
-            // },
-            // {
-            //   text: "Zoho Desk",
-            //   url: "/zoho-desk",
-            //   contentKey: "customerSupport",
-            // },
-            // {
-            //   text: "Zoho Analytics",
-            //   url: "/zoho-analytics",
-            //   contentKey: "businessIntelligence",
-            // },
-            // {
-            //   text: "Zoho SalesIQ",
-            //   url: "/zoho-salesiq",
-            //   contentKey: "liveChat",
-            // },
-            // {
-            //   text: "Zoho Commerce",
-            //   url: "/zoho-commerce",
-            //   contentKey: "eCommerce",
-            // },
+    //         // {
+    //         //   text: "Zoho Creator",
+    //         //   url: "/zoho-creator",
+    //         //   contentKey: "appBuilder",
+    //         // },
+    //         // {
+    //         //   text: "Zoho Books",
+    //         //   url: "/zoho-books",
+    //         //   contentKey: "accounting",
+    //         // },
+    //         // {
+    //         //   text: "Zoho People",
+    //         //   url: "/zoho-people",
+    //         //   contentKey: "hr",
+    //         // },
+    //         // {
+    //         //   text: "Zoho Inventory",
+    //         //   url: "/zoho-inventory",
+    //         //   contentKey: "inventoryManagement",
+    //         // },
+    //         // {
+    //         //   text: "Zoho Projects",
+    //         //   url: "/zoho-projects",
+    //         //   contentKey: "projectManagement",
+    //         // },
+    //         // {
+    //         //   text: "Zoho Desk",
+    //         //   url: "/zoho-desk",
+    //         //   contentKey: "customerSupport",
+    //         // },
+    //         // {
+    //         //   text: "Zoho Analytics",
+    //         //   url: "/zoho-analytics",
+    //         //   contentKey: "businessIntelligence",
+    //         // },
+    //         // {
+    //         //   text: "Zoho SalesIQ",
+    //         //   url: "/zoho-salesiq",
+    //         //   contentKey: "liveChat",
+    //         // },
+    //         // {
+    //         //   text: "Zoho Commerce",
+    //         //   url: "/zoho-commerce",
+    //         //   contentKey: "eCommerce",
+    //         // },
 
 
-            // {
-            //   text: "SAP",
-            //   url: "https://example.com/financial-management",
-            //   contentKey: "financialManagement",
-            // },
-            // {
-            //   text: "Oracle",
-            //   url: "https://example.com/financial-management",
-            //   contentKey: "financialManagement",
-            // },
-          ],
-        },
-        {
-          title: "Digital Transformation",
-          icon: "/images/Maiprosoft-menu/Expertise/CSD.svg",
-          subtitle: [
-            {
-              text: "Mobile App Development",
-              url: "/mobile-app-development",
-              contentKey: "connectorsWorkflows",
-            },
-            {
-              text: "Cloud",
-              url: "#",
-              contentKey: "connectorsWorkflows",
-            },
-            {
-              text: "IoT",
-              url: "#",
-              contentKey: "connectorsWorkflows",
-            },
-            {
-              text: "AI & ML",
-              url: "#",
-              contentKey: "connectorsWorkflows",
-            },
-          ],
-        },
-      ],
-    },
+    //         // {
+    //         //   text: "SAP",
+    //         //   url: "https://example.com/financial-management",
+    //         //   contentKey: "financialManagement",
+    //         // },
+    //         // {
+    //         //   text: "Oracle",
+    //         //   url: "https://example.com/financial-management",
+    //         //   contentKey: "financialManagement",
+    //         // },
+    //       ],
+    //     },
+    //     {
+    //       title: "Digital Transformation",
+    //       icon: "/images/Maiprosoft-menu/Expertise/CSD.svg",
+    //       subtitle: [
+    //         {
+    //           text: "Mobile App Development",
+    //           url: "/mobile-app-development",
+    //           contentKey: "connectorsWorkflows",
+    //         },
+    //         {
+    //           text: "Cloud",
+    //           url: "#",
+    //           contentKey: "connectorsWorkflows",
+    //         },
+    //         {
+    //           text: "IoT",
+    //           url: "#",
+    //           contentKey: "connectorsWorkflows",
+    //         },
+    //         {
+    //           text: "AI & ML",
+    //           url: "#",
+    //           contentKey: "connectorsWorkflows",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       menuName: "Services",
       items: [
@@ -190,12 +190,12 @@ const Header = () => {
               "altText": "Standardized building automation",
               "contentKey": "knxSystem"
             },
-            {
-              "text": "Sound System & AV",
-              "url": "soundsysandav#page",
-              "altText": "Professional audio-visual solutions",
-              "contentKey": "soundSystemAV"
-            },
+            // {
+            //   "text": "Sound System & AV",
+            //   "url": "soundsysandav#page",
+            //   "altText": "Professional audio-visual solutions",
+            //   "contentKey": "soundSystemAV"
+            // },
             {
               "text": "Access System",
               "url": "accesssys#page",
@@ -386,213 +386,213 @@ const Header = () => {
     //   ],
     // },
 
-    {
-      menuName: "Technologies ",
-      items: [
-        {
-          title: "Frontend",
-          icon: "/images/Maiprosoft-menu/Technologies/FrontEnd.svg",
-          subtitle: [
-            {
-              text: "React.js",
-              url: "frontend#react-js",
-              contentKey: "erpSolutions",
-            },
-            {
-              text: "Next.js",
-              url: "frontend#next-js",
-              contentKey: "operationsManagement",
-            },
-            {
-              text: "Vue.js ",
-              url: "frontend#vue-js",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Angular ",
-              url: "frontend#angular",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "HTML5 & CSS3 ",
-              url: "frontend#html-css",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Tailwind CSS ",
-              url: "frontend#tailwind-css",
-              contentKey: "financialManagement",
-            },
-            {
-              text: " Bootstrap ",
-              url: "frontend#bootstrap",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Sass ",
-              url: "frontend#sass",
-              contentKey: "financialManagement",
-            },
-            {
-              text: " jQuery ",
-              url: "frontend#jquery",
-              contentKey: "financialManagement",
-            },
-          ],
-        },
-        {
-          title: "Backend",
-          icon: "/images/Maiprosoft-menu/Technologies/Backend.svg",
-          subtitle: [
-            {
-              text: "Node.js ",
-              url: "backend#node-js",
-              contentKey: "erpSolutions",
-            },
-            {
-              text: "Express.js",
-              url: "backend#express-js",
-              contentKey: "operationsManagement",
-            },
-            {
-              text: "Django ",
-              url: "backend#django",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Ruby on Rails ",
-              url: "backend#ruby-on-rails",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Spring Boot ",
-              url: "backend#spring-boot",
-              contentKey: "financialManagement",
-            },
+    // {
+    //   menuName: "Technologies ",
+    //   items: [
+    //     {
+    //       title: "Frontend",
+    //       icon: "/images/Maiprosoft-menu/Technologies/FrontEnd.svg",
+    //       subtitle: [
+    //         {
+    //           text: "React.js",
+    //           url: "frontend#react-js",
+    //           contentKey: "erpSolutions",
+    //         },
+    //         {
+    //           text: "Next.js",
+    //           url: "frontend#next-js",
+    //           contentKey: "operationsManagement",
+    //         },
+    //         {
+    //           text: "Vue.js ",
+    //           url: "frontend#vue-js",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "Angular ",
+    //           url: "frontend#angular",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "HTML5 & CSS3 ",
+    //           url: "frontend#html-css",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "Tailwind CSS ",
+    //           url: "frontend#tailwind-css",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: " Bootstrap ",
+    //           url: "frontend#bootstrap",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "Sass ",
+    //           url: "frontend#sass",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: " jQuery ",
+    //           url: "frontend#jquery",
+    //           contentKey: "financialManagement",
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: "Backend",
+    //       icon: "/images/Maiprosoft-menu/Technologies/Backend.svg",
+    //       subtitle: [
+    //         {
+    //           text: "Node.js ",
+    //           url: "backend#node-js",
+    //           contentKey: "erpSolutions",
+    //         },
+    //         {
+    //           text: "Express.js",
+    //           url: "backend#express-js",
+    //           contentKey: "operationsManagement",
+    //         },
+    //         {
+    //           text: "Django ",
+    //           url: "backend#django",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "Ruby on Rails ",
+    //           url: "backend#ruby-on-rails",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "Spring Boot ",
+    //           url: "backend#spring-boot",
+    //           contentKey: "financialManagement",
+    //         },
 
-            {
-              text: " Flask ",
-              url: "backend#flask",
-              contentKey: "financialManagement",
-            },
-            {
-              text: " .NET Core ",
-              url: "backend#dotnet-core",
-              contentKey: "financialManagement",
-            },
-            {
-              text: " Go ",
-              url: "backend#go",
-              contentKey: "financialManagement",
-            },
-            {
-              text: " Java ",
-              url: "backend#java",
-              contentKey: "financialManagement",
-            },
-            {
-              text: " Python ",
-              url: "backend#python",
-              contentKey: "financialManagement",
-            },
-          ],
-        },
-        {
-          title: "Database",
-          icon: "/images/Maiprosoft-menu/Technologies/Database.svg",
-          subtitle: [
+    //         {
+    //           text: " Flask ",
+    //           url: "backend#flask",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: " .NET Core ",
+    //           url: "backend#dotnet-core",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: " Go ",
+    //           url: "backend#go",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: " Java ",
+    //           url: "backend#java",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: " Python ",
+    //           url: "backend#python",
+    //           contentKey: "financialManagement",
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: "Database",
+    //       icon: "/images/Maiprosoft-menu/Technologies/Database.svg",
+    //       subtitle: [
 
-            {
-              text: "SQL Server",
-              url: "database#sql-server",
-              contentKey: "operationsManagement",
-            },
-            {
-              text: "PostgreSQL ",
-              url: "database#postgresql",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Firebase ",
-              url: "database#firebase",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "MongoDB ",
-              url: "database#mongodb",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "MySQL ",
-              url: "database#mysql",
-              contentKey: "financialManagement",
-            },
-            {
-              text: "Elasticsearch ",
-              url: "database#elasticsearch",
-              contentKey: "financialManagement",
-            },
-            {
-              text: " Redis ",
-              url: "database#redis",
-              contentKey: "financialManagement",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      "menuName": "Industries",
-      "items": [
-        {
-          "title": "Industries",
-          icon: "/images/Maiprosoft-menu/Industries/Industries.svg",
-          "subtitle": [
-            {
-              "text": "Energy & Utilities",
-              "url": "#",
-              "contentKey": "energyUtilities"
-            },
-            {
-              "text": "Retail &  Consumer Goods",
-              "url": "#",
-              "contentKey": "retailConsumerGoods"
-            },
-            {
-              "text": "Healthcare &  Life Sciences",
-              "url": "#",
-              "contentKey": "healthcareLifeSciences"
-            },
-            {
-              "text": "Government &  Public Sector",
-              "url": "#",
-              "contentKey": "governmentPublicSector"
-            },
-            {
-              "text": "Technology &  Communications",
-              "url": "#",
-              "contentKey": "technologyCommunications"
-            },
-            {
-              "text": "Hitech &  Semiconductor",
-              "url": "#",
-              "contentKey": "hitechSemiconductor"
-            },
-            {
-              "text": "Aerospace &  Defense",
-              "url": "#",
-              "contentKey": "aerospaceDefense"
-            },
-            {
-              "text": "Industrial Manufacturing",
-              "url": "#",
-              "contentKey": "industrialManufacturing"
-            }
-          ]
+    //         {
+    //           text: "SQL Server",
+    //           url: "database#sql-server",
+    //           contentKey: "operationsManagement",
+    //         },
+    //         {
+    //           text: "PostgreSQL ",
+    //           url: "database#postgresql",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "Firebase ",
+    //           url: "database#firebase",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "MongoDB ",
+    //           url: "database#mongodb",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "MySQL ",
+    //           url: "database#mysql",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: "Elasticsearch ",
+    //           url: "database#elasticsearch",
+    //           contentKey: "financialManagement",
+    //         },
+    //         {
+    //           text: " Redis ",
+    //           url: "database#redis",
+    //           contentKey: "financialManagement",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
+    // {
+    //   "menuName": "Industries",
+    //   "items": [
+    //     {
+    //       "title": "Industries",
+    //       icon: "/images/Maiprosoft-menu/Industries/Industries.svg",
+    //       "subtitle": [
+    //         {
+    //           "text": "Energy & Utilities",
+    //           "url": "#",
+    //           "contentKey": "energyUtilities"
+    //         },
+    //         {
+    //           "text": "Retail &  Consumer Goods",
+    //           "url": "#",
+    //           "contentKey": "retailConsumerGoods"
+    //         },
+    //         {
+    //           "text": "Healthcare &  Life Sciences",
+    //           "url": "#",
+    //           "contentKey": "healthcareLifeSciences"
+    //         },
+    //         {
+    //           "text": "Government &  Public Sector",
+    //           "url": "#",
+    //           "contentKey": "governmentPublicSector"
+    //         },
+    //         {
+    //           "text": "Technology &  Communications",
+    //           "url": "#",
+    //           "contentKey": "technologyCommunications"
+    //         },
+    //         {
+    //           "text": "Hitech &  Semiconductor",
+    //           "url": "#",
+    //           "contentKey": "hitechSemiconductor"
+    //         },
+    //         {
+    //           "text": "Aerospace &  Defense",
+    //           "url": "#",
+    //           "contentKey": "aerospaceDefense"
+    //         },
+    //         {
+    //           "text": "Industrial Manufacturing",
+    //           "url": "#",
+    //           "contentKey": "industrialManufacturing"
+    //         }
+    //       ]
 
-        }
-      ]
-    },
+    //     }
+    //   ]
+    // },
     {
       menuName: "About Us",
       items: [
@@ -656,7 +656,7 @@ const Header = () => {
 
   return (
     <>
-      <header className={`header left-0 top-0 z-40 w-full items-center  ${sticky ? "fixed bg-[#ffffff] text-black  shadow-lg backdrop-blur-2xl " : "absolute bg-[#ffffff00]  "} transition-all`}>
+      <header className={`header left-0 top-0 z-40 w-full items-center  ${sticky ? "fixed bg-[#ffffff] text-black  shadow-lg backdrop-blur-2xl " : "absolute bg-[#ffffff]  "} transition-all`}>
         <div className="flex justify-between items-center px-5 py-4 max-w-7xl mx-auto w-full">
           <Link href="/">
             <img
@@ -690,7 +690,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden sm:flex space-x-10 ml-auto">
-            <ul className={`flex items-center space-x-6 font-medium transition-colors duration-300  ${sticky ? "text-black " : "text-white "}`}>
+            <ul className={`flex items-center space-x-6 font-medium transition-colors duration-300  ${sticky ? "text-black " : "text-black "}`}>
               {menuData.map((menu, menuIndex) => (
                 // <li
                 //   key={menuIndex}
@@ -731,16 +731,16 @@ const Header = () => {
 
                   {currentMenu === menu.menuName && (
                     <div
-                      className="fixed left-0 right-0 top-18 bg-white text-black shadow-none  z-25 w-screen p-6"
+                      className="fixed left-0 right-0 top-18 bg-white text-black shadow-none  z-20 w-screen p-6"
                       onMouseEnter={() => setCurrentMenu(menu.menuName)} // Keep dropdown open
                       onMouseLeave={() => {
                         setCurrentMenu(null); // Close when not hovering over the entire dropdown
                         setHoveredIndex(null);
                       }}
                     >
-                      <div className="grid grid-cols-12 gap-4 max-w-6xl mx-auto">
+                      <div className="grid grid-cols-12 bg-white mt-2 gap-4 max-w-6xl mx-auto">
                         {/* <div className="col-span-5 bg-white p-4 border-r border-gray-200"> */}
-                        <div className="col-span-5 bg-white p-4  border-orange animate-border-color-change">
+                        <div className="col-span-5 bg-white p-8 border-orange animate-border-color-change">
 
                           {menu.items.map((item, index) => (
                             <div
@@ -861,10 +861,11 @@ const Header = () => {
                 </li>
               ))}
               <li><a href="/contact">
-                <button className="px-6 py-2 rounded-md transition-colors duration-300 bg-[#4763ad] text-white dark:bg-[#4763ad] dark:text-white  hover:bg-[#435fae] dark:hover:bg-[#435fae]">
+                <button className="px-5 py-2 z-30 rounded transition-colors duration-300 border-b-4 border-mai  text-black dark:bg-[#4763ad] dark:text-white  hover:bg-[#435fae] dark:hover:bg-[#435fae]">
                   Contact Us
                 </button>
-              </a></li>
+              </a>
+              </li>
 
             </ul>
           </nav>

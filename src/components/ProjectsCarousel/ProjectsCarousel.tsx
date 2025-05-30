@@ -130,12 +130,12 @@ const projects = [
         imageURL:
             "https://sedra.net.sa/wp-content/uploads/2024/05/%D8%B4%D9%83%D9%86-771x405-1.webp",
     },
-    {
-        projectName: "Abdullah Saleh Kamel Palace",
-        Location: "Jeddah",
-        Client: "KUN",
-        imageURL: "",
-    },
+    // {
+    //     projectName: "Abdullah Saleh Kamel Palace",
+    //     Location: "Jeddah",
+    //     Client: "KUN",
+    //     imageURL: "",
+    // },
     {
         projectName: "TBC - School",
         Location: "Jeddah",

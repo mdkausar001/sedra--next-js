@@ -136,139 +136,114 @@
 
 
 
-
-
-
-import React from "react";
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram, FaEnvelope, FaPhoneAlt, FaClock } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0d0d0d] px-6 py-16 font-sans text-white md:px-12">
-      <div className="mx-auto max-w-7xl space-y-14">
+    <footer className="bg-gray-100 text-[#1a2734] font-sans pt-10 pb-6 px-4 md:px-10 relative overflow-hidden">
+      {/* Gradient border on top */}
+      <div className="absolute left-0 top-0 w-full h-1 bg-gradient-to-r from-green-300 via-blue-300 to-purple-300" />
+      <div className="max-w-7xl mx-auto space-y-12">
         {/* Top Section */}
-        <div className="flex flex-col items-start justify-between md:flex-row md:items-center">
-          <div className="col-span-2 md:col-span-1">
-            <a href="/" title="Sedra">
-              <img
-                src="/images/logo/sedra2.png"
-                alt="Maiprosoft Logo"
-                className="width-[210px] white-logo mx-auto mb-4 h-12 md:mx-0"
-              />{" "}
-              {/* Adjust height as needed */}
-            </a>
-          </div>
-          <div className="mt-4 flex items-center gap-2 text-[11px] uppercase tracking-widest text-gray-400 md:mt-0">
-            Current Status{" "}
-            <span className="bg-green h-2 w-2 rounded-full"></span>
+        <div className="flex flex-row md:flex-row md:items-center md:justify-between gap-8">
+          {/* Logo */}
+          <a href="/" title="Sedra" className="block">
+            <img
+              src="/images/logo/sedra2.png"
+              alt="Sedra Logo"
+              className="md:w-[180px] w-[110px] h-12 object-contain"
+            />
+          </a>
+          {/* Current Status Ping - right aligned on desktop */}
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gray-600 md:ml-auto md:mr-0 md:justify-end justify-center mt-4 md:mt-0">
+            <span>Current Status</span>
+            <span className="relative flex items-center justify-center md:h-8 md:w-8 h-4 w-4">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-green"></span>
+            </span>
           </div>
         </div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-2 gap-10 text-sm md:grid-cols-4">
-          {/* Column 1 */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-sm m-6">
+          {/* About */}
           <div>
-            <h4 className="mb-4 font-semibold text-white">About Sedra</h4>
-            <ul className="space-y-2 text-gray-400">
+            <h4 className="mb-4 font-bold text-lg">About Sedra</h4>
+            <ul className="space-y-4 text-gray-700">
               <li>
-                <a href="#">Careers</a>
-              </li>
-              <li>
-                <a href="#">Latest News</a>
-              </li>
-              <li>
-                <a href="#">Corporate Vision</a>
-              </li>
-              <li>
-                <a href="/about-sedra">About Sedra</a>
-              </li>
-
-            </ul>
-          </div>
-
-
-          {/* Column 3 */}
-          <div>
-            <h4 className="mb-4 font-semibold text-white">Discover</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#">Our Products</a>
-              </li>
-              <li>
-                <a href="#">Our Services</a>
-              </li>
-              <li>
-                <a href="#">Our Partners</a>
-              </li>
-              <li>
-                <a href="#">Our Global Footprint</a>
-              </li>
-              <li>
-                <a href="#">Case Studies</a>
-              </li>
-
-            </ul>
-          </div>
-
-          {/* Column 4 */}
-          <div>
-            <h4 className="mb-4 font-semibold text-white">
-              Important Links
-            </h4>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#">Sedra Club Blue</a>
-              </li>
-              <li>
-                <a href="#">Press Kit</a>
-              </li>
-              <li>
-                <a href="#">Support</a>
-              </li>
-              <li>
-                <a href="#">Secure Usage Policy</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
+                <a href="/about-sedra" className="hover:text-mai transition">About Sedra</a>
               </li>
             </ul>
           </div>
-
-
-
-          {/* Column 2 */}
+          {/* Discover */}
           <div>
-            <h4 className="mb-4 font-semibold text-white">Stay connected</h4>
-            <ul className="space-y-2 text-gray-400">
+            <h4 className="mb-4 font-bold text-lg">Discover</h4>
+            <ul className="space-y-4 text-gray-700">
               <li>
-                <a href="#">Check out the blog</a>
+                <a href="#" className="hover:text-green-600 transition">Our Services</a>
               </li>
               <li>
-                <a href="#">Find us on Reddit</a>
-              </li>
-              <li>
-                <a href="#">Follow on X</a>
-              </li>
-              <li>
-                <a href="#">Subscribe on YouTube</a>
-              </li>
-              <li>
-                <a href="#">FAQs</a>
+                <a href="#" className="hover:text-green-600 transition">Our Partners</a>
               </li>
             </ul>
           </div>
-
-
-
+          {/* Resources */}
+          <div>
+            <h4 className="mb-4 font-bold text-lg">Resources</h4>
+            <ul className="space-y-4 text-gray-700">
+              <li>
+                <a href="#" className="hover:text-green-600 transition">Blog</a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-green-600 transition">Help Center</a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-green-600 transition">Case Studies</a>
+              </li>
+            </ul>
+          </div>
+          {/* Contact + Social */}
+          <div>
+            <h4 className="mb-4 font-bold text-lg">Contact</h4>
+            <ul className="space-y-4 text-gray-700 mb-4">
+              <li className="flex items-center gap-2">
+                <FaEnvelope className="text-green-600" />
+                <a href="mailto:info@sedra.com" className="hover:text-green-600 transition">info@sedra.com</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <FaPhoneAlt className="text-green-600" />
+                <a href="tel:+1234567890" className="hover:text-green-600 transition"> 966 114 229 922</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <FaClock className="text-green-600" />
+                <span>Mon-Fri 9:00-18:00</span>
+              </li>
+            </ul>
+            {/* Social Media Icons */}
+            <div className="flex gap-3  mt-2">
+              <a href="#" className="p-4 rounded-full bg-gray-200 shadow hover:bg-blue transition" aria-label="Facebook">
+                <FaFacebookF className="w-4 h-4" />
+              </a>
+              <a href="#" className="p-4 rounded-full bg-gray-200 shadow hover:bg-teal-700 transition" aria-label="LinkedIn">
+                <FaLinkedinIn className="w-4 h-4" />
+              </a>
+              <a href="#" className="p-4 rounded-full bg-gray-200 shadow hover:bg-sky-400 transition" aria-label="Twitter">
+                <FaTwitter className="w-4 h-4" />
+              </a>
+              <a href="#" className="p-4 rounded-full bg-gray-200 shadow hover:bg-pink-300 transition" aria-label="Instagram">
+                <FaInstagram className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
         </div>
 
-
         {/* Bottom Row */}
-        <div className="flex flex-col items-center justify-between border-t border-gray-800 pt-6 text-xs text-gray-500 md:flex-row">
-          <p className="mb-4 md:mb-0">@Sedra 2025</p>
+        <div className="flex flex-col md:flex-row items-center justify-between border-t border-gray-200 pt-6 text-xs text-gray-600">
+          <p className="mb-3 md:mb-0">&copy; Sedra {new Date().getFullYear()}</p>
           <div className="flex gap-5">
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-            <a href="#">Manage Cookies</a>
+            <a href="#" className="hover:text-green-600 transition">Terms</a>
+            <a href="#" className="hover:text-green-600 transition">Privacy</a>
+            <a href="#" className="hover:text-green-600 transition">Manage Cookies</a>
           </div>
         </div>
       </div>

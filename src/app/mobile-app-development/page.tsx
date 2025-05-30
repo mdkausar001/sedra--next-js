@@ -1,5 +1,4 @@
 'use client'
-import CoreSolutions from '@/components/MobileAppDevelopment/CoreSolutions'
 import Customers from '@/components/MobileAppDevelopment/Customers'
 import DevelopmentProcess from '@/components/MobileAppDevelopment/DevelopmentProcess';
 import FAQ from '@/components/MobileAppDevelopment/FAQ';
@@ -55,7 +54,6 @@ const page = () => {
         <>
             <MobileAppHero />
             <MobileSection />
-            {/* <CoreSolutions /> */}
             <Partner />
             <Customers />
             <MobileService />

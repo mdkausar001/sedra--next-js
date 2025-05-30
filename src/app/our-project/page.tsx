@@ -108,13 +108,13 @@ const projects = [
       "https://sedra.net.sa/wp-content/uploads/2024/05/%D8%B4%D9%83%D9%86-771x405-1.webp",
     Scope: [{ service: "Smart Light Control" }],
   },
-  {
-    projectName: "Abdullah Saleh Kamel Palace",
-    Location: "Jeddah",
-    Client: "KUN",
-    imageURL: "",
-    Scope: [{ service: "KNX - BMS - Data System" }],
-  },
+  // {
+  //   projectName: "Abdullah Saleh Kamel Palace",
+  //   Location: "Jeddah",
+  //   Client: "KUN",
+  //   imageURL: "",
+  //   Scope: [{ service: "KNX - BMS - Data System" }],
+  // },
   {
     projectName: "TBC - School",
     Location: "Jeddah",
