@@ -860,8 +860,8 @@ const Header = () => {
 
                 </li>
               ))}
-              <li><a href="/contact">
-                <button className="px-5 py-2 z-30 rounded transition-colors duration-300 border-b-4 border-mai  text-black dark:bg-[#4763ad] dark:text-white  hover:bg-[#435fae] dark:hover:bg-[#435fae]">
+              <li className='z-[9999]'><a href="/contact">
+                <button className="px-5 py-2 rounded transition-colors duration-300  bg-mai hover:shadow-md text-white dark:bg-[#4763ad] dark:text-white  hover:bg-mai hover:text-white dark:hover:bg-[#435fae]">
                   Contact Us
                 </button>
               </a>
