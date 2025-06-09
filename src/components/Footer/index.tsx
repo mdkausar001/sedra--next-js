@@ -188,7 +188,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* Resources */}
-          <div>
+          {/* <div>
             <h4 className="mb-4 font-bold text-lg">Resources</h4>
             <ul className="space-y-4 text-gray-700">
               <li>
@@ -201,7 +201,7 @@ const Footer = () => {
                 <a href="#" className="hover:text-green-600 transition">Case Studies</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* Contact + Social */}
           <div>
             <h4 className="mb-4 font-bold text-lg">Contact</h4>
@@ -216,7 +216,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <FaClock className="text-green-600" />
-                <span>Mon-Fri 9:00-18:00</span>
+                <span>Sat-Thu 9:00-18:00</span>
               </li>
             </ul>
             {/* Social Media Icons */}
