@@ -658,7 +658,7 @@ const Header = () => {
     <>
       <header className={`header left-0 top-0 z-40 w-full items-center  ${sticky ? "fixed bg-[#ffffff] text-black  shadow-lg backdrop-blur-2xl " : "absolute bg-[#ffffff]  "} transition-all`}>
         <div className="flex justify-between items-center px-5 py-4 max-w-7xl mx-auto w-full">
-          <Link href="/">
+          <Link href="/" className='z-[9999]'>
             <img
               src="/images/logo/sedra2.png"
               alt="Logo"
