@@ -167,13 +167,13 @@ const Header = () => {
             //   "contentKey": "iotServices"
             // },
             {
-              "text": "Building Management System (BMS)",
+              "text": "Building Management System",
               "url": "bms#page",
               "altText": "Smart infrastructure management",
               "contentKey": "bms"
             },
             {
-              "text": "Guest Room Management System (GRMS)",
+              "text": "Guest Room Management System",
               "url": "grms#page",
               "altText": "Advanced room automation",
               "contentKey": "grms"
@@ -805,13 +805,13 @@ const Header = () => {
                           {hoveredIndex !== null && (
 
 
-                            <div className="grid grid-cols-2 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                               {menu?.items[hoveredIndex]?.subtitle?.map((sub, idx) => (
-                                <div key={idx} className="flex items-start list-disc space-y-2 text-gray-700">
+                                <div key={idx} className="flex max-w-[700px] items-start list-disc space-y-2 text-gray-700">
                                   <li
                                     className="text-sm font-medium text-gray-600 whitespace-nowrap"
                                     style={{ width: '100%', listStyleType: 'none' }}
-                                    title={sub.altText} // Tooltip for hover
+                                    title={sub.altText}
                                   >
                                     {/* <Link
           href="#"

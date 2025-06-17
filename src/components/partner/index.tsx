@@ -173,7 +173,7 @@ const PartnerSection = () => {
     "https://sedra.net.sa/wp-content/uploads/2024/08/4.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/5.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/6.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/7.png",
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/7.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/8.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/9.png",
     "https://sedra.net.sa/wp-content/uploads/2024/08/10.png",

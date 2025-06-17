@@ -80,7 +80,9 @@ export default function Home() {
 
       <PartnerSection />
       <Experience />
-      <Testimonial />
+
+      {/* <Testimonial /> */}
+
       <ProjectsCarousel />
 
       {/* <AboutSedra /> */}

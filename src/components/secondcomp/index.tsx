@@ -4,6 +4,70 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const expertiseData = [
+  {
+    title: "BMS",
+    normalIcon: "/images/services/infrastructure.png",
+    hoverIcon: "/images/services/infrastructure.png",
+    description: "Automates and controls HVAC, lighting, energy, and safety systems for optimized building performance.",
+    link: "/bms",
+  },
+  {
+    title: "GRMS",
+    normalIcon: "/images/services/GRMS.png",
+    hoverIcon: "/images/services/GRMS.png",
+    description: "Enhances guest experience with integrated room automation like lighting, AC, and curtains.",
+    link: "/grms",
+  },
+  {
+    title: "Smart Home",
+    normalIcon: "/images/services/homeAutomation.png",
+    hoverIcon: "/images/services/homeAutomation.png",
+    description: "Control lighting, climate, security, and entertainment from one system to simplify modern living.",
+    link: "/smarthome",
+  },
+  {
+    title: "Lighting Systems",
+    normalIcon: "/images/services/smartHome.png",
+    hoverIcon: "/images/services/smartHome.png",
+    description: "Automated lighting for energy savings, ambiance, and smart control in residential or commercial spaces.",
+    link: "#",
+  },
+  {
+    title: "IT Infrastructure & Network Solutions",
+    normalIcon: "/images/services/itSystem.png",
+    hoverIcon: "/images/services/itSystem.png",
+    description: "Structured cabling, switches, firewalls, and wireless setups to support seamless digital operations.",
+    link: "/it-infrastructure",
+  },
+  {
+    title: "Fire Alarm Systems",
+    normalIcon: "/images/services/fire-alarm.png",
+    hoverIcon: "/images/services/fire-alarm.png",
+    description: "State-of-the-art sensors and alarms to protect life and assets in emergency situations.",
+    link: "/fire-alarm",
+  },
+  {
+    title: "Access Control & CCTV",
+    normalIcon: "/images/services/cctv.png",
+    hoverIcon: "/images/services/cctv.png",
+    description: "Monitors and restricts access to ensure physical security using advanced surveillance systems.",
+    link: "/access-control-cctv",
+  },
+  {
+    title: "Web & Mobile App Development",
+    normalIcon: "/images/services/system&app.png",
+    hoverIcon: "/images/services/system&app.png",
+    description: "Scalable and intuitive apps tailored to user needs, built with modern tech stacks.",
+    link: "/app-development",
+  },
+  {
+    title: "CBS & UPS",
+    normalIcon: "/images/services/powerControll.png",
+    hoverIcon: "/images/services/powerControll.png",
+    description: "Ensures uninterrupted power supply and centralized battery backup systems for critical operations.",
+    link: "/cbs-ups",
+  },
+
 
   {
     title: 'ERP',
@@ -33,22 +97,6 @@ const expertiseData = [
     hoverIcon: '/images/Expertise/Iot white.svg',
     description: ' Empower your business with our IoT solutions, optimizing operations through seamless device connectivity and real-time insights.',
     link: '/ai',
-  },
-  {
-    title: 'Smart Home',
-    normalIcon: '/images/Expertise/Cloud/Cloud.svg',
-    hoverIcon: '/images/Expertise/Cloud white.svg',
-    description: '  Elevate your business agility with our cloud solutions, designed for easy scaling and high-performance operations.',
-    link: '/cloud',
-  },
-
-
-  {
-    title: 'BMS',
-    normalIcon: '/images/Expertise/ipass/iPass.svg',
-    hoverIcon: '/images/Expertise/iPass white.svg',
-    description: 'Connect and automate your business systems with our scalable iPaaS, enhancing efficiency and data management.',
-    link: '/blockchain',
   },
 
 ];
