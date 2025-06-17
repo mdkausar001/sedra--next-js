@@ -37,35 +37,35 @@ const expertiseData = [
     normalIcon: "/images/services/itSystem.png",
     hoverIcon: "/images/services/itSystem.png",
     description: "Structured cabling, switches, firewalls, and wireless setups to support seamless digital operations.",
-    link: "/it-infrastructure",
+    link: "#",
   },
   {
     title: "Fire Alarm Systems",
     normalIcon: "/images/services/fire-alarm.png",
     hoverIcon: "/images/services/fire-alarm.png",
     description: "State-of-the-art sensors and alarms to protect life and assets in emergency situations.",
-    link: "/fire-alarm",
+    link: "/firealarm",
   },
   {
     title: "Access Control & CCTV",
     normalIcon: "/images/services/cctv.png",
     hoverIcon: "/images/services/cctv.png",
     description: "Monitors and restricts access to ensure physical security using advanced surveillance systems.",
-    link: "/access-control-cctv",
+    link: "/accesssys",
   },
   {
     title: "Web & Mobile App Development",
     normalIcon: "/images/services/system&app.png",
     hoverIcon: "/images/services/system&app.png",
     description: "Scalable and intuitive apps tailored to user needs, built with modern tech stacks.",
-    link: "/app-development",
+    link: "#",
   },
   {
     title: "CBS & UPS",
     normalIcon: "/images/services/powerControll.png",
     hoverIcon: "/images/services/powerControll.png",
     description: "Ensures uninterrupted power supply and centralized battery backup systems for critical operations.",
-    link: "/cbs-ups",
+    link: "#",
   },
 
 
@@ -74,7 +74,7 @@ const expertiseData = [
     normalIcon: "/images/Maiprosoft-menu/Expertise/ERP.svg",
     hoverIcon: "/images/Expertise/ERP white.svg",
     description: ' Manage your enterprise efficiently with our ERP solutions, designed for seamless integration and scalability.',
-    link: '/ai',
+    link: '#',
   },
 
   {
@@ -82,21 +82,21 @@ const expertiseData = [
     normalIcon: '/images/Expertise/AI/AI.svg',
     hoverIcon: '/images/Expertise/AI & ML white.svg',
     description: 'Our expertise in AI and Machine Learning drives intelligent automation and advanced analytics, transforming the way your business operates.',
-    link: '/ai',
+    link: '#',
   },
   {
     title: 'Data Analytics',
     normalIcon: '/images/Expertise/Data-Analytics/DataAnalytics&BI.svg',
     hoverIcon: '/images/Expertise/Data Analytics & BI white.svg',
     description: ' Unlock business potential with our Data Analytics & BI solutions, delivering powerful insights to enhance performance and strategy.',
-    link: '/data',
+    link: '/dataipsys',
   },
   {
     title: 'IoT Service',
     normalIcon: '/images/Expertise/Iot/Iot.svg',
     hoverIcon: '/images/Expertise/Iot white.svg',
     description: ' Empower your business with our IoT solutions, optimizing operations through seamless device connectivity and real-time insights.',
-    link: '/ai',
+    link: '#',
   },
 
 ];
