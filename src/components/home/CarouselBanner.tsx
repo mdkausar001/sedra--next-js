@@ -35,13 +35,13 @@ const slides: Slide[] = [
     description: 'Unlock new opportunities to advertise your products and services with us. Benefit from our robust partnerships with global brands and vendors. Leverage our in-depth knowledge of Telecom Operators internal workings. We provide a comprehensive portfolio of services across all sectors, including government, infrastructure, and telecommunications, empowering you with enhanced negotiating power.',
     buttonText: 'Book a Consultation',
   },
-  {
-    image: '/images/slider-image/slider4.png',
-    title: 'Digitize, Automate & Scale with Zoho',
-    heading: 'Smart solutions to simplify your business and accelerate growth.',
-    description: 'Transform your business with Zoho all-in-one platform. From managing customers to automating daily tasks, we help you streamline operations, improve efficiency, and focus on what matters most—growing your business. Get expert onboarding, tailored solutions, and ongoing support to make Zoho work for you.',
-    buttonText: 'Book a Consultation',
-  },
+  // {
+  //   image: '/images/slider-image/slider4.png',
+  //   title: 'Digitize, Automate & Scale with Zoho',
+  //   heading: 'Smart solutions to simplify your business and accelerate growth.',
+  //   description: 'Transform your business with Zoho all-in-one platform. From managing customers to automating daily tasks, we help you streamline operations, improve efficiency, and focus on what matters most—growing your business. Get expert onboarding, tailored solutions, and ongoing support to make Zoho work for you.',
+  //   buttonText: 'Book a Consultation',
+  // },
   {
     image: '/images/slider-image/slider5.jpg',
     title: 'Powering Reliable Networks & Hardware',
