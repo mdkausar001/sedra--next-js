@@ -171,10 +171,10 @@ const AboutSedra = () => {
 
   return (
     <div
-      style={{
-        backgroundImage:
-          "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
-      }}
+      // style={{
+      //   backgroundImage:
+      //     "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      // }}
       className="bg-white"
     >
       <div className="mx-auto max-w-6xl px-4 py-28 text-gray-700 sm:px-6 lg:px-8 dark:text-gray-200">

@@ -168,11 +168,11 @@ const OurProjects = () => {
   return (
     <>
       <div
-        className="flex flex-col items-center justify-center bg-gray-100 px-4 py-24 sm:px-6 lg:px-8"
-        style={{
-          backgroundImage:
-            "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
-        }}
+        className="flex flex-col items-center justify-center bg-white px-4 py-24 sm:px-6 lg:px-8"
+      // style={{
+      //   backgroundImage:
+      //     "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      // }}
       >
         <div className="w-full max-w-7xl mx-auto">
           <div className="mb-12 mt-10 text-center flex flex-col items-center justify-center">

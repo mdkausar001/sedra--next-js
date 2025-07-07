@@ -145,7 +145,7 @@ const Contact = () => {
                   <p className="text-md text-gray-700 mb-8">
                     6541 Prince Abdul Aziz Bin Musaid Bin Jalawi-AI Murabba Dist. <br />
                     Unit No 63 <br />
-                    Riyadh – 12628-2309 <br />
+                    Riyadh - 12628-2309 <br />
                     Short Address RCRA6541 <br />
                     Kingdom of Saudi Arabia <br />
                     Mobile : 0537697424 <br />

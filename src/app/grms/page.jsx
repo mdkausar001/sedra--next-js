@@ -54,10 +54,10 @@ export default function Home() {
 
   return (
     <div
-      style={{
-        backgroundImage:
-          "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
-      }}
+      // style={{
+      //   backgroundImage:
+      //     "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      // }}
       className="flex flex-col items-center justify-center bg-white px-4 py-28 sm:px-8 sm:py-12 md:py-28"
     >
       {/* GBMS Section */}
@@ -104,7 +104,7 @@ export default function Home() {
           <p className="mb-4 text-sm text-gray-500">
             Fill in this form to let us get back to you ASAP!
           </p>
-          <form className="space-y-3">
+          <form className="space-y-4">
             {[
               { icon: User, placeholder: "Full Name", type: "text" },
               { icon: Mail, placeholder: "Business Email", type: "email" },

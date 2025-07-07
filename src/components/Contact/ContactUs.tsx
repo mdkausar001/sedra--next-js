@@ -45,8 +45,8 @@ const ContactUs = () => {
                     <div className="flex items-start gap-6 mb-4">
                         <Phone className="text-cyan-600 w-6 h-6" />
                         <p>
-                            Tel: 00 966 114 229 922<br />
-                            Fax: 00 966 11 211 411
+                            Tel: 966 114 229 922<br />
+                            Fax: 966 11 211 411
                         </p>
                     </div>
 
