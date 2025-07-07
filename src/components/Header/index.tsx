@@ -662,7 +662,7 @@ const Header = () => {
             <img
               src="/images/logo/sedra2.png"
               alt="Logo"
-              className=" w-[200px] z-40 mt-[-8px]" // Adjust height as needed
+              className=" md:w-[200px] w-[160px] z-40 mt-[-8px]" // Adjust height as needed
             />
           </Link>
 
