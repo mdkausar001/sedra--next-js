@@ -67,7 +67,7 @@ const projects = [
   },
   {
     projectName: "Al Riyadh Hospital",
-    Location: "Jeddah",
+    Location: "Riyadh",
     Client: "Inma-Tech",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/08/RH-Hospital-B-1024x682.png",
@@ -132,7 +132,7 @@ const projects = [
   },
   {
     projectName: "Riyadh Metro",
-    Location: "Unknown",
+    Location: "Riyadh Metro",
     Client: "Kgtech",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/05/Riyadh-Metro.jpg",
@@ -140,7 +140,7 @@ const projects = [
   },
   {
     projectName: "KAIA",
-    Location: "Unknown",
+    Location: "Jeddah",
     Client: "Kholoud trading company",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/03/WhatsApp-Image-2022-06-25-at-3.45.05-PM.jpeg",

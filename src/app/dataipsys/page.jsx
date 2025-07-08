@@ -183,7 +183,7 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center xl:ml-14">
             <Image
-              src="/images/zoho/Zoho/Images/accessSystem1.jpg"
+              src="/images/zoho/Zoho/Images/accessSystem3.png"
               alt="IT Strategy"
               width={400}
               height={300}
@@ -193,11 +193,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-20 w-full max-w-6xl p-4 sm:p-10">
+      <div className="mt-10 w-full max-w-6xl p-4 sm:p-10">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div className="order-1 flex items-center justify-center md:order-none xl:mr-8">
             <Image
-              src="/images/zoho/Zoho/Images/accessSystem2.jpg"
+              src="/images/zoho/Zoho/Images/accessSystem2.png"
               alt="Digital Planning"
               width={400}
               height={300}

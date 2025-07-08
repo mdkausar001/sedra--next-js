@@ -192,7 +192,7 @@ export default function Home() {
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div className="order-1 flex items-center justify-center md:order-none xl:mr-8">
             <Image
-              src="/images/zoho/Zoho/Images/BMS2.jpg"
+              src="/images/zoho/Zoho/Images/bms.png"
               alt="Digital Planning"
               width={400}
               height={300}
