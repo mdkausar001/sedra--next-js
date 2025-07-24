@@ -182,7 +182,7 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center xl:ml-14">
             <Image
-              src="/images/zoho/Zoho/Images/KNX1.jpg"
+              src="/images/services/knx1.jpg"
               alt="IT Strategy"
               width={400}
               height={300}
@@ -196,7 +196,7 @@ export default function Home() {
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div className="order-1 flex items-center justify-center md:order-none xl:mr-8">
             <Image
-              src="/images/zoho/Zoho/Images/KNX2.jpg"
+              src="/images/services/knx2.jpg"
               alt="Digital Planning"
               width={400}
               height={300}
