@@ -74,7 +74,7 @@ const projects = [
     Scope: [
       { service: "Supply" },
       { service: "test" },
-      { service: "programming for Building Management System (BMS)" },
+      { service: "BMS" },
     ],
   },
   {
@@ -152,7 +152,7 @@ const projects = [
     Client: "Roya Company",
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/08/Ibdaat-3-Tower-933x1024.jpg",
-    Scope: [{ service: "(BMS)" }],
+    Scope: [{ service: "BMS" }],
   },
 ];
 
