@@ -72,8 +72,8 @@ const projects = [
     imageURL:
       "https://sedra.net.sa/wp-content/uploads/2024/08/RH-Hospital-B-1024x682.png",
     Scope: [
-      { service: "Supply" },
-      { service: "Test" },
+      // { service: "Supply" },
+      // { service: "Test" },
       { service: "BMS" },
     ],
   },
