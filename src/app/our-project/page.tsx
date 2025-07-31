@@ -15,7 +15,7 @@ const projects = [
     Scope: [
       { service: "BMS" },
       { service: "GRMS" },
-      { service: "VingCard" },
+      // { service: "VingCard"},
     ],
   },
   {
