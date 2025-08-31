@@ -167,18 +167,23 @@ const PartnerSection = () => {
 
 
   const partners = [
-    "https://sedra.net.sa/wp-content/uploads/2024/08/1.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/2.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/3.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/4.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/5.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/6.png",
-    // "https://sedra.net.sa/wp-content/uploads/2024/08/7.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/8.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/9.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/10.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/11.png",
-    "https://sedra.net.sa/wp-content/uploads/2024/08/12.png",
+    "images/partnership/mobily.jpg",
+    "images/partnership/eae.webp",
+    "images/partnership/marriott.jpg",
+    "images/partnership/schneider-electric.webp",
+    "images/partnership/vimar.jpg",
+    "images/partnership/alzajira.jpg",
+    "images/partnership/dell.jpg",
+    "images/partnership/cisco.png",
+
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/5.png",
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/6.png",
+    // // "https://sedra.net.sa/wp-content/uploads/2024/08/7.png",
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/8.png",
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/9.png",
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/10.png",
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/11.png",
+    // "https://sedra.net.sa/wp-content/uploads/2024/08/12.png",
 
 
     // "https://cdn-jhpip.nitrocdn.com/GENdBIltwBtSZkSFCgaXAqdoCWxpqhRH/assets/images/optimized/rev-0d8e292/alnafitha.com/wp-content/uploads/2023/06/Logetic.gif",
