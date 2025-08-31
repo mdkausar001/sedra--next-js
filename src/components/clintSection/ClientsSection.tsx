@@ -111,20 +111,38 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import React from 'react';
 
+// const clients = [
+//   { alt: 'Client 1', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/12-1.png' },
+//   { alt: 'Client 2', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/13-1.png' },
+//   { alt: 'Client 3', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/11-1.png' },
+//   { alt: 'Client 4', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/10-1.png' },
+//   { alt: 'Client 5', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/9-1.png' },
+//   { alt: 'Client 6', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/7-1.png' },
+//   { alt: 'Client 7', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/6-1.png' },
+//   { alt: 'Client 8', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/5-1.png' },
+//   { alt: 'Client 9', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/8-1.png' },
+//   { alt: 'Client 10', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/4-1.png' },
+//   { alt: 'Client 11', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/3-1.png' },
+//   { alt: 'Client 12', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/2-1.png' },
+// ];
+
+
+
 const clients = [
-  { alt: 'Client 1', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/12-1.png' },
-  { alt: 'Client 2', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/13-1.png' },
-  { alt: 'Client 3', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/11-1.png' },
-  { alt: 'Client 4', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/10-1.png' },
-  { alt: 'Client 5', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/9-1.png' },
-  { alt: 'Client 6', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/7-1.png' },
-  { alt: 'Client 7', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/6-1.png' },
-  { alt: 'Client 8', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/5-1.png' },
-  { alt: 'Client 9', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/8-1.png' },
-  { alt: 'Client 10', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/4-1.png' },
-  { alt: 'Client 11', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/3-1.png' },
-  { alt: 'Client 12', src: 'https://sedra.net.sa/wp-content/uploads/2024/08/2-1.png' },
+  { alt: 'Client 1', src: 'images/ClientLogos/1.png' },
+  { alt: 'Client 2', src: 'images/ClientLogos/2.png' },
+  { alt: 'Client 3', src: 'images/ClientLogos/3.png' },
+  { alt: 'Client 4', src: 'images/ClientLogos/4.png' },
+  { alt: 'Client 5', src: 'images/ClientLogos/5.png' },
+  { alt: 'Client 6', src: 'images/ClientLogos/6.png' },
+  { alt: 'Client 7', src: 'images/ClientLogos/7.png' },
+  { alt: 'Client 8', src: 'images/ClientLogos/8.png' },
+  { alt: 'Client 9', src: 'images/ClientLogos/9.png' },
+  { alt: 'Client 10', src: 'images/ClientLogos/10.png' },
+  { alt: 'Client 11', src: 'images/ClientLogos/11.png' },
+  { alt: 'Client 12', src: 'images/ClientLogos/12.png' },
 ];
+
 
 const chunkArray = (arr: any[], size: number) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
@@ -136,12 +154,12 @@ const ClientsSection: React.FC = () => {
   const clientGroups = chunkArray(clients, 4); // 4 = 2x2 grid per group
 
   return (
-    <section 
-    // style={{
-    //   backgroundImage:
-    //     "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
-    // }}
-     className="py-20 px-4 text-center bg-gray-50 flex flex-col items-center justify-center">
+    <section
+      // style={{
+      //   backgroundImage:
+      //     "url('https://sedra.net.sa/wp-content/uploads/2024/03/path-1.png')",
+      // }}
+      className="py-20 px-4 text-center bg-gray-50 flex flex-col items-center justify-center">
       <h4 className="text-sm uppercase text-gray-700 font-medium md:text-2xl">Our Clients</h4>
       <h2 className="text-3xl md:text-4xl mt-2 text-gray-700 font-light font-sans">
         Trusted by over{' '}

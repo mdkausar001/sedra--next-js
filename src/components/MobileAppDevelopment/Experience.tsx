@@ -7,8 +7,8 @@ const features = [
         description:
             "We welcome you to our Saudi office to understand your needs better and enhance reliability.",
         image:
-            "https://hallek.com.sa/wp-content/uploads/2024/08/service-1-Jim-Fahad-Digital.jpg",
-        icon: "https://hallek.com.sa/wp-content/uploads/2024/08/location.png",
+            "images/features/service-1-Jim-Fahad-Digital.jpg",
+        icon: "images/features/location-icon.png",
         dark: false,
         imageCorner: "br",
     },
@@ -17,8 +17,8 @@ const features = [
         description:
             "Our vast experience and deep insights help us address challenges companies face across all sizes and sectors.",
         image:
-            "https://hallek.com.sa/wp-content/uploads/2024/08/service-3-Jim-Fahad-Digital.jpg",
-        icon: "https://hallek.com.sa/wp-content/uploads/2024/08/experience.png",
+            "images/features/service-2-Jim-Fahad-Digital.jpg",
+        icon: "images/features/experience-icon.png",
         dark: true,
         imageCorner: "bl",
     },
@@ -27,8 +27,8 @@ const features = [
         description:
             "We provide tailored solutions to perfectly meet your business needs and ensure seamless integration.",
         image:
-            "https://hallek.com.sa/wp-content/uploads/2024/08/service-4-Jim-Fahad-Digital.jpg",
-        icon: "https://hallek.com.sa/wp-content/uploads/2024/08/solution.png",
+            "images/features/service-3-Jim-Fahad-Digital.jpg",
+        icon: "images/features/solution-icon.png",
         dark: false,
         imageCorner: "tr",
     },
@@ -37,8 +37,8 @@ const features = [
         description:
             "We offer continuous after-sales support to ensure you benefit and seamless system operation",
         image:
-            "https://hallek.com.sa/wp-content/uploads/2024/08/service-2-Jim-Fahad-Digital.jpg",
-        icon: "https://hallek.com.sa/wp-content/uploads/2024/08/online-chat.png",
+            "images/features/service-4-Jim-Fahad-Digital.jpg",
+        icon: "images/features/online-chat-icon.png",
         dark: false,
         imageCorner: "tl",
     },

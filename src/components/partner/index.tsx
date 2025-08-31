@@ -181,11 +181,6 @@ const PartnerSection = () => {
     "https://sedra.net.sa/wp-content/uploads/2024/08/12.png",
 
 
-
-
-
-
-
     // "https://cdn-jhpip.nitrocdn.com/GENdBIltwBtSZkSFCgaXAqdoCWxpqhRH/assets/images/optimized/rev-0d8e292/alnafitha.com/wp-content/uploads/2023/06/Logetic.gif",
     // "https://cdn-jhpip.nitrocdn.com/GENdBIltwBtSZkSFCgaXAqdoCWxpqhRH/assets/images/optimized/rev-0d8e292/alnafitha.com/wp-content/uploads/2023/06/Logetic.gif",
     // "https://cdn-jhpip.nitrocdn.com/GENdBIltwBtSZkSFCgaXAqdoCWxpqhRH/assets/images/optimized/rev-0d8e292/alnafitha.com/wp-content/uploads/2023/06/Logetic.gif",

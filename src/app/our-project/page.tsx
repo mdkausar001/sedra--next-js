@@ -11,7 +11,7 @@ const projects = [
     Location: "Jeddah",
     Client: "Golden Land",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/08/IMG-20240325-WA0012-895x1024.jpg",
+      "images/partner/partners/IMG-20240325-WA0012.jpg",
     Scope: [
       { service: "BMS" },
       { service: "GRMS" },
@@ -22,7 +22,7 @@ const projects = [
     projectName: "Masar Makkah Underpass & Data Center",
     Location: "Makkah",
     Client: "Baud Telecom Company",
-    imageURL: "https://sedra.net.sa/wp-content/uploads/2024/03/Masar.jpg",
+    imageURL: "images/partner/partners/masar.jpg",
     Scope: [{ service: "BMS" }],
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     Location: "Riyadh",
     Client: "Marco",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/03/MISK1-1024x576.jpg",
+      "images/partner/partners/MISK1.jpg",
     Scope: [{ service: "BMS" }],
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     Location: "Abha",
     Client: "BTC",
     imageURL:
-      "https://images.trvl-media.com/lodging/1000000/10000/2500/2414/fd497a17.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "images/partner/partners/TBC.png",
     Scope: [{ service: "GRMS" }],
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     Location: "Jeddah",
     Client: "MAC",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/08/Red-Sea-International-Film-Festival-8-1024x768.png",
+      "images/partner/partners/Red-Sea-International-Film-Festival-8.png",
     Scope: [{ service: "Data System" }],
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     Location: "Al Madina",
     Client: "Pro Art",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/03/88114c39d3a3ec98a8fa86c3c90a2572.webp",
+      "images/partner/partners/CourtyardHotelbyMarriot.webp",
     Scope: [{ service: "BMS" }, { service: "GRMS" }],
   },
   {
@@ -62,7 +62,7 @@ const projects = [
     Location: "Jeddah",
     Client: "HHC",
     imageURL:
-      "https://jtpartners.com/wp-content/uploads/2021/09/c4-6.jpg",
+      "images/partner/partners/DoubleTreeHotelbyHilton.jpg",
     Scope: [{ service: "BMS" }, { service: "Lighting Control" }],
   },
   {
@@ -70,7 +70,7 @@ const projects = [
     Location: "Riyadh",
     Client: "Inma-Tech",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/08/RH-Hospital-B-1024x682.png",
+      "images/partner/partners/RH-Hospital.png",
     Scope: [
       // { service: "Supply" },
       // { service: "Test" },
@@ -82,7 +82,7 @@ const projects = [
     Location: "Jeddah",
     Client: "Dar Al Afnan",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/05/Nahda-Academy-school-.png",
+      "images/partner/partners/Nahda-Academy-school-.png",
     Scope: [{ service: "Fire Alarm & Sound System" }],
   },
   {
@@ -90,14 +90,14 @@ const projects = [
     Location: "Jeddah",
     Client: "Saudi protech",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/05/Fse5GdcXsA0unek.jpg",
+      "images/partner/partners/CourtOfAppeal.jpg",
     Scope: [{ service: "Fire Alaram" }],
   },
   {
     projectName: "Afrina HQ",
     Location: "Jeddah",
     Client: "Afrina",
-    imageURL: "https://sedra.net.sa/wp-content/uploads/2024/05/Afrina.png",
+    imageURL: "images/partner/partners/Afrina.png",
     Scope: [{ service: "Smart Light Control" }],
   },
   {
@@ -105,7 +105,7 @@ const projects = [
     Location: "Jeddah",
     Client: "Salma international security",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/05/%D8%B4%D9%83%D9%86-771x405-1.webp",
+      "images/partner/partners/CHKN.webp",
     Scope: [{ service: "Smart Light Control" }],
   },
   // {
@@ -119,7 +119,7 @@ const projects = [
     projectName: "TBC - School",
     Location: "Jeddah",
     Client: "Kholoud trading company",
-    imageURL: "https://sedra.net.sa/wp-content/uploads/2024/05/TBC.png",
+    imageURL: "images/partner/partners/TBC.png",
     Scope: [{ service: "Data System" }],
   },
   {
@@ -127,7 +127,7 @@ const projects = [
     Location: "Jeddah",
     Client: "Modern EEMAR",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/03/TA_20211230142540076_391373.jpg",
+      "images/partner/partners/TA_20211230142540076_391373.jpg",
     Scope: [{ service: "Access Control System" }],
   },
   {
@@ -135,7 +135,7 @@ const projects = [
     Location: "Riyadh Metro",
     Client: "Kgtech",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/05/Riyadh-Metro.jpg",
+      "images/partner/partners/Riyadh-Metro.jpg",
     Scope: [{ service: "Data System" }],
   },
   {
@@ -143,7 +143,7 @@ const projects = [
     Location: "Jeddah",
     Client: "Kholoud trading company",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/03/WhatsApp-Image-2022-06-25-at-3.45.05-PM.jpeg",
+      "images/partner/partners/KAIA.jpg",
     Scope: [{ service: "Gate barrier - Data System - UPS" }],
   },
   {
@@ -151,7 +151,7 @@ const projects = [
     Location: "Riyadh",
     Client: "Roya Company",
     imageURL:
-      "https://sedra.net.sa/wp-content/uploads/2024/08/Ibdaat-3-Tower-933x1024.jpg",
+      "images/partner/partners/Ibdaat-3-Tower.jpg",
     Scope: [{ service: "BMS" }],
   },
 ];
