@@ -64,7 +64,7 @@ const projects = [
         projectName: "Masar Makkah Underpass & Data Center",
         Location: "Makkah",
         Client: "Baud Telecom Company",
-        imageURL: "images/partner/partners/masar.jpg",
+        imageURL: "images/partner/partners/Masar.jpg",
         Scope: [{ service: "BMS" }],
     },
     {
